@@ -1,0 +1,231 @@
+/* KM: From styles.css */
+/* Styles used by controlled vocabulary */
+ul.controlledvocabulary  {
+        list-style-type:none; }
+
+
+.controlledvocabulary ul  li ul {
+         list-style-type:none;
+        display:none; }
+
+input.controlledvocabulary  {
+        border:0px; 
+	margin-right: 8px;
+}
+
+img.controlledvocabulary {
+        margin-right:8px ! important;
+        margin-left:11px ! important;
+        cursor:hand; }
+
+.submitFormHelpControlledVocabularies {
+           margin-left: 10px;
+           margin-right: 10px;
+           font-family: "verdana", "Arial", "Helvetica", sans-serif;
+           font-size: x-small;
+           text-align: left; }
+
+.controlledVocabularyLink {
+           font-family: "verdana", "Arial", "Helvetica", sans-serif;
+           font-size: x-small; }
+
+/* KM: From dspace-theme.css */
+/* field required in submission */
+.label-required:after { 
+	content:" *"; 
+	white-space: nowrap; 
+}
+
+body.undernavigation {
+    padding-top: 0px;
+}
+
+#content {
+    padding-bottom: 30px;
+}
+
+/* KM: From bootstrap.css */
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: static;
+}
+
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: none;
+}
+
+.navbar-toggle {
+    background-color: #00617f;
+    margin-top: 10px;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #00617f;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #333;
+}
+
+.glyphicon-user:before {
+    width: 20px;
+    display: inline-block;
+}
+
+.glyphicon-log-out:before {
+    width: 20px;
+    display: inline-block;
+}
+
+.navbar-right {
+    padding: 4px 10px 2px 0px;
+}
+
+#checklistLabel {
+    height: auto;
+}
+
+.form-control {
+    height: auto;
+}
+
+/* KM: Added styles */
+.padding-topbtm-15px {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.margin-top-19px {
+	margin-top: 19px;
+}
+
+.margin-btm-10px {
+    margin-bottom: 10px;
+}
+
+/* Used in initial-questions */
+.checklistGray { 
+	font-style: italic;
+	color: #888888;
+}
+
+.language-box a:hover, .language-box a:hover {
+    color: #777;
+}
+
+.navbar-nav > li.right-menu {
+    float: none;
+    
+}
+
+.navbar-nav > li.right-menu-lang {
+    padding-left: 8px;
+    
+}
+
+.navbar-nav > li.right-menu > a, .navbar-nav > li.right-menu-lang > a {
+    display: inline;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+
+.navbar-nav > li.right-menu > a.user {
+    cursor: default;
+}
+
+.navbar-nav > li.right-menu > a.user:hover, .navbar-nav > li.right-menu > a.user:focus{
+    color: #333;
+}
+
+.user-menu {
+    clear: both;
+}
+
+/* Navbar background */
+@media (max-width: 767px) {
+    .navbar-background {
+	background: url('../../../image/munin-banner-background_300.png') no-repeat;
+    }
+}
+
+@media (min-width: 768px) {
+    nav.navbar-background{
+	background: url('../../../image/munin-banner-background_400.png') no-repeat;
+    }
+}
+@media (max-width: 767px) {
+    nav.navbar-background{
+	background: none;
+    }
+}
+
+/* Horizontal line below banner  */
+.header-line {
+    border-top:1px solid #00617f; 
+    height:0px;
+    margin-top: 10px;
+}
+
+.footer-wrap {
+    background-color: #eae7e3;
+}
+
+.logo-bottom {
+    width: 80px; 
+    padding-top: 12px; 
+    padding-bottom: 12px;
+}
+
+/* Checklist styles */
+#checklist {
+    padding: 15px;
+}
+
+#checklist td,th {
+    padding: 5px;
+}
+
+#checklist table {
+    margin-bottom: 10px;
+}
+
+/* Hide some columns in task list with lower screen resolutions */
+@media (max-width: 1199px) {
+    #t4m {
+	display: none;
+    }
+    #t6m {
+	display: none;
+    }
+    #t7m {
+	display: none;
+    }
+    td[headers="t4m"] {
+	display: none;
+    }
+    td[headers="t6m"] {
+	display: none;
+    }
+    td[headers="t7m"] {
+	display: none;
+    }
+    #t14m {
+	display: none;
+    }
+    #t16m {
+	display: none;
+    }
+    #t17m {
+	display: none;
+    }
+    td[headers="t14m"] {
+	display: none;
+    }
+    td[headers="t16m"] {
+	display: none;
+    }
+    td[headers="t17m"] {
+	display: none;
+    }
+}

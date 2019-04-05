@@ -1,0 +1,1059 @@
+0a1,8
+> #
+> # The contents of this file are subject to the license and copyright
+> # detailed in the LICENSE and NOTICE files at the root of the source
+> # tree and available online at
+> #
+> # http://www.dspace.org/license/
+> #
+> 
+52a61,62
+> feedback.error.forbidden = The feedback mail page may only be invoked from another DSpace page
+> 
+56,58c66
+< help.formats		  = /help/formats.jsp
+< ub.help.master-path = /help/help-master_eng.html
+< ub.help.doctor-path = /help/help-doctor_eng.html
+---
+> help.formats              = /help/formats.jsp
+73c81,83
+< jsp.adminhelp                                                   = Admin Help
+---
+> itemlist.title.undefined	   = Undefined
+> 
+> jsp.adminhelp                                                   = <span class="glyphicon glyphicon-question-sign"></span>
+75a86
+> jsp.actiontools                                                 = Actions
+121a133
+> jsp.collection-home.content.range                               = Collection&#39;s Items (Sorted by {0} in {1} order): {2} to {3} of {4}
+131a144
+> jsp.collection-home.display-statistics                          = <span class="glyphicon glyphicon-stats"></span>
+138a152
+> jsp.community-home.display-statistics                           = <span class="glyphicon glyphicon-stats"></span>
+143,145c157,158
+< jsp.components.ldap-form.downtime 				= <p style="padding: 10px; color: #ff0000; font-weight: bold; border: solid 2px #000000;">Server upgrade<br /><br />On Monday, 13th January from 11:00 you may be blocked from logging into Munin, due to an upgrade of the server hosting Munin. The work is expected to be completed during the day.</p>
+< jsp.components.ldap-form.enter                                  = <p><b>Who is this login for?</b><br />This login is for submitting theses for evaluation and examination. Former UiT students who wish to have their thesis available in Munin should contact us (see contact information below).</p><p><b>About login:</b><br />Log in with your usual username and password (student account). If you have any problems logging in, contact <a href="http://orakel.uit.no" target="new">Orakelet IT support</a>.</p><p><b>Required file format:</b><br />The required file format is pdf. Exceptions apply for theses or attachments for which pdf is not suited, like files with non-text content. The press release for a doctoral thesis should be submitted as a textfile (e.g. Word), using the standard template.</p>
+< jsp.components.ldap-form.login.button                           = Log in
+---
+> jsp.components.ldap-form.enter                                  = Please enter your username and password into the form below.
+> jsp.components.ldap-form.login.button                           = Log In
+148c161
+< jsp.components.ldap-form.username-or-email                      = Username:
+---
+> jsp.components.ldap-form.username-or-email                      = Username <br/>or Email address:
+152c165
+< jsp.components.login-form.login                                 = Log in
+---
+> jsp.components.login-form.login                                 = Log In
+158c171
+< jsp.controlledvocabulary.controlledvocabulary.help-link         = Help on Subject Categories
+---
+> jsp.controlledvocabulary.controlledvocabulary.help-link         = (Help on Subject Categories...)
+180a194
+> jsp.display-item.display-statistics                             = <span class="glyphicon glyphicon-stats"></span>
+185c199
+< jsp.dspace-admin.authorize-advanced.text                        = Allows you to do wildcard additions to and clearing of policies for types of content contained in a collection. Warning, dangerous - removing READ permissions from items will make them not viewable!
+---
+> jsp.dspace-admin.authorize-advanced.text                        = Allows you to do wildcard additions to and clearing of policies for items or bitstreams contained in a collection. Warning, dangerous - removing READ permissions from items will make them not viewable!
+228a243,246
+> jsp.dspace-admin.curate.main.title                              = Curation Tasks
+> jsp.dspace-admin.curate.main.heading                            = System Curation Tasks
+> jsp.dspace-admin.curate.main.info1                              = Handle of DSpace Object
+> jsp.dspace-admin.curate.main.info2                              = Hint: Enter [your-handle-prefix]/0 to run a task across entire site (not all tasks may support this capability)
+286a305,337
+> jsp.dspace-admin.batchmetadataimport.title						= Batch import metadata (BTE)
+> jsp.dspace-admin.batchmetadataimport.success					= The job was taken over, an email will be sent to the end of work   
+> jsp.dspace-admin.batchmetadataimport.genericerror				= An error occured! Please, try again!
+> jsp.dspace-admin.batchmetadataimport.selectfile					= Select data file to upload
+> jsp.dspace-admin.batchmetadataimport.selectinputfile			= Select the type of the input data
+> jsp.dspace-admin.batchmetadataimport.selectcollection			= Select the collection the items will be imported to
+> jsp.dspace-admin.metadataimport.title                           = Import metadata
+> jsp.dspace-admin.metadataimport.apply                           = Apply changes
+> jsp.dspace-admin.metadataimport.unknownerror                    = An unknown error has occurred
+> jsp.dspace-admin.metadataimport.badheadingschema                = Unknown metadata schema in heading
+> jsp.dspace-admin.metadataimport.badheadingelement               = Unknown metadata element in heading
+> jsp.dspace-admin.metadataimport.changesforitem                  = Changes for item
+> jsp.dspace-admin.metadataimport.newitem                         = New item
+> jsp.dspace-admin.metadataimport.addtocollection                 = Map to collection
+> jsp.dspace-admin.metadataimport.addedtocollection               = Mapped to collection
+> jsp.dspace-admin.metadataimport.removefromcollection            = Un-map from collection
+> jsp.dspace-admin.metadataimport.removedfromcollection           = Un-mapped from collection
+> jsp.dspace-admin.metadataimport.addtoownercollection            = Add to new owning collection
+> jsp.dspace-admin.metadataimport.addedtoownercollection          = Added to new owning collection
+> jsp.dspace-admin.metadataimport.removefromownercollection       = Remove from owning collection
+> jsp.dspace-admin.metadataimport.removedfromownercollection      = Removed from owning collection
+> jsp.dspace-admin.metadataimport.add                             = Add
+> jsp.dspace-admin.metadataimport.added                           = Added
+> jsp.dspace-admin.metadataimport.remove                          = Remove
+> jsp.dspace-admin.metadataimport.removed                         = Removed
+> jsp.dspace-admin.metadataimport.delete                          = Expunge Item
+> jsp.dspace-admin.metadataimport.deleted                         = Item Expunged
+> jsp.dspace-admin.metadataimport.withdraw                        = Withdraw Item
+> jsp.dspace-admin.metadataimport.withdrawn                       = Item Withdrawn
+> jsp.dspace-admin.metadataimport.reinstate                       = Reinstate Item
+> jsp.dspace-admin.metadataimport.reinstated                      = Item Reinstated
+> jsp.dspace-admin.metadataimport.toomany                         = There are too many changes. Please import fewer changes, adjust the limit, or perform the input directly on the server.
+> jsp.dspace-admin.metadataimport.finished                        = {0} changes completed successfully.
+288c339
+< jsp.dspace-admin.index.text                                     = Please select an operation from the navigation bar on the left.
+---
+> jsp.dspace-admin.index.text                                     = Please select an operation from the main menu.
+296c347
+< jsp.dspace-admin.license-edit.description                       = Edit the default license by using the text box below. The license cannot be empty. <br />Please ensure the license meets the legal conditions of your country. <br />Changing this license will not affect those items already published and collections with their own licenses.
+---
+> jsp.dspace-admin.license-edit.description                       = Edit the default license by using the text box below. The license cannot be empty. <br />Please ensure the license meets the legal conditions of your country. <br />Changing this license will not affect those items already published and collections with their own licenses. <br/>There are some substitution variables that can be used to create personalized licenses, check the help pages for details.<br/>It is recommended to use a dummy submission to check the license change:  <b>check the resulting license in the Accept/reject Licence step.</b>
+372a424,428
+> jsp.dspace-admin.supervise-no-workspaceitem.no-wsitems          = The supervision order could not be appliled because no workspace item exists.
+> jsp.dspace-admin.supervise-no-workspaceitem.unselected          = The supervision order could not be applied because no workspace item was selected.
+> jsp.dspace-admin.supervise-no-workspaceitem.heading             = Operation Failed
+> jsp.dspace-admin.supervise-no-workspaceitem.return              = Return to the Supervisor Admin page
+> jsp.dspace-admin.supervise-no-workspaceitem.title               = Administer Supervision Orders
+424a481
+> jsp.dspace-admin.wizard-questions.check1-disabled				= Only System Admin can change this
+433c490
+< jsp.dspace-admin.workflow-abort-confirm.button                  = Abort                 
+---
+> jsp.dspace-admin.workflow-abort-confirm.button                  = Abort
+451a509,510
+> jsp.error.exceeded-size.text1                                   = Sorry, but the file you have tried to upload ({0} bytes) exceeds the maximum file size limit of ({1} bytes). You can contact the repository manager with questions about this limit.
+> jsp.error.exceeded-size.title                                   = Exceeded Maximum File Size Error
+486a546
+> jsp.general.browse												= Browse
+491c551
+< jsp.general.gohome                                              = Go to the Munin home page
+---
+> jsp.general.gohome                                              = Go to the DSpace home page
+496c556,557
+< jsp.general.mydspace                                            = My Submission
+---
+> jsp.general.metadataexport.button                               = Export metadata
+> jsp.general.mydspace                                            = My DSpace
+503,506c564,567
+< jsp.general.update												= Update
+< jsp.general.without-contributor									= Anonymous
+< jsp.general.without-date										= No date given
+< jsp.help                                                        = Help
+---
+> jsp.general.update                                                                                              = Update
+> jsp.general.without-contributor                                                                 = Anonymous
+> jsp.general.without-date                                                                                = No date given
+> jsp.help                                                        = <span class="glyphicon glyphicon-question-sign"></span>
+531,533c592,593
+< jsp.layout.footer-default.text                                  = <a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2009&nbsp; The DSpace Foundation
+< ub.jsp.layout.footer-default.contact 				= The University Library of Troms&oslash;, N-9037 Troms&oslash;<br />Tel: +47 77 64 40 00, E-mail: <a href="mailto:munin@ub.uit.no">munin@ub.uit.no</a>
+< ub.jsp.layout.footer-default.about 				= Munin is powered by <a href="http://www.dspace.org">DSpace</a> 1.5.2
+---
+> jsp.layout.footer-default.text                                  = <a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; <a target="_blank" href="http://www.duraspace.org/">Duraspace</a>
+> jsp.layout.footer-default.theme-by								= Theme by
+536c596,597
+< ub.jsp.layout.header-default.nora-url 				= http://www.ub.uio.no/nora/search.html
+---
+> jsp.layout.header-default.brand.heading							= DSpace <small>JSPUI</small>
+> jsp.layout.header-default.brand.description						= <h4>DSpace preserves and enables easy and open access to all types of digital content including text, images, moving images, mpegs and data sets</h4> <a href="http://www.dspace.org"><button class="btn btn-primary">Learn More</button></a>
+538,539c599,601
+< jsp.layout.navbar-admin.communities-collections                 = Communities/Collections
+< jsp.layout.navbar-admin.editlicense                             = Edit Default License
+---
+> jsp.layout.navbar-admin.communities-collections                 = Communities&nbsp;&amp;&nbsp;Collections
+> jsp.layout.navbar-admin.curate                                  = Curation Tasks
+> jsp.layout.navbar-admin.editlicense                             = Edit Default<br />License
+546a609,611
+> jsp.layout.navbar-admin.privateitems                            = Private Items
+> jsp.layout.navbar-admin.metadataimport                          = Import metadata
+> jsp.layout.navbar-admin.batchmetadataimport						= Batch import metadata (BTE)
+570c635
+< jsp.layout.navbar-default.users                                 = My Submission
+---
+> jsp.layout.navbar-default.users                                 = My DSpace
+572,573c637
+< ub.jsp.layout.navbar-default.norsk 				= <img src="image/lang-no.gif" border="0" />
+< ub.jsp.layout.navbar-default.English 				= <img src="image/lang-en.gif" border="0" />
+---
+> jsp.layout.navbar-default.display-statistics                    = View Statistics
+579c643
+< jsp.login.incorrect.title                                       = Log in
+---
+> jsp.login.incorrect.title                                       = Log In
+581,584c645,648
+< jsp.login.ldap-incorrect.heading                                = Log in to submit
+< jsp.login.ldap-incorrect.title                                  = Log in
+< jsp.login.ldap.heading                                          = Log in to submit theses
+< jsp.login.ldap.title                                            = Log in
+---
+> jsp.login.ldap-incorrect.heading                                = Log In to DSpace
+> jsp.login.ldap-incorrect.title                                  = Log In
+> jsp.login.ldap.heading                                          = Log In to DSpace
+> jsp.login.ldap.title                                            = Log In
+586,588c650,651
+< jsp.login.logged-out.title                                      = Logged out
+< ub.jsp.login.logged-out.login					= Back to login
+< jsp.login.no-valid-cert.heading                                 = Log in to submit
+---
+> jsp.login.logged-out.title                                      = Logged Out
+> jsp.login.no-valid-cert.heading                                 = Log In to DSpace
+590c653
+< jsp.login.no-valid-cert.title                                   = Log in
+---
+> jsp.login.no-valid-cert.title                                   = Log In
+594,597c657,660
+< jsp.login.password.heading                                      = Log in to submit
+< jsp.login.password.title                                        = Log in
+< jsp.morehelp                                                    = Help
+< jsp.mydspace                                                    = My Submission
+---
+> jsp.login.password.heading                                      = Log In to DSpace
+> jsp.login.password.title                                        = Log In
+> jsp.morehelp                                                    = <span class="glyphicon glyphicon-question-sign"></span>
+> jsp.mydspace                                                    = My DSpace
+599c662
+< jsp.mydspace.general.backto-mydspace                            = Back to My Submission
+---
+> jsp.mydspace.general.backto-mydspace                            = Back to My DSpace
+601c664
+< jsp.mydspace.general.goto-mydspace                              = Go to My Submission
+---
+> jsp.mydspace.general.goto-mydspace                              = Go to My DSpace
+605c668
+< jsp.mydspace.general.returnto-mydspace                          = Return to My Submission
+---
+> jsp.mydspace.general.returnto-mydspace                          = Return to My DSpace
+607c670
+< jsp.mydspace.in-archive.return.link                             = Return to My Submission
+---
+> jsp.mydspace.in-archive.return.link                             = Return to My DSpace
+617,619c680,682
+< jsp.mydspace.main.heading2                                      = Dine arbeidsoppgaver
+< jsp.mydspace.main.heading3                                      = Felles oppgaveliste
+< jsp.mydspace.main.heading4                                      = Your Submission
+---
+> jsp.mydspace.main.heading2                                      = Owned Tasks
+> jsp.mydspace.main.heading3                                      = Tasks in the Pool
+> jsp.mydspace.main.heading4                                      = Unfinished Submissions
+625,626c688,689
+< jsp.mydspace.main.perform.button                                = Ta oppgave
+< jsp.mydspace.main.return.button                                 = Legg tilbake
+---
+> jsp.mydspace.main.perform.button                                = Perform This Task
+> jsp.mydspace.main.return.button                                 = Return to Pool
+634c697
+< jsp.mydspace.main.take.button                                   = Velg
+---
+> jsp.mydspace.main.take.button                                   = Take Task
+636,638c699,701
+< jsp.mydspace.main.text1                                         = Nedenfor ser du {0} du har valgt å behandle.
+< jsp.mydspace.main.text2                                         = Nedenfor ser du innleverte {0} som ikke er ferdigbehandlet.
+< jsp.mydspace.main.text4                                         = You may continue or alter your submission. <b>Note:</b> If you already finished the submission, please do not make any alterations unless you have informed the administration at your faculty.
+---
+> jsp.mydspace.main.text1                                         = Below are the current tasks that you have chosen to do.
+> jsp.mydspace.main.text2                                         = Below are tasks in the task pool that have been assigned to you.
+> jsp.mydspace.main.text4                                         = This section is for use in the continued authoring of your document.
+640,657d702
+< ub.jsp.mydspace.main.author 					= Author
+< ub.jsp.mydspace.main.course 					= Emnekode
+< ub.jsp.mydspace.main.subok				 	= Innlevering OK
+< ub.jsp.mydspace.main.puballowed 				= Publisering tillatt
+< ub.jsp.mydspace.main.print 					= Trykking
+< ub.jsp.mydspace.main.examination 				= Sensur
+< ub.jsp.mydspace.main.maypub 					= Kan publisere
+< ub.jsp.mydspace.main.now 					= N\u00E5
+< ub.jsp.mydspace.main.later 					= Senere
+< ub.jsp.mydspace.main.never 					= Aldri
+< ub.jsp.mydspace.main.claim-ownedby 				= Velg /<br />Eid av
+< ub.jsp.mydspace.main.master-theses				= mastergradsoppgaver
+< ub.jsp.mydspace.main.doctoral-theses 				= doktorgradsavhandlinger
+< ub.jsp.mydspace.main.printexamination 				= Trykking komité
+< ub.jsp.mydspace.main.print-doctor 				= Trykking disputas
+< ub.jsp.mydspace.main.approved					= Komitéens bedømming
+< ub.jsp.mydspace.main.submitdate 				= Innlevert<br />dato
+< ub.jsp.mydspace.main.faculty 					= Fakultet
+663,703c708,726
+< jsp.mydspace.perform-task.commit.button                         = Overf\u00F8r til arkivet
+< jsp.mydspace.perform-task.edit.button                           = Administrer oppgaven
+< jsp.mydspace.perform-task.instruct1                             = Velg "Ferdigbehandlet" n\u00E5r alt administrativt arbeid med oppgaven er gjort, sensur er falt og fakultetets vurdering av om oppgaven kan publiseres eller ikke, er gjort og det er merket av i feltet for dette (det vil ikke v\u00E6re mulig \u00E5 ferdigbehandle en oppgave f\u00F8r dette feltet har en gyldig verdi). Oppgaven blir da borte fra innleveringsportalen, og vil, om den er merket med at den kan publiseres, etter en tid komme til syne i Munin.
+< jsp.mydspace.perform-task.instruct2                             = Hvis alt er OK, klikk her for \u00E5 gj\u00F8re dokumentet tilgjengelig i Munin.
+< jsp.mydspace.perform-task.instruct3                             = Velg "Avvis" dersom studenten m\u00E5 f\u00E5 adgang til oppgaven for \u00E5 gj\u00F8re endringer, f.eks. dersom det er feil i pdf-filen eller feil fil er levert inn. Studenten kan da gj\u00F8re endringer ved \u00E5 logge seg p\u00E5 sin "Min registrering".
+< jsp.mydspace.perform-task.instruct4                             = Her kan du fortl\u00F8pende ajourf\u00F8re status for oppgaven og ev. endre eller gj\u00F8re tilf\u00F8yelser i dataene om oppgaven.
+< jsp.mydspace.perform-task.instruct5                             = Klikk her om du \u00F8nsker \u00E5 legge denne oppgaven til side og arbeide videre med den senere, uten at andre skal kunne gj\u00F8re noe med den. Brukes kun n\u00E5r det er strengt n\u00F8dvendig.
+< jsp.mydspace.perform-task.instruct6                             = N\u00E5r du klikker her, legges oppgaven i Felles oppgaveliste og du eller andre kan arbeide videre med den.
+< jsp.mydspace.perform-task.later.button                          = Legg i Dine arbeidsoppgaver
+< jsp.mydspace.perform-task.return.button                         = Legg i Felles oppgaveliste
+< jsp.mydspace.perform-task.text1                                 = F\u00F8lgende innf\u00F8rsel \u00F8nskes lagt til samlingen <strong>{0}</strong>. Vennligst se over innf\u00F8rselen og sjekk at gjeldende kriterier for inkludering i samlingen er oppfylt. Bruk knappene nederst p\u00E5 siden for \u00E5 godkjenne eller avvise innf\u00F8rselen.
+< jsp.mydspace.perform-task.text3                                 = Denne oppgaven er levert inn. Sjekk at pdf-filen lar seg \u00E5pne, at det ser ut til \u00E5 v\u00E6re rett fil som er levert og at den er levert med rett emnekode. Ved \u00E5 velge " Administrer oppgaven" nedenfor kan du bl.a. merke av om innleveringen er teknisk OK, status for trykking og status for sensur.
+< jsp.mydspace.perform-task.text4                                 = F\u00F8lgende innf\u00F8rsel er godkjent lagt til samlingen <strong>{0}</strong>. Om n\u00F8dvendig kan du oppdatere innf\u00F8rselens metadata slik at denne f\u00F8lger standarden. Bruk knappene nederst p\u00E5 siden for \u00E5 gj\u00F8re innf\u00F8rselen tilgjengelig.
+< jsp.mydspace.perform-task.title                                 = Oppgavebehandling
+< ub.jsp.mydspace.perform-task.internal_id 			= Intern id:
+< ub.jsp.mydspace.perform-task.publish-never 			= Denne innf\u00F8rselen skal aldri publiseres!
+< ub.jsp.mydspace.perform-task.publish-later 			= Denne innf\u00F8rselen skal publiseres senere!
+< ub.jsp.mydspace.perform-task.text3-master 			= Denne oppgaven er levert inn. Sjekk at pdf-filen lar seg \u00E5pne, at det ser ut til \u00E5 v\u00E6re rett fil som er levert og at den er levert med rett emnekode. Ved \u00E5 velge " Administrer oppgaven" nedenfor kan du bl.a. merke av om innleveringen er teknisk OK, status for trykking og status for sensur.
+< ub.jsp.mydspace.perform-task.text3-doctor 			= Denne avhandlingen er levert inn. Sjekk at pdf-filen(e) lar seg åpne, at det ser ut til å være rett(e) fil(er) som er levert. Velg "Administrer oppgaven" for å ta hånd om den innleverte avhandlingen.
+< ub.jsp.mydspace.perform-task.instruct1-master                   = Velg "Ferdigbehandlet" n\u00E5r alt administrativt arbeid med oppgaven er gjort, sensur er falt og fakultetets vurdering av om oppgaven kan publiseres eller ikke, er gjort og det er merket av i feltet for dette (det vil ikke v\u00E6re mulig \u00E5 ferdigbehandle en oppgave f\u00F8r dette feltet har en gyldig verdi). Oppgaven blir da borte fra innleveringsportalen, og vil, om den er merket med at den kan publiseres, etter en tid komme til syne i Munin.
+< ub.jsp.mydspace.perform-task.instruct3-master                   = Velg "Avvis" dersom studenten m\u00E5 f\u00E5 adgang til oppgaven for \u00E5 gj\u00F8re endringer, f.eks. dersom det er feil i pdf-filen eller feil fil er levert inn. Studenten kan da gj\u00F8re endringer ved \u00E5 logge seg p\u00E5 sin "Min registrering".
+< ub.jsp.mydspace.perform-task.instruct4-master                   = Her kan du fortl\u00F8pende ajourf\u00F8re status for oppgaven og ev. endre eller gj\u00F8re tilf\u00F8yelser i dataene om oppgaven.
+< ub.jsp.mydspace.perform-task.instruct5-master                   = Klikk her om du \u00F8nsker \u00E5 legge denne oppgaven til side og arbeide videre med den senere, uten at andre skal kunne gj\u00F8re noe med den. Brukes kun n\u00E5r det er strengt n\u00F8dvendig.
+< ub.jsp.mydspace.perform-task.instruct6-master                   = N\u00E5r du klikker her, legges oppgaven i Felles oppgaveliste og du eller andre kan arbeide videre med den.
+< ub.jsp.mydspace.perform-task.instruct1-doctor                   = Velg "Ferdigbehandlet" når avhandlingen er godkjent, og alt administrativt arbeid med avhandlingen er gjort.
+< ub.jsp.mydspace.perform-task.instruct3-doctor                   = Velg "Avvis" dersom det er noe galt med innleveringen. Du får da adgang til å sende en melding til kandidaten om hva som er galt.
+< ub.jsp.mydspace.perform-task.instruct4-doctor                   = Her kan du fortløpende ajourføre status for avhandlingen, og ev. endre eller gjøre tilføyelser i dataene om avhandlingen.
+< ub.jsp.mydspace.perform-task.instruct5-doctor                   = Klikk her om du ønsker å legge denne avhandlingen til side og arbeide videre med den senere, uten at andre skal kunne gjøre noe med den. Brukes kun når det er strengt nødvendig.
+< ub.jsp.mydspace.perform-task.instruct6-doctor                   = Når du klikker her, legges avhandlingen i Felles oppgaveliste og du eller andre kan arbeide videre med den.
+< jsp.mydspace.preview-task.accept.button                         = Velg denne oppgaven
+< jsp.mydspace.preview-task.text1                                 = F\u00F8lgende oppgave er innlevert. Klikk "Velg denne oppgaven" for \u00E5 arbeide med den.
+< jsp.mydspace.preview-task.text3                                 = F\u00F8lgende oppgave er innlevert. Klikk "Velg denne oppgaven" for \u00E5 arbeide med den.
+< jsp.mydspace.preview-task.text4                                 = F\u00F8lgende innf\u00F8rsel er godkjent lagt til samlingen <strong>{0}</strong>. For \u00E5 gjennomf\u00F8re en avsluttende evaluering av innf\u00F8rselen, vennligst velg ""Velg denne oppgaven"" nedenfor.
+< jsp.mydspace.preview-task.title                                 = Forh\u00E5ndsvisning av oppgave
+< ub.jsp.mydspace.preview-task.internal_id 			= Intern id:
+< ub.jsp.mydspace.preview-task.publish-never 			= Denne innf\u00F8rselen skal aldri publiseres!
+< ub.jsp.mydspace.preview-task.publish-later 			= Denne innf\u00F8rselen skal publiseres senere!
+< ub.jsp.mydspace.preview-task.text1-master 			= F\u00F8lgende oppgave er innlevert. Klikk "Velg denne oppgaven" for \u00E5 arbeide med den.
+< ub.jsp.mydspace.preview-task.text1-doctor 			= F\u00F8lgende avhandling er innlevert. Klikk "Velg denne oppgaven" for \u00E5 arbeide med den.
+< ub.jsp.mydspace.preview-task.text3-master 			= F\u00F8lgende oppgave er innlevert. Klikk "Velg denne oppgaven" for \u00E5 arbeide med den.
+< ub.jsp.mydspace.preview-task.text3-doctor 			= F\u00F8lgende avhandling er innlevert. Klikk "Velg denne oppgaven" for \u00E5 arbeide med den.
+---
+> jsp.mydspace.perform-task.commit.button                         = Commit to Archive
+> jsp.mydspace.perform-task.edit.button                           = Edit Metadata
+> jsp.mydspace.perform-task.instruct1                             = If you have reviewed the item and it is suitable for inclusion in the collection, select "Approve".
+> jsp.mydspace.perform-task.instruct2                             = Once you've edited the item, use this option to commit the item to the archive.
+> jsp.mydspace.perform-task.instruct3                             = If you have reviewed the item and found it is <strong>not</strong> suitable for inclusion in the collection, select "Reject".  You will then be asked to enter a message indicating why the item is unsuitable, and whether the submitter should change something and re-submit.
+> jsp.mydspace.perform-task.instruct4                             = Select this option to correct, amend or otherwise edit the item's metadata.
+> jsp.mydspace.perform-task.instruct5                             = If you wish to leave this task for now, and return to your "My DSpace", use this option.
+> jsp.mydspace.perform-task.instruct6                             = To return the task to the pool so that another user can perform the task, use this option.
+> jsp.mydspace.perform-task.later.button                          = Do Later
+> jsp.mydspace.perform-task.return.button                         = Return Task to Pool
+> jsp.mydspace.perform-task.text1                                 = The following item has been submitted to collection <strong>{0}</strong>. Please review the item, check that it meets the criteria for entry into the collection.  After reviewing the item, please approve or reject the item using the controls at the bottom of the page.
+> jsp.mydspace.perform-task.text3                                 = The following item has been submitted to collection <strong>{0}</strong>. Please review the item, check that it meets the criteria for entry into the collection.  After reviewing the item, you may edit the metadata with the item, and then approve or reject the item using the controls at the bottom of the page.
+> jsp.mydspace.perform-task.text4                                 = The following item has been accepted for inclusion in collection <strong>{0}</strong>. Please perform any necessary edits of the metadata to conform with the standards of the collection, and then commit the item to the archive using the controls at the bottom of the page.
+> jsp.mydspace.perform-task.title                                 = Perform Task
+> jsp.mydspace.preview-task.accept.button                         = Accept This Task
+> jsp.mydspace.preview-task.text1                                 = The following item has been submitted to collection <strong>{0}</strong>. In order to accept the task of reviewing this item, please click "Accept This Task" below.
+> jsp.mydspace.preview-task.text3                                 = The following item has been submitted to collection <strong>{0}</strong>. In order to accept the task of checking this item, please click "Accept This Task" below.
+> jsp.mydspace.preview-task.text4                                 = The following item has been accepted for inclusion in collection <strong>{0}</strong>. In order to accept the task of the final edit of this item, please click "Accept This Task" below.
+> jsp.mydspace.preview-task.title                                 = Preview Task
+719a743
+> jsp.mydspace.subscriptions.select_collection                    = ( Select Collection )
+813,814c837,838
+< jsp.search.advanced.type.id                                     = Identifier
+< jsp.search.advanced.type.keyword                                = Keyword
+---
+> jsp.search.advanced.type.identifier                             = Identifier
+> jsp.search.advanced.type.ANY                                	= Keyword
+818c842
+< jsp.search.advanced.type.subject                                = Subject
+---
+> jsp.search.advanced.type.keyword                                = Subject
+820,822c844,848
+< jsp.search.error.invalid-search-string							= Invalid search string
+< jsp.search.error.number-format-exception						= Number format exception
+< jsp.search.error.query-too-broad								= Your query was too broad. Try a narrower query.
+---
+> jsp.search.didyoumean											= Did you mean: <b><i>{0}</i></b>
+> jsp.search.error.invalid-search-string                                                  = Invalid search string
+> jsp.search.error.number-format-exception                                                = Number format exception
+> jsp.search.error.query-too-broad                                                                = Your query was too broad. Try a narrower query.
+> jsp.search.general.new-search									= Start a new search
+829c855
+< jsp.search.results.results                                      = Results {0}-{1} of {2}.
+---
+> jsp.search.results.results                                      = Results {0}-{1} of {2} (Search time: {3} seconds).
+832a859,923
+> jsp.search.title												= Search
+> jsp.search.error.discovery 										= An error has occured. Your query is invalid or the search engine is down.
+> jsp.search.facet.refine											= Discover
+> jsp.search.facet.refine.author									= Author
+> jsp.search.facet.refine.subject									= Subject
+> jsp.search.facet.refine.dateIssued								= Date issued
+> jsp.search.facet.refine.previous								= < previous
+> jsp.search.facet.refine.next									= next >
+> jsp.search.facet.narrow											= Filter by {0}
+> jsp.search.filter.heading										= Add filters:
+> jsp.search.filter.hint											= Use filters to refine the search results.
+> jsp.search.filter.add											= Add
+> jsp.search.filter.applied										= Current filters:
+> jsp.search.filter.any										= Any fields
+> jsp.search.filter.title											= Title
+> jsp.search.filter.author										= Author
+> jsp.search.filter.subject										= Subject
+> jsp.search.filter.dateIssued									= Date Issued
+> jsp.search.filter.op.equals 									= Equals
+> jsp.search.filter.op.notequals 									= Not Equals
+> jsp.search.filter.op.contains									= Contains
+> jsp.search.filter.op.notcontains								= Not Contains
+> jsp.search.filter.op.authority									= ID
+> jsp.search.filter.op.notauthority								= Not ID
+> jsp.sherpa.title = SHERPA/RoMEO Publisher Policy Database
+> jsp.sherpa.loading = <p>Fetching policy information from the SHERPA/RoMEO database</p><img alt="loading" src="{0}/sherpa/image/ajax-loader-big.gif" />
+> jsp.sherpa.heading = <p class="sherpaDisclaimer"><a href="http://www.sherpa.ac.uk/romeo.php" target="_blank"><img align="left" src="{0}/sherpa/image/romeosmall.gif" width="100" height="54" alt="SHERPA/RoMEO Database" border="0"></a> All SHERPA/RoMEO information is correct to the best of our knowledge but should not be relied upon for legal advice. SHERPA cannot be held responsible for the re-use of RoMEO data, or for alternative interpretations which are derived from this information.</p>
+> jsp.sherpa.error = <p class="sherpaError">Sorry, we have had trouble querying the SHERPA/RoMEO Database. No data are availables, try later or check directly the <a href="http://www.sherpa.ac.uk/romeo.php" target="_blank">SHERPA/RoMEO WebSite</a>.</p>
+> jsp.sherpa.noresult = <p class="sherpaNoResult">Sorry, there are not data in the <a href="http://www.sherpa.ac.uk/romeo.php" target="_blank">SHERPA/RoMEO Database</a> for the ISSNs that you have entered.</p>
+> jsp.sherpa.oneresult = <p>The <a href="http://www.sherpa.ac.uk/romeo.php" target="_blank">SHERPA/RoMEO</a> Database provide the following data for the journal that you have entered.</p>
+> jsp.sherpa.moreresults = <p>The ISSNs that you have entered match with multiple journals, please review them. For any journals you can find below the publisher policy.</p>
+> jsp.sherpa.jornaltitle = <p><b>Journal:</b> {0}
+> jsp.sherpa.jornalissn = (ISSN\: {0})</p> 
+> jsp.sherpa.publisher = <p><b>Publisher:</b> <a href="{1}" target="_blank">{0}</a></p>
+> jsp.sherpa.publisher.onlyname = <p><b>Publisher:</b> {0}</p>
+> jsp.sherpa.publisher.unknow = <p><b>Publisher:</b> Unknow</p>
+> jsp.sherpa.publisher.nodata =  <p>Sorry, there are not data about this publisher in the <a href="http://www.sherpa.ac.uk/romeo.php" target="_blank">SHERPA/RoMEO</a> Database. If you know its policies or you want suggest to add the Publisher to the SHERPA/RoMEO Database you can use <a href="http://www.sherpa.ac.uk/romeoupdate.php" target="_blank">this form</a></p>
+> jsp.sherpa.pre-print.can =  <p><b>Author''s Pre-prints:</b><img src="{0}/sherpa/image/can.gif" alt="can" border="0" /> Author <b>can</b> archive pre-print (ie pre-refereeing)</p>
+> jsp.sherpa.pre-print.cannot =  <p><b>Author''s Pre-prints:</b><img src="{0}/sherpa/image/cannot.gif" alt="cannot" border="0" /> Author <b>cannot</b> archive pre-print (ie pre-refereeing)</p>
+> jsp.sherpa.pre-print.restricted =  <p><b>Author''s Pre-prints:</b><img src="{0}/sherpa/image/restricted.gif" alt="restricted" border="0" /> <b>Subject to Restrictions below</b>, author <b>can</b> archive pre-print (ie pre-refereeing)</p>
+> jsp.sherpa.pre-print.unclear =  <p><b>Author''s Pre-prints:</b><img src="{0}/sherpa/image/unclear.gif" alt="unclear" border="0" /> Archiving status unclear</p>
+> jsp.sherpa.pre-print.unknown =  <p><b>Author''s Pre-prints:</b> - No information</p>
+> jsp.sherpa.post-print.can =  <p><b>Author''s Post-prints:</b><img src="{0}/sherpa/image/can.gif" alt="can" border="0" /> Author <b>can</b> archive post-print (ie final draft post-refereeing)</p>
+> jsp.sherpa.post-print.cannot =  <p><b>Author''s Post-prints:</b><img src="{0}/sherpa/image/cannot.gif" alt="cannot" border="0" /> Author <b>cannot</b> archive post-print (ie final draft post-refereeing)</p>
+> jsp.sherpa.post-print.restricted =  <p><b>Author''s Post-prints:</b><img src="{0}/sherpa/image/restricted.gif" alt="restricted" border="0" /> <b>Subject to Restrictions below</b>, author <b>can</b> archive post-print (ie final draft post-refereeing)</p>
+> jsp.sherpa.post-print.unclear =  <p><b>Author''s Post-prints:</b><img src="{0}/sherpa/image/unclear.gif" alt="unclear" border="0" /> Archiving status unclear</p>
+> jsp.sherpa.post-print.unknown =  <p><b>Author''s Post-prints:</b> - No information</p>
+> jsp.sherpa.publisher-version.can =  <p><b>Publisher''s Version:</b><img src="{0}/sherpa/image/can.gif" alt="can" border="0" /> Author <b>can</b> archive publisher''s version/PDF</p>
+> jsp.sherpa.publisher-version.cannot =  <p><b>Publisher''s Version:</b><img src="{0}/sherpa/image/cannot.gif" alt="cannot" border="0" /> Author <b>cannot</b> archive publisher''s version/PDF</p>
+> jsp.sherpa.publisher-version.restricted =  <p><b>Publisher''s Version:</b><img src="{0}/sherpa/image/restricted.gif" alt="restricted" border="0" /> <b>Subject to Restrictions below</b>, author <b>can</b> archive publisher''s version/PDF</p>
+> jsp.sherpa.publisher-version.unclear =  <p><b>Publisher''s Version:</b><img src="{0}/sherpa/image/unclear.gif" alt="unclear" border="0" /> Archiving status unclear</p>
+> jsp.sherpa.publisher-version.unknown =  <p><b>Publisher''s Version:</b> - No information</p>
+> 
+> jsp.sherpa.generalconditions = <p><b>General conditions:</b></p>
+> jsp.sherpa.paidoption = <p><b>Paid open access:</b> <a href="{1}" target="_blank">{0}</a>. {2}</p>
+> jsp.sherpa.copyright = <p><b>Copyright:</b></p>
+> jsp.sherpa.publisher.romeocolour = <p><b>RoMEO:</b> This is a RoMEO {0} publisher</p>
+> jsp.sherpa.legend = <div class="sherpaLegend"><table class="romeoColour table"><thead><tr><th>ROMEO colour</th><th>Archiving policy</th></tr></thead><tbody><tr><td class="greenRomeoPublisher">green</td><td>can archive pre-print <i>and</i> post-print or publisher's version/PDF</td></tr><tr><td class="blueRomeoPublisher">blue</td><td>can archive post-print (ie final draft post-refereeing) or publisher's version/PDF</td></tr><tr><td class="yellowRomeoPublisher">yellow</td><td>can archive pre-print (ie pre-refereeing)</td></tr><tr><td class="grayRomeoPublisher">gray</td><td>publishers found in DOAJ that have not yet been analyzed by RoMEO</td></tr><tr><td class="whiteRomeoPublisher">white</td><td>archiving not formally supported</td></tr></tbody></table></div>
+> jsp.statistics.title                                            = Statistics
+> jsp.statistics.heading.visits                                   = Total Visits
+> jsp.statistics.heading.monthlyvisits                            = Total Visits per Month
+> jsp.statistics.heading.filedownloads                            = File Downloads
+> jsp.statistics.heading.countryvisits                            = Top Country Views
+> jsp.statistics.heading.cityvisits                               = Top City Views
+> jsp.statistics.heading.views                                    = Views
+837a929,952
+> jsp.submit.access.title                                         = Access
+> jsp.submit.access.error_1                                       = Invalid Start Date Format
+> jsp.submit.access.error_2                                       = Missing Start Date
+> jsp.submit.access.error_3                                       = Invalid Group Selected
+> jsp.submit.access.error_4                                       = Duplicate Policy
+> jsp.submit.access.error_5                                       = Duplicate Policy
+> jsp.submit.access.plist.heading                                 = Group policies
+> jsp.submit.access.access_setting.heading                        = Access Setting
+> jsp.submit.access.private_setting.heading                       = Private Item
+> jsp.submit.access.private_setting.help                          = If selected, the item won't be searchable.
+> jsp.submit.access.private_setting.label                         = Private\:
+> jsp.submit.access.private_setting.review.discoverable           = The item will be searchable
+> jsp.submit.access.private_setting.review.notdiscoverable        = The item will <b>not</b> be searchable
+> jsp.submit.access.review.button									= Edit access settings
+> jsp.submit.access.review.embargoed								= Access is allowed from {0}
+> jsp.submit.access.embargo_setting.heading                       = Embargo
+> jsp.submit.access.policy_setting.help					        = Policies listed in this section override any default policies for the collection you're submitting to. If you wish to set an embargo but the target collection allows access for any user, you must set a policy that allows access for the Anonymous group only from a specific date onwards.
+> jsp.submit.access.policy_setting.label_name                     = Name\: 
+> jsp.submit.access.policy_setting.label_group                    = Group\: 
+> jsp.submit.access.policy_setting.label_date                     = Embargo Access until Specific Date\: 
+> jsp.submit.access.policy_setting.label_date.help                = Accepted format: yyyy, yyyy-mm, yyyy-mm-dd
+> jsp.submit.access.policy_setting.label_reason                   = Reason\: 
+> jsp.submit.access.submit_add_policy.button                      = Confirm Policy &amp; add another
+> jsp.submit.access.edit_policy.heading                           = Edit Policy
+839,840c954
+< #jsp.submit.cancel.info                                          = Do you want the half-finished submission removed, or do you want to keep it so you can carry on working on it later?  You can also return to where you where during the submission process if you clicked Cancel by accident.
+< jsp.submit.cancel.info                                          = You may save your submission so that you can carry on working on it later. You can also return to where you where during the submission process if you clicked Cancel by accident.
+---
+> jsp.submit.cancel.info                                          = Do you want the half-finished submission removed, or do you want to keep it so you can carry on working on it later?  You can also return to where you where during the submission process if you clicked Cancel by accident.
+843,844c957
+< #jsp.submit.cancel.title                                         = Cancel or Save Submission
+< jsp.submit.cancel.title                                         = Save Submission
+---
+> jsp.submit.cancel.title                                         = Cancel or Save Submission
+855c968
+< jsp.submit.choose-file.document                                 = File:
+---
+> jsp.submit.choose-file.document                                 = Document File:
+857,859c970,972
+< jsp.submit.choose-file.heading                                  = Submit: Upload files
+< jsp.submit.choose-file.info1                                    = Your thesis should be submitted as pdf-file. Exceptions are theses or attachments not suited for the pdf format, e.g. non-text material. The files are uploaded one by one. If you have several files you may upload them after the first file has been uploaded.
+< jsp.submit.choose-file.info6                                    = Please also note that Munin is able to preserve the content of certain types of files better than other types.
+---
+> jsp.submit.choose-file.heading                                  = Submit: Upload a File
+> jsp.submit.choose-file.info1                                    = Please enter the name of the file on your local hard drive corresponding to your item.  If you click "Browse...", a new window will appear in which you can locate and select the file on your local hard drive.
+> jsp.submit.choose-file.info6                                    = Please also note that the DSpace system is able to preserve the content of certain types of files better than other types.
+861,869c974,984
+< jsp.submit.choose-file.info9                                    = Please give a brief description of the contents of this file, specially if you are uploading several files. E.g. "Main article", or "Experiment data readings".
+< jsp.submit.choose-file.title                                    = Upload files
+< jsp.submit.choose-file.skip 					= Skip file upload &gt;
+< ub.jsp.submit.choose-file.order 				= Note: If your thesis consists of more than one file, please upload these files in the same order as they (will) appear in print.
+< ub.jsp.submit.choose-file.heading-doctor 			= Submit: Here you may upload the following:
+< ub.jsp.submit.choose-file.info1-doctor 				= <ul><li>One or more file(s) which together amount to your thesis</li><li>Other documents in accordance with guidelines from your faculty</li></ul>
+< ub.jsp.submit.choose-file.info9-doctor 				= Please describe the content of the individual file (thesis, paper number .., appendix, press release and others).
+< ub.jsp.submit.choose-file.clicknext 				= You may upload one file only at a time. Click <i>Next</i> to proceed.
+< ub.jsp.submit.choose-file.browse				= Browse ...
+---
+> jsp.submit.choose-file.info9                                    = Please give a brief description of the contents of this file, for example "Main article", or "Experiment data readings".
+> jsp.submit.choose-file.title                                    = Upload a File
+> jsp.submit.choose-file.skip                                     = Skip file upload &gt;
+> jsp.submit.choose-file.upload-ajax.button.cancel				= Cancel
+> jsp.submit.choose-file.upload-ajax.button.select-file			= Select a file...
+> jsp.submit.choose-file.upload-ajax.dialog.close					= Ok
+> jsp.submit.choose-file.upload-ajax.fileRequired.title			= File required
+> jsp.submit.choose-file.upload-ajax.fileRequired.info			= You must upload at least one file for this item
+> jsp.submit.choose-file.upload-ajax.uploadInit					= Upload is starting...
+> jsp.submit.choose-file.upload-ajax.uploadInProgress				= Upload in progress... <b>{0}%</b> [{1} bytes of {2}]
+> jsp.submit.choose-file.upload-ajax.uploadCompleted				= Upload completed.
+871,872c986,988
+< jsp.submit.complete.info                                        = Your submission will now go through the workflow process designated for the collection to which you are submitting.    You will receive e-mail notification as soon as your submission has become a part of the collection, or if for some reason there is a problem with your submission. You can also check on the status of your submission by going to the My Submission page.
+< jsp.submit.complete.link                                        = Go to My Submission
+---
+> jsp.submit.complete.info                                        = Your submission will now go through the workflow process designated for the collection to which you are submitting.    You will receive e-mail notification as soon as your submission has become a part of the collection, or if for some reason there is a problem with your submission. You can also check on the status of your submission by going to the My DSpace page.
+> jsp.submit.complete.again                                       = Submit another item to the same collection
+> jsp.submit.complete.link                                        = Go to My DSpace
+874,875d989
+< ub.jsp.submit.complete.info-dr 					= Your submission is now complete and will be forwarded for further examination. You may at any time edit your submission, as long it is under examination. You will find the submission under <i>Your Submission</i> on the <i>My Submission</i>-page. If you have chosen to make all or parts of your thesis available in Munin, you will be notified by e-mail when your thesis is published.
+< 
+884a999,1001
+> jsp.submit.edit-bitstream-access.title                          = Edit Bitstream Access
+> jsp.submit.edit-bitstream-access.heading                        = Edit Bitstream Access
+> jsp.submit.edit-bitstream-access.save.button                    = Save
+886c1003
+< jsp.submit.edit-metadata.button.remove                          = Remove This Entry
+---
+> jsp.submit.edit-metadata.button.remove                          = Remove Entry
+889c1006
+< jsp.submit.edit-metadata.controlledvocabulary                   = Click here: Subject Categories
+---
+> jsp.submit.edit-metadata.controlledvocabulary                   = Subject Categories
+891c1008
+< jsp.submit.edit-metadata.firstname                              = First name(s)
+---
+> jsp.submit.edit-metadata.firstname                              = First name(s) + "Jr", e.g. Donald Jr
+893,896c1010,1013
+< jsp.submit.edit-metadata.help                                   = Help
+< jsp.submit.edit-metadata.info1                                  = Please fill in the requested information about this submission below. In most browsers, you can use the tab key to move the cursor to the next input box or button, to save you having to use the mouse each time.
+< jsp.submit.edit-metadata.info2                                  = Submit: Further information
+< jsp.submit.edit-metadata.lastname                               = Last name<br/>e.g. <strong>Smith</strong>
+---
+> jsp.submit.edit-metadata.help                                   = <span class="glyphicon glyphicon-question-sign"></span>
+> jsp.submit.edit-metadata.info1                                  = Please fill in the requested information about this submission below.  In most browsers, you can use the tab key to move the cursor to the next input box or button, to save you having to use the mouse each time.
+> jsp.submit.edit-metadata.info2                                  = Please fill further information about this submission below.
+> jsp.submit.edit-metadata.lastname                               = Last name, e.g. Smith
+905d1021
+< ub.jsp.submit.edit-metadata.mandatory-field			= (*) Mandatory field
+909a1026,1027
+> jsp.submit.general.cancel                                       = Cancel
+> jsp.submit.general.save                                         = Save
+926,949c1044,1050
+< jsp.submit.initial-questions.heading                            = Submit: Regarding inclusion in Munin
+< jsp.submit.initial-questions.info                               = Please state if you want your thesis to be made publicly available in Munin.
+< ub.jsp.submit.initial-questions.policy                          = <b><i>The University has decided that master theses should be freely available in Munin, see §14 in the University's examination regulation ("Forskrift for eksamener ved Universitetet i Tromsø"). You may reserve the right to hold your thesis back from Munin for a limited time period or forever.</i></b>
+< jsp.submit.initial-questions.title                              = About availability
+< ub.jsp.submit.initial-questions.agreement-info1 		= Note: If you want to restrict access to your thesis also in paper format, then you need to apply for this. Please contact your faculty administration for more information.<br /><br />If you want your thesis to be made available in Munin at a later date, you may specify the time period on the next page of the submission process.<br /><br /><br />If you want to make all or parts of your thesis publicly available in Munin, now or later, you need to confirm that the conditions as stated in the checklist are fulfilled. Please go through
+< ub.jsp.submit.initial-questions.agreement-info2 		= the check list.
+< ub.jsp.submit.initial-questions.agreement-path 			= /help/checklist-eng.html
+< ub.jsp.submit.initial-questions.agreement-master		= I confirm that all requirements in the check list are fulfilled
+< ub.jsp.submit.initial-questions.publish-never 			= I do not want my thesis made freely available
+< ub.jsp.submit.initial-questions.publish-later 			= I want my thesis to be made freely available in Munin at a later date
+< ub.jsp.submit.initial-questions.publish-now 			= I want my thesis to be made freely available in Munin as soon as possible after it is approved
+< ub.jsp.submit.initial-questions.publish-now-dr 			= I want all or parts of my thesis publicly available in Munin, after it is approved by the committee
+< ub.jsp.submit.initial-questions.publish-never-dr 		= I do not want any part of my thesis publicly available in Munin
+< ub.jsp.submit.initial-questions.dr-short 			= the thesis
+< ub.jsp.submit.initial-questions.master-short			= the thesis
+< ub.jsp.submit.initial-questions.permissions-dr 			= <ul  class="init-q"><li style="padding-bottom:5px;"><i><b>Munin will only make publicly available the parts of the thesis for which you, or possible publishers at stake, will grant permission</b></i></li><li><i><b>On the next page of this submission form, you may specify conditions and limitations concerning which parts of your thesis Munin may make available.</b></i></li></ul>
+< ub.jsp.submit.initial-questions.agreement-info1-doctor 		= If you want to make all or parts of your thesis publicly available in Munin, you need to confirm that everyone who has copyright to material you may have used in your thesis, including illustrations (pictures, graphics and more), have consented. Please confirm by checking in the box below.<br /><br />Note: This question does not concern published parts (for example articles) of your thesis, copyrighted by the publisher. Munin will make sure that such articles and parts are not made available, unless the copyright holders permit.<br /><br />On the next page of the submission form, you may forward questions to Munin, if you have any doubts on this issue.
+< ub.jsp.submit.initial-questions.agreement-doctor 		= I hereby confirm that possible copyright holders of material (pictures, graphics and more) used in the thesis, have consented to have the thesis made publicly available in Munin
+< jsp.submit.license-rejected.heading                             = Submit: Submission saved
+< jsp.submit.license-rejected.info1                               = Your submission has been saved for you to finish later. You can continue the submission by going to your "My Submission" page and click "Open" next to your thesis.
+< jsp.submit.license-rejected.info2                               = <b>Notice that your thesis has not been submitted yet. Please remember to log in and finish your submission later.</b>
+< jsp.submit.license-rejected.title                               = Submission saved
+< ub.jsp.submit.license-rejected.master 				= thesis
+< ub.jsp.submit.license-rejected.doctor 				= thesis
+---
+> jsp.submit.initial-questions.heading                            = Submit: Describe this Item
+> jsp.submit.initial-questions.info                               = Please check the boxes next to the statements that apply to this submission.
+> jsp.submit.initial-questions.title                              = Describe this Item
+> jsp.submit.license-rejected.heading                             = Submit: License Rejected
+> jsp.submit.license-rejected.info1                               = You have chosen not to grant the license to distribute your submission via the DSpace system.  Your submission has not been deleted and can be accessed from the My DSpace page.
+> jsp.submit.license-rejected.info2                               = If you wish to contact us to discuss the license, please use one of the methods below:
+> jsp.submit.license-rejected.title                               = License Rejected
+955a1057
+> jsp.submit.progressbar.access                                   = Access
+956a1059
+> jsp.submit.progressbar.CClicense                                = License
+974c1077
+< jsp.submit.review.info4                                         = You can safely check the files you have uploaded - they will be displayed in a new window.
+---
+> jsp.submit.review.info4                                         = You can safely check the files which have been uploaded - a new window will be opened to display them.
+987,994c1090,1093
+< ub.jsp.submit.review.init-question-publish 			= Availability:
+< ub.jsp.submit.review.init-question-publish-never 		= I do not want my thesis made freely available
+< ub.jsp.submit.review.init-question-publish-later 		= I want my thesis made freely available at a later date
+< ub.jsp.submit.review.init-question-publish-now 			= I want my thesis made freely available immediately after passed exam
+< ub.jsp.submit.review.button.correct-one 			= Correct this
+< ub.jsp.submit.review.init-question-publish-never-dr 		= I do not want any part of my thesis publicly available in Munin
+< ub.jsp.submit.review.init-question-publish-now-dr 		= I want all or parts of my thesis publicly available in Munin, after it is approved by the committee
+< jsp.submit.saved.info                                           = Your submission has been saved for you to finish later.  You can continue the submission by going to your "My Submission" page and clicking on the relevant "Resume" button.
+---
+> jsp.submit.review.policies.founded								= Found {0} access settings
+> jsp.submit.review.policies.openaccess							= Open Access
+> jsp.submit.review.policies.embargoed							= Access is allowed from {0}
+> jsp.submit.saved.info                                           = Your submission has been saved for you to finish later.  You can continue the submission by going to your "My DSpace" page and clicking on the relevant "Resume" button.
+996,998d1094
+< ub.jsp.submit.saved.doctor 					= thesis
+< ub.jsp.submit.saved.master 					= thesis
+< 
+1000,1001c1096,1097
+< jsp.submit.select-collection.heading                            = Submit:
+< jsp.submit.select-collection.info1                              = Select the appropriate course code for your thesis. Then click <i>Next</i>.
+---
+> jsp.submit.select-collection.heading                            = Submit: Choose Collection
+> jsp.submit.select-collection.info1                              = Select the collection you wish to submit an item to from the list below, then click "Next".
+1003,1034c1099,1107
+< jsp.submit.select-collection.title                              = Choose submission type
+< jsp.submit.select-collection.no-collection 			= You must select a collection for this item.
+< jsp.submit.select-collection.cancel 				= Cancel
+< ub.jsp.submit.select-collection.deposit-master 			= Submit master thesis
+< ub.jsp.submit.select-collection.deposit-doctor 			= Submit doctoral thesis
+< ub.jsp.submit.select-collection.choose-faculty 			= Please state at which faculty you take your degree. Then click <i>Next</i>.
+< ub.jsp.submit.select-collection.DOKTOR-001			= Faculty of Humanities, Social Sciences and Education
+< ub.jsp.submit.select-collection.DOKTOR-002			= Faculty of Biosciences, Fisheries and Economics
+< ub.jsp.submit.select-collection.DOKTOR-003			= Faculty of Health Sciences
+< ub.jsp.submit.select-collection.DOKTOR-004			= Faculty of Science and Technology
+< ub.jsp.submit.select-collection.DOKTOR-005			= Faculty of Law
+< ub.jsp.submit.select-collection.DOKTOR-006			= Faculty of Fine Arts 
+< ub.jsp.submit.select-collection.choice-master 			= You have chosen to submit a master thesis.
+< ub.jsp.submit.select-collection.choice-doctor 			= You have chosen to submit a doctoral thesis.
+< jsp.submit.show-license.grant.button                            = I grant the license and submit my thesis now
+< jsp.submit.show-license.heading1                                = Submit: Grant Munin Distribution License
+< jsp.submit.show-license.info1                                   =<strong>There is one last step:</strong> In order for Munin to make your thesis freely available on the Internet, your agreement to the following terms is necessary. Please take a moment to read the terms of this license. You accept by clicking "I grant the license and submit my thesis now" below. 
+< jsp.submit.show-license.info2                                   = If you do not accept, your thesis can not be made freely available in Munin. If so, please click the Describe-button to the far left on the top of the screen. There you may change your selections regarding availability of your thesis.
+< jsp.submit.show-license.notgrant.button                         = Save for later submission
+< jsp.submit.show-license.title                                   = Munin agreement
+< ub.jsp.submit.show-license.warning 				= Note: By choosing "Save for later submission", be aware that you need to log in and finish the submission.
+< ub.jsp.submit.show-license.nopublish-info1 			= You have chosen not to make your thesis available in Munin. If you whish to change your mind, please click the Describe-button to the far left on the top of the screen. There you may change your selections regarding availability of your thesis.
+< ub.jsp.submit.show-license.nopublish-info2 			= If you don't whish to change your mind, please click the button "Submit thesis" below to submit your thesis.
+< 
+< ub.jsp.submit.show-license.nopublish-info3 			= You may leave your thesis unsubmitted in this submission process by clicking "Save for later submission". You may then log in to Munin later and change any of the information regarding your submission.
+< ub.jsp.submit.show-license.nopublish-info4 			= Note: By choosing "Save for later submission", be aware that you need to log in and finish the submission later.
+< ub.jsp.submit.show-license.nopublish-grant.button 		= Submit thesis
+< ub.jsp.submit.show-license.nopublish-notgrant.button 		= Save for later submission
+< ub.jsp.submit.show-license.doctor 				= thesis
+< ub.jsp.submit.show-license.master 				= thesis
+< ub.jsp.submit.show-license.info-doctor 				= <b>The last step:</b> Your thesis is made available in Munin with a license. This license states what you, the author, allow users to do with your thesis. The University of Tromsø has chosen a standard licence named "Creative Commons Attribution-Noncommercial-Share Alike 3.0-license", which is available here:</p><p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="new">http://creativecommons.org/licenses/by-nc-sa/3.0/</a></p><p>Please read the license carefully. You accept by clicking "I grant the license and submit my thesis now" below.</p><p>This license only accounts for those parts of your thesis not already governed by license. Published articles, for instance, are normally licensed by the journal or the publisher. Such articles (and other published parts of the thesis) are made available in Munin only if this may be done in accordance with their license, or if rights holder grants permission, including the published reference.</p><p>The University of Tromsø may discontinue access to any document at the request of the author, the institution or the authorities.</p><p>If you do not accept the license, your thesis can not be made freely available in Munin. If so, please click the Describe-button to the far left on the top of the screen, and check the box stating you do not want your thesis in Munin.
+< 
+---
+> jsp.submit.select-collection.title                              = Select Collection to Submit to
+> jsp.submit.select-collection.no-collection                                              = You must select a collection for this item.
+> jsp.submit.select-collection.cancel                                                     = Cancel
+> jsp.submit.show-license.grant.button                            = I Grant the License
+> jsp.submit.show-license.heading1                                = Submit: Grant DSpace Distribution License
+> jsp.submit.show-license.info1                                   = <strong>There is one last step:</strong> In order for DSpace to reproduce, translate and distribute your submission worldwide, your agreement to the following terms is necessary.  Please take a moment to read the terms of this license, and click on one of the buttons at the bottom of the page.  By clicking on the "Grant License" button, you indicate that you grant the following terms of the license.
+> jsp.submit.show-license.info2                                   = <strong>Not granting the license will not delete your submission.</strong> Your item will remain in your "My DSpace" page.  You can then either remove the submission from the system, or agree to the license later once any queries you might have are resolved.
+> jsp.submit.show-license.notgrant.button                         = I Do Not Grant the License
+> jsp.submit.show-license.title                                   = DSpace Distribution License
+1036,1037c1109,1111
+< jsp.submit.show-uploaded-file.click1.button                     = Click here if this is the wrong format
+< jsp.submit.show-uploaded-file.click2.button                     = Click here if this is the wrong file
+---
+> jsp.submit.show-uploaded-file.click1.button                     = Change format
+> jsp.submit.show-uploaded-file.click2.button                     = Change file
+> jsp.submit.show-uploaded-file.click3.button                     = Embargo settings
+1062a1137,1138
+> jsp.submit.virus-error.info                                     = The file has not been uploaded as it appears to contain a virus. Please contact the system administrator.
+> jsp.submit.virus-checker-error.info                             = A technical problem was encountered whilst attempting to scan the file for viruses. Please contact the system administrator.
+1071a1148
+> jsp.submit.upload-file-list.button8                             = Policies
+1091a1169
+> jsp.submit.upload-file-list.tableheading7                       = Access Settings
+1095,1097c1173,1175
+< jsp.submit.verify-prune.info2                                   = You've indicated that do not longer wish to make your thesis available at a later date. You have, however, already entered some information about future publishing. If you proceed with this change, this information will be removed.
+< jsp.submit.verify-prune.info3                                   = You've indicated that you want your submission to be made available in Munin, but you've already entered an argument stating that you do not want to make your thesis available. If you proceed, this argument will be removed.
+< jsp.submit.verify-prune.info4                                   = You've indicated that do not longer wish to make your thesis available in Munin. You have, however, already entered some information about future publishing. If you proceed with this change, this information will be removed.
+---
+> jsp.submit.verify-prune.info2                                   = You've indicated that your submission does not have alternative titles, but you've already entered some.  If you proceed with this change, the alternative titles you've entered will be removed.
+> jsp.submit.verify-prune.info3                                   = You've indicated that your submission has not been published or publicly distributed before, but you've already entered an issue date, publisher and/or citation.  If you proceed, this information will be removed, and DSpace will assign an issue date.
+> jsp.submit.verify-prune.info4                                   = You've indicated that the item you're submitting consists of only a single file, but you've already uploaded more than one file.  If you proceed, only the first file you uploaded will be kept, and the rest will be discarded by the system. (The files on your local hard drive will not be affected.)
+1135a1214,1216
+> jsp.tools.confirm-privating-item.question                       = Are you sure this item should be made private?
+> jsp.tools.confirm-privating-item.title                          = Make item Private
+> jsp.tools.confirm-privating-item.privating.button               = Make item Private
+1137a1219,1240
+> jsp.tools.curate.collection.title                               = Curate Collection
+> jsp.tools.curate.collection.heading                             = Curate Collection: {0}
+> jsp.tools.curate.community.title                                = Curate Community
+> jsp.tools.curate.community.heading                              = Curate Community: {0}
+> jsp.tools.curate.item.title                                     = Curate Item
+> jsp.tools.curate.item.heading                                   = Curate Item: {0}
+> jsp.tools.curate.perform.button                                 = Perform
+> jsp.tools.curate.perform.failure                                = The task exited unexpectedly or failed. For more information, please contact the site administrator or check your system logs.
+> jsp.tools.curate.perform.message.failure                        = STATUS: Failure, RESULT: {1}
+> jsp.tools.curate.perform.message.success                        = STATUS: {0}, RESULT: {1}
+> jsp.tools.curate.perform.success                                = The task was completed successfully.
+> jsp.tools.curate.queue.button                                   = Queue
+> jsp.tools.curate.queue.failure                                  = The task could not be queued. An error occurred. For more information, please contact the site administrator or check your system logs.
+> jsp.tools.curate.queue.message.failure                          = RESULT: FAILED to queue Object ''{0}'' in ''{1}'' Queue
+> jsp.tools.curate.queue.message.success                          = RESULT: Object ''{0}'' queued in ''{1}'' Queue
+> jsp.tools.curate.queue.success                                  = The task was queued successfully.
+> jsp.tools.curate.return.collection.button                       = Return to Edit Collection Page
+> jsp.tools.curate.return.community.button                        = Return to Edit Community Page
+> jsp.tools.curate.return.item.button                             = Return to Edit Item Page
+> jsp.tools.curate.select-group.tag                               = Choose from the following groups
+> jsp.tools.curate.select-task.tag                                = Task
+> jsp.tools.curate.task.name                                      = Task: {0}
+1138a1242,1243
+> jsp.tools.edit-collection.form.basic-metadata					= Collection's Metadata
+> jsp.tools.edit-collection.form.collection-settings				= Collection's settings
+1147a1253
+> jsp.tools.edit-collection.form.button.curate                    = Curate...
+1153a1260,1275
+> jsp.tools.edit-collection.form.label15                          = Harvesting Settings
+> jsp.tools.edit-collection.form.label16                          = Content<br/> Source
+> jsp.tools.edit-collection.form.label17                          = This is a standard DSpace collection
+> jsp.tools.edit-collection.form.label18                          = This collection harvests its content from an external source
+> jsp.tools.edit-collection.form.label19                          = OAI Provider
+> jsp.tools.edit-collection.form.label20                          = OAI Set Id
+> jsp.tools.edit-collection.form.label21                          = Metadata Format
+> jsp.tools.edit-collection.form.label21.select.qdc	            = Qualified Dublin Core
+> jsp.tools.edit-collection.form.label21.select.dc				= Dublin Core
+> jsp.tools.edit-collection.form.label21.select.dim               = DSpace Intermediate Format
+> jsp.tools.edit-collection.form.label22                          = Content<br/> being<br/> Harvested
+> jsp.tools.edit-collection.form.label23                          = Harvest metadata only.
+> jsp.tools.edit-collection.form.label24                          = Harvest metadata and references to bitstreams (requires ORE support).
+> jsp.tools.edit-collection.form.label25                          = Harvest metadata and bitstreams (requires ORE support).
+> jsp.tools.edit-collection.form.label26                          = Last Harvest Result
+> jsp.tools.edit-collection.form.label27                          = Collection's Curations:
+1168a1291,1292
+> jsp.tools.edit-community.form.basic-metadata					= Community's metadata
+> jsp.tools.edit-community.form.community-settings				= Community's settings
+1171a1296
+> jsp.tools.edit-community.form.button.remove						= Remove
+1175a1301
+> jsp.tools.edit-community.form.button.curate                     = Curate...
+1182a1309,1310
+> jsp.tools.edit-community.form.label8				= Community Administrators:
+> jsp.tools.edit-community.form.label9                            = Community's Curations:
+1187a1316
+> jsp.tools.edit-item-form.form.button.curate                     = Curate...
+1200a1330,1331
+> jsp.tools.edit-item-form.elem12                                 = Order
+> jsp.tools.edit-item-form.form.label1                            = Item's Curations:
+1203c1334,1335
+< jsp.tools.edit-item-form.item                                   = Item's Authorizations:
+---
+> jsp.tools.edit-item-form.details                                = Item's Details
+> jsp.tools.edit-item-form.item                                   = Authorizations...
+1211,1212c1343
+< jsp.tools.edit-item-form.note1                                  = Note: Changes to the bitstreams will not be automatically reflected in the Dublin Core metadata above (e.g. <code>format.extent</code>, <code>format.mimetype</code>). You will need to update this by hand.
+< jsp.tools.edit-item-form.note3                                  = Also note that if the "user format description" field isn't empty, the format will always be set to "Unknown", so clear the user format description before changing the format field.
+---
+> jsp.tools.edit-item-form.note3                                  = Note that if the "user format description" field isn't empty, the format will always be set to "Unknown", so clear the user format description before changing the format field.
+1216a1348,1353
+> jsp.tools.edit-item-form.unlock                                 = Unlock the authority key value for manual editing, or toggle it locked again
+> jsp.tools.edit-item-form.move-up                                = Move up
+> jsp.tools.edit-item-form.move-down                              = Move down
+> jsp.tools.edit-item-form.order-update                           = Update bitstream order
+> jsp.tools.edit-item-form.privating-w-confirm.button             = Make item Private...
+> jsp.tools.edit-item-form.publicize.button                       = Make item Public
+1281,1284c1418,1421
+< jsp.tools.itemmap-browse.add                                    = Check the box next to items you wish to add, and choose 'add'.
+< jsp.tools.itemmap-browse.heading-authors                        = Browse Items matching author ''{0}''
+< jsp.tools.itemmap-browse.heading-collection                     = Browse Collection {0}
+< jsp.tools.itemmap-browse.remove                                 = Check the box next to items you wish to remove, and choose 'remove'.
+---
+> jsp.tools.itemmap-browse.add                                    = Check the box next to items you wish to add to {0}, and choose ''Add''.
+> jsp.tools.itemmap-browse.heading-search                         = Browse Items matching query: ''{0}''
+> jsp.tools.itemmap-browse.heading-collection                     = Items Mapped to Collection {1} from Collection {0}
+> jsp.tools.itemmap-browse.remove                                 = Check the box next to items you wish to unmap from {0}, and choose ''Remove''.
+1288c1425
+< jsp.tools.itemmap-browse.th.remove                              = Remove
+---
+> jsp.tools.itemmap-browse.th.remove                              = Unmap
+1290a1428,1430
+> jsp.tools.itemmap-browse.info.change-page						= Your query return lot of results. You can navigate your result with the following buttons. Please note that checked items will be mapped only clicking on the Add button.
+> jsp.tools.itemmap-browse.previous.button						= Previous page
+> jsp.tools.itemmap-browse.next.button							= Next page
+1294a1435
+> jsp.tools.itemmap-info.msg.none-removed                         = No items selected, none unmapped.
+1296c1437
+< jsp.tools.itemmap-info.msg.remove                               = Remove item {0}
+---
+> jsp.tools.itemmap-info.msg.remove                               = Unmap item {0}
+1301,1302c1442,1443
+< jsp.tools.itemmap-main.info4                                    = Import By Author Match
+< jsp.tools.itemmap-main.info5                                    = Enter part of an author's name for a list of matching items
+---
+> jsp.tools.itemmap-main.info4                                    = Import By Search
+> jsp.tools.itemmap-main.info5                                    = Enter a search query for a list of matching items
+1306c1447
+< jsp.tools.itemmap-main.search.button                            = Search Authors
+---
+> jsp.tools.itemmap-main.search.button                            = Search
+1312a1454
+> jsp.tools.move-item.inheritpolicies                             = Inherit default policies of destination collection
+1317c1459
+< jsp.workspace.ws-error.errormsg2                                = Go back to "My Submission", and select "Open" for the WorkSpace Item that you wish to work with.  If you are still experiencing problems please do not hesitate to contact us and we will do our best to solve the problem.
+---
+> jsp.workspace.ws-error.errormsg2                                = Go back to "My DSpace", and select "Open" for the WorkSpace Item that you wish to work with.  If you are still experiencing problems please do not hesitate to contact us and we will do our best to solve the problem.
+1319c1461
+< jsp.workspace.ws-error.title                                    = My Submission - Workspace Error
+---
+> jsp.workspace.ws-error.title                                    = My DSpace - Workspace Error
+1328c1470
+< jsp.workspace.ws-main.title                                     = My Submission
+---
+> jsp.workspace.ws-main.title                                     = My DSpace
+1330c1472
+< jsp.workspace.ws-main.wsitem                                    = Your Submission
+---
+> jsp.workspace.ws-main.wsitem                                    = WorkSpace Item
+1332c1474
+< jsp.workspace.wsv-error.errormsg2                               = Go back to "My Submission", and select "Open" for the WorkSpace Item that you wish to work with, then select "View" from the list of options.  If you are still experiencing problems please do not hesitate to contact us and we will do our best to solve the problem.
+---
+> jsp.workspace.wsv-error.errormsg2                               = Go back to "My DSpace", and select "Open" for the WorkSpace Item that you wish to work with, then select "View" from the list of options.  If you are still experiencing problems please do not hesitate to contact us and we will do our best to solve the problem.
+1334c1476
+< jsp.workspace.wsv-error.title                                   = My Submission - View Workspace Item Error
+---
+> jsp.workspace.wsv-error.title                                   = My DSpace - View Workspace Item Error
+1337c1479
+< metadata.dc.contributor.author      = Forfatter/Kandidat
+---
+> metadata.dc.contributor.author      = Authors
+1339,1341c1481,1483
+< metadata.dc.date.issued             = Dato
+< metadata.dc.description             = Beskrivelse
+< metadata.dc.description.abstract    = Sammendrag
+---
+> metadata.dc.date.issued             = Issue Date
+> metadata.dc.description             = Description
+> metadata.dc.description.abstract    = Abstract
+1352c1494
+< metadata.dc.title                   = Tittel
+---
+> metadata.dc.title                   = Title
+1354,1357d1495
+< metadata.dc.description.argument    = Begrunnelse for ikke \u00E5 publisere
+< metadata.dc.description.explanation = Forklaring for senere publisering
+< metadata.dc.description.comments    = Beskjeder til studieadministrasjonen
+< metadata.dc.subject.courseID 	    = Emnekode/Fakultet
+1362a1501
+> org.dspace.app.itemexport.no-result = The DSpaceObject that you specified has no items.
+1405a1545
+> org.dspace.app.webui.servlet.admin.CurationServlet.null-result                  = Nothing to do for this DSpace object.
+1411c1551
+< org.dspace.app.webui.servlet.admin.MetadataFieldRegistryServlet.movearguments   = Please select both a field to move and a destination shema.
+---
+> org.dspace.app.webui.servlet.admin.MetadataFieldRegistryServlet.movearguments   = Please select both a field to move and a destination schema.
+1471,1472c1611,1612
+< org.dspace.authenticate.ShibAuthentication.title 			        = Login via Shibboleth
+< org.dspace.eperson.Subscribe.authors                                            = Authors: 
+---
+> org.dspace.authenticate.ShibAuthentication.title                                = Login via Shibboleth
+> org.dspace.eperson.Subscribe.authors                                            = Authors:
+1475a1616,1617
+> org.dspace.statistics.util.LocationUtils.unknown-continent                      = Unknown Continent
+> org.dspace.statistics.util.LocationUtils.unknown-country                        = Unknown Country
+1490a1633,1636
+> # used by discovery (standard sort index <metadata>_sort)
+> search.sort-by.dc.title_sort													= Title
+> # used by discovery (date sort index <metadata>_dt)
+> search.sort-by.dc.date.issued_dt												= Issue Date
+1491a1638,1849
+> 
+> # authority-control confidence levels, descriptions:
+> jsp.authority.confidence.description.unset          = Confidence was never recorded for this value
+> jsp.authority.confidence.description.novalue        = No reasonable confidence value was returned from the authority
+> jsp.authority.confidence.description.rejected       = The authority recommends this submission be rejected
+> jsp.authority.confidence.description.failed         = The authority encountered an internal failure
+> jsp.authority.confidence.description.notfound       = There are no matching answers in the authority
+> jsp.authority.confidence.description.ambiguous      = There are multiple matching authority values of equal validity
+> jsp.authority.confidence.description.uncertain      = Value is singular and valid but has not been seen and accepted by a human so it is still uncertain
+> jsp.authority.confidence.description.accepted       = This authority value has been confirmed as accurate by an interactive user
+> 
+> jsp.tools.lookup.title = DSpace Value Lookup
+> jsp.tools.lookup.heading = Looking Up Value
+> jsp.tools.lookup.accept = Accept
+> jsp.tools.lookup.add = Add
+> jsp.tools.lookup.cancel = Cancel
+> jsp.tools.lookup.more = See More Results
+> jsp.tools.lookup.fail = Failed to load choice data:
+> jsp.tools.lookup.results = Results @1@ to @2@ of @3@ for "@4@"
+> jsp.tools.lookup.lookup = Lookup this value
+> 
+> # choice lookup example for dc.publisher
+> jsp.tools.lookup.field.dc_publisher.help = Name of Publisher
+> jsp.tools.lookup.field.dc_publisher.title = Look up Publisher
+> jsp.tools.lookup.field.dc_publisher.nonauthority = Non-authority value: @1@
+> 
+> # choice lookup example for dc.contributor.author
+> jsp.tools.lookup.field.dc_contributor_author.help = Name in "Last, First" format
+> jsp.tools.lookup.field.dc_contributor_author.help.last = Last name, e.g. "Smith"
+> jsp.tools.lookup.field.dc_contributor_author.help.first = First name(s) e.g. "Fred"
+> jsp.tools.lookup.field.dc_contributor_author.title = LC Name Authority author lookup
+> jsp.tools.lookup.field.dc_contributor_author.nonauthority = Local value '@1@' (not in Naming Authority)
+> 
+> # reset password
+> jsp.dspace-admin.eperson-main.ResetPassword.title = Reset password
+> jsp.dspace-admin.eperson-main.ResetPassword.head = Reset password
+> jsp.dspace-admin.eperson-main.ResetPassword.submit = Reset password
+> jsp.dspace-admin.eperson-main.ResetPassword.success_notice = An email message has been sent to the user containing a token that may be used to choose a new password.
+> jsp.dspace-admin.eperson-main.ResetPassword-error.errormsg = Sorry, an error has occurred when the system try to send email with instructions.
+> jsp.dspace-admin.eperson-main.ResetPassword.returntoedit = Return to the Administer EPeople page
+> 
+> # login as
+> jsp.dspace-admin.eperson-main.LoginAs.submit = Login As 
+> jsp.dspace-admin.eperson-main.loginAs.authorize.errormsg = Reason: you may not assume the login as another administrator.
+> jsp.dspace-admin.eperson-main.loginAs.authorize.title = Authorization Error
+> jsp.dspace-admin.eperson-main.loginAs.backtoeditpeople = Back to E-people Admin page
+> 
+> org.dspace.app.webui.jsptag.access-setting.legend        = Embargo
+> org.dspace.app.webui.jsptag.access-setting.label_name    = Name\: 
+> org.dspace.app.webui.jsptag.access-setting.label_group   = Groups\: 
+> org.dspace.app.webui.jsptag.access-setting.label_embargo = Access for selected group: 
+> org.dspace.app.webui.jsptag.access-setting.label_reason  = Reason\: 
+> org.dspace.app.webui.jsptag.access-setting.label_date    = Embargo Date\: 
+> org.dspace.app.webui.jsptag.access-setting.radio0 = Allow access once item is accepted into archive
+> org.dspace.app.webui.jsptag.access-setting.radio1 = Embargo until specific date
+> org.dspace.app.webui.jsptag.access-setting.radio_help = The first day from which access is allowed. Accepted format: yyyy, yyyy-mm, yyyy-mm-dd
+> org.dspace.app.webui.jsptag.access-setting.button_confirm = Confirm Policy &amp; another
+> org.dspace.app.webui.jsptag.policies-list.label_name      = Name
+> org.dspace.app.webui.jsptag.policies-list.label_action    = Action
+> org.dspace.app.webui.jsptag.policies-list.label_group     = Group
+> org.dspace.app.webui.jsptag.policies-list.label_sdate     = Start Date
+> org.dspace.app.webui.jsptag.policies-list.label_edate     = End Date
+> org.dspace.app.webui.jsptag.policies-list.no_policies	  = No group policies have been set up for this item
+> 
+> org.dspace.app.webui.jsptag.access-setting.name_help = A short, descriptive name for the policy (up to 30 characters). May be shown to end users. Example: "Staff-only". Optional but recommended.
+> org.dspace.app.webui.jsptag.access-setting.reason_help = The reason for the embargo, typically for internal use only. Optional.
+> 
+> jsp.layout.navbar-admin.accesscontrol	=	Access Control
+> jsp.layout.navbar-admin.contents		= 	Content
+> jsp.layout.navbar-admin.settings		= 	General Settings
+> 
+> jsp.submit.start-lookup-submission.title = New submission
+> jsp.submit.start-lookup-submission.heading = New submission: get data from bibliographic external service
+> jsp.submit.start-lookup-submission.tabs.search = Search Form
+> jsp.submit.start-lookup-submission.tabs.result = Results
+> jsp.submit.start-lookup-submission.identifiers = Search for identifier
+> 
+> jsp.submit.start-lookup-submission.identifiers.hints = Fill in publication identifiers (DOI is preferable) and then press "Search". A list of all matching publications will be shown to you to select in order to proceed with the submission process.
+> jsp.submit.start-lookup-submission.identifier-doi = DOI (Digital Object Identifier)		
+> jsp.submit.start-lookup-submission.identifier-doi.hint = e.g. 10.1021/ac0354342
+> jsp.submit.start-lookup-submission.identifier-pubmed = PubMed ID
+> jsp.submit.start-lookup-submission.identifier-pubmed.hint = e.g. 20524090
+> jsp.submit.start-lookup-submission.identifier-arxiv = arXiv ID
+> jsp.submit.start-lookup-submission.identifier-arxiv.hint = e.g. arXiv:1302.1497
+> jsp.submit.start-lookup-submission.identifier-cinii = CiNii NAID
+> jsp.submit.start-lookup-submission.identifier-cinii.hint = e.g. 110004744915
+> jsp.submit.start-lookup-submission.search = Free search
+> 
+> jsp.submit.start-lookup-submission.search.hints = Insert base info about publication: either <b>title</b> or <b>author/year</b> is required.<br/>If you know any unique identifier about publication like <b>DOI</b>, <b>Pubmed</b>, or <b>arXiv</b> you can switch on the <span id="link-ricerca-identificatore">identifier search mode</span>.
+> jsp.submit.start-lookup-submission.search.title = Title
+> jsp.submit.start-lookup-submission.search.year = Year
+> jsp.submit.start-lookup-submission.search.authors = Authors/Publishers	 
+> jsp.submit.start-lookup-submission.identifier.lookup = Search
+> jsp.submit.start-lookup-submission.search-go = Search
+> jsp.submit.start-lookup-submission.exit = Exit
+> jsp.submit.start-lookup-submission.search-loading.title = Loading...
+> jsp.submit.start-lookup-submission.search-loading.hint = Quering the external service to retrieve the requested publications. Please, wait for the request to complete. if you close this window, the request will be aborted. 
+> jsp.submit.edit-metadata.affiliation.select = Multiple possible matches, please select one to proceed! 
+> jsp.submit.edit-metadata.affiliation.other = Other
+> jsp.submit.start-lookup-submission.no-collection = No collection selected
+> jsp.submit.start-lookup-submission.no-collection-warn.title = Warning, no collection
+> jsp.submit.start-lookup-submission.no-collection-warn.hint = The collection of the publication is required.
+> jsp.submit.start-lookup-submission.manual-submission = Default mode Submission
+> jsp.submit.start-lookup-submission.button.manual-submission = Manual submission
+> jsp.submit.start-lookup-submission.select.collection.label = Select collections:
+> jsp.submit.start-lookup-submission.select.collection.defaultoption = Select...
+> jsp.submit.start-lookup-submission.noresult = No results available!
+> 
+> jsp.submit.start-lookup-submission.js.errormessage = Sorry, an error occurred. Try again. If this message shows again, please, contact administrators and continue to insert the submission manually. Thank you!
+> jsp.submit.start-lookup-submission.js.detailsbuttonmessage = See details &amp; import the record
+> jsp.submit.start-lookup-submission.js.filldataandstartbuttonmessage = Fill data and start submission
+> jsp.submit.start-lookup-submission.js.titlepopupmessage = Publication details
+> jsp.submit.start-lookup-submission.no-collection.dialog.return = I understand
+> 
+> jsp.submit.start-lookup-submission.byfile = Upload a file
+> jsp.submit.start-lookup-submission.byfile.process = Process
+> jsp.submit.start-lookup-submission.byfile.hints = Select a file to upload and its type from the drop-down menu. If "Preview Mode" is enabled, the list of the publications in the file will be shown to you to select the one for submission. If it is disabled, all publications will be imported in your MyDSpace page as "Unfinished Submissions" while the first one will go through the submission process.
+> jsp.submit.start-lookup-submission.byfile.chooseprovider = Select data type
+> jsp.submit.start-lookup-submission.byfile.file = File
+> jsp.submit.start-lookup-submission.byfile.filepreview = Preview mode
+> jsp.submit.start-lookup-submission.byfile.filecollection = Collection
+> 
+> #Versioning
+> jsp.general.version.button = Create version of this item
+> jsp.general.version.history.button = Show version history
+> 
+> jsp.dspace-admin.version-summary.title = Create Version
+> jsp.dspace-admin.version-summary.heading = Version
+> jsp.dspace-admin.version-summary.text3 = Create new version of item: {0}
+> jsp.version.version-summary.submit_version = Version
+> 
+> jsp.dspace-admin.version-summary.text = Reason for creating new version
+> 
+> jsp.version.history.delete.success.message = Ok, version/versions has been removed
+> jsp.version.history.delete.warning.head1 = Confirm Deletion(s)
+> jsp.version.history.delete.warning.para1 = Are you sure you want to delete these versions?
+> jsp.version.history.delete.warning.para2 = PLEASE NOTE: That by deleting these versions, the associated items will no longer be accessible.
+> 
+> jsp.version.history.title = Version History
+> jsp.version.history.head2 = Version History
+> jsp.version.history.column1 = Version
+> jsp.version.history.column2 = Item
+> jsp.version.history.column3 = Editor
+> jsp.version.history.column4 = Date
+> jsp.version.history.column5 = Summary
+> jsp.version.history.restore = Restore
+> jsp.version.history.update = Edit
+> jsp.version.history.legend = <span class="glyphicon glyphicon-asterisk"></span> Selected version
+> jsp.version.history.delete = Delete Versions
+> jsp.version.history.return = Return
+> jsp.version.history.popup.delete = Yes
+> jsp.version.history.popup.close = No
+> 
+> jsp.version.notice.new_version_head = Notice
+> jsp.version.notice.new_version_help = This is not the latest version of this item. The latest version can be found at:
+> jsp.version.notice.workflow_version_head = Notice
+> jsp.version.notice.workflow_version_help = A more recent version of this item is in the Workflow.
+> 
+> itemRequest.all = All files
+> itemRequest.response.subject.approve = Request copy of document
+> itemRequest.response.body.approve = Dear {0},\n\
+> In response to your request I have the pleasure to send you in attachment a copy of the file(s) concerning the document: "{2}" ({1}), of which I am author (or co-author).\n\n\
+> Best regards,\n\
+> {3} <{4}>
+>  
+> itemRequest.response.subject.reject = Request copy of document
+> itemRequest.response.body.reject = Dear {0},\n\
+> In response to your request I regret to inform you that it''s not possible to send you a copy of the file(s) you have requested, concerning the document: "{2}" ({1}), of which I am author (or co-author).\n\n\
+> Best regards,\n\
+> {3} <{4}>
+> jsp.request.item.request-form.info2 = Request a document copy: {0} 
+> jsp.request.item.request-form.problem = You must fill all the missing fields. 
+> jsp.request.item.request-form.reqname = Requester name: 
+> jsp.request.item.request-form.email = Requester e-mail: 
+> jsp.request.item.request-form.coment = Message: 
+> jsp.request.item.request-form.go = Send
+> jsp.request.item.request-form.cancel = Cancel
+> jsp.request.item.request-form.allfiles = Files: 
+> jsp.request.item.request-form.yes = all files (of this document) in restricted access 
+> jsp.request.item.request-form.no = the file(s) you requested 
+> jsp.request.item.request-form.title = Request a document copy 
+> jsp.request.item.request-information.info1 = Subject: Request a document copy
+> jsp.request.item.request-information.info2 = IF YOU ARE AN AUTHOR OF THE DOCUMENT, {0}, use one of the buttons below to answer the request for a copy made by the user, {1}.
+> jsp.request.item.request-information.note = This repository will propose an appropriate model reply, which you may edit.
+> jsp.request.item.request-information.yes = Send a copy 
+> jsp.request.item.request-information.no = Don&#146;t send a copy 
+> jsp.request.item.request-information.title = Request a document copy 
+> jsp.request.item.request-letter.accept.heading = Accept the request
+> jsp.request.item.request-letter.accept.info = This is the email that will be sent to the requester along with the file(s).
+> jsp.request.item.request-letter.reject.heading = Reject the request
+> jsp.request.item.request-letter.reject.info = This is the email that will be sent to the requester.
+> jsp.request.item.request-letter.subject = Subject:
+> jsp.request.item.request-letter.message = Message:
+> jsp.request.item.request-letter.title = Copy of the requested document 
+> jsp.request.item.request-letter.next = Send 
+> jsp.request.item.request-letter.back = Back 
+> jsp.request.item.return-item = Return to the item
+> jsp.request.item.response-send.info1 = Your answer was sent successfully!  
+> jsp.request.item.response-send.info2 = Your answer was sent successfully to the e-mail indicated by the requester.<br><br>Thank you. 
+> jsp.request.item.response-send.title = Request a document copy
+> jsp.request.item.request-send.info1 = Your request was sent successfully! 
+> jsp.request.item.request-send.info2 = Your request was sent successfully to the author(s).<br><br>Thank you. 
+> jsp.request.item.request-send.title = Request a document copy
+> jsp.request.item.request-free-acess.title = Your answer was sent successfully!
+> jsp.request.item.request-free-acess.info1 = Your answer was sent successfully to the e-mail indicated by the requester. Thank you.
+> jsp.request.item.request-free-acess.info2 = You may use this occasion to reconsider the access restrictions on the document (to avoid having to respond to these requests), if there is no reason to keep it restricted. To do so, after inserting your name and e-mail (for authentication), click the button "Change to Open Access".
+> jsp.request.item.request-free-acess.close = Close.
+> jsp.request.item.request-free-acess.free = Change to Open Access
+> jsp.request.item.request-free-acess.name = Name:
+> jsp.request.item.request-free-acess.email = E-mail:
+> org.dspace.app.requestitem.RequestItemMetadataStrategy.unnamed = Corresponding Author
+> org.dspace.app.webui.jsptag.ItemTag.restrict = <span class="glyphicon glyphicon-lock"> </span>&nbsp; Request a copy

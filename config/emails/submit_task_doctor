@@ -1,0 +1,39 @@
+# Workflow task email message
+#
+# {0}  Title of submission
+# {1}  Course code
+# {2}  submitter's name
+# {3}  Description of task
+# {4}  link to 'my DSpace' page 
+# {5}  Author's name
+# {6}  Publish preferences
+# {7}  Submit date
+# {8}  Type of degree
+# {9}  Thesis format
+# {10} Contact information
+# {11} Popularized summary
+#
+Subject: Ny avhandling innlevert
+
+En ny avhandling er levert inn:
+
+Tittel:          {0}
+Fakultet:        {1}
+Kandidat:        {5}
+Lagt inn av:     {2}
+Innlevert:       {7}
+Type grad:       {8}
+Monografi/art:   {9}
+
+Kontaktinformasjon:
+{10}
+
+Populærvitenskapelig sammendrag:
+{11}
+
+For å ta denne oppgaven, logg inn i Innleveringsportalen: {4} 
+
+
+Mange takk!
+
+Munin

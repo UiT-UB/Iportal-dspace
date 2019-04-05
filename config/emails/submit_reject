@@ -1,0 +1,24 @@
+# Rejection email message
+#
+# {0}  Title of submission
+# {1}  Course code
+# {2}  Name of the rejector
+# {3}  Reason for the rejection
+# {4}  Link to 'My DSpace' page
+#
+Subject: Munin: Innlevering avvist / Submission Rejected
+
+Du leverte inn / You submitted: {0}
+
+Med emnekode / With course code: {1}
+
+Innleveringen er avvist av / Your submission has been rejected by {2}
+med følgende begrunnelse / with the following explanation:
+
+{3}
+
+Ingenting av det du registrerte er slettet. Vi må be deg logge inn igjen og rette opp det som er feil / Your submission has not been deleted.  You can access it from your "My Munin" page: 
+
+{4}
+
+Munin

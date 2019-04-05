@@ -1,0 +1,40 @@
+# Advisor email message
+#
+# {0}  Author(s)
+# {1}  Title
+# {2}  Course code
+# {3}  Submitter
+# {4}  Publishing (nor) 
+# {5}  Publishing (eng)
+#
+Subject: Munin: Innlevert avhandling / Submitted thesis
+
+En ny avhandling er levert inn: / A new thesis is submitted:
+
+Tittel / Title:			{1}
+Fakultet / Faculty:		{2}
+Kandidat / Candidate:		{0}
+Innlevert av / Submitted by:	{3}
+
+(English text below)
+
+Kandidaten har oppgitt at du har vært veileder, og du informeres med dette om at avhandlingen nå er levert. 
+
+Dersom det er noe du lurer på vedrørende avhandlingen eller innleveringen, vennligst ta kontakt med administrasjonen på fakultetet.
+
+Dersom det er noe du lurer på vedrørende tilgjengeliggjøring av avhandlingen i Munin, vennligst kontakt Munin: munin@ub.uit.no
+
+
+Mange takk!
+Munin
+
+---------------------------------------------------------------------------------
+The candidate has named you as supervisor, and you are hereby informed that the thesis now is submitted. 
+
+If you have any questions regarding the thesis or submission, please contact the faculty administration.
+
+If you have any questions regarding making the thesis publicly available in Munin, please contact Munin: munin@ub.uit.no 
+
+
+Thank you very much! 
+Munin

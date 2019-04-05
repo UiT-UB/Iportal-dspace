@@ -1,0 +1,30 @@
+# Workflow task email message
+#
+# {0}  Title of submission
+# {1}  Course code
+# {2}  submitter's name
+# {3}  Description of task
+# {4}  link to 'my DSpace' page 
+# {5}  Author's name
+# {6}  Publish preferences
+#
+Subject: Ny oppgave innlevert
+
+Et nytt dokument har blitt levert inn:
+
+Tittel:		{0}
+Emnekode:	{1}
+Forfatter:	{5}
+Lagt inn av:	{2}
+Innlevert:	{7}
+
+Studentens valg angående tilgjengeliggjøring i Munin:
+{6}
+
+Det innlagte dokumentet må kontrolleres.
+
+For å ta denne oppgaven, logg inn i Innleveringsportalen: {4}
+
+Mange takk!
+
+Munin

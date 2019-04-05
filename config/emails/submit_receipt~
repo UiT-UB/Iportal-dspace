@@ -1,0 +1,32 @@
+# Workflow task email message
+#
+# {0}  Title of submission
+# {1}  Name of collection
+# {2}  submitter's name
+# {3}  Description of task
+# {4}  link to 'my DSpace' page 
+# {5}  Author's name
+# {6}  File info
+# {7}  Time at which the item was submitted
+#
+Subject: Kvittering / Receipt
+
+Dette er en kvittering som bekrefter innlevering av følgende oppgave: / This is a receipt confirming your submission of the following thesis:
+
+Innlevert / Submitted:		{7}
+Tittel / Title:			{0}
+Emne / Course:			{1}
+Forfatter / Author:		{5}
+Lagt inn av / Submitted by:	{2}
+Filer / Files:			{6}
+
+Dersom du ser en feil, ta kontakt med din studiekonsulent. / If anything is incorrect, please contact your student advisor.
+
+Oppgaven blir nå behandlet av studieadministrasjonen. Med mindre du har valgt noe annet, vil oppgaven bli gjort tilgjengelig i Munin straks den er godkjent og administrativt ferdigbehandlet. Det vil da bli sendt en melding til samme adresse som denne e-posten er sendt til.
+
+The submitted thesis will now be handled by the administration. Unless you have chosen otherwise, your thesis will be made available in Munin after it is approved and finalized administratively. A message will then be sent to the same address this e-mail is sent to.
+
+
+Mange takk! / Thank you very much!
+
+Munin

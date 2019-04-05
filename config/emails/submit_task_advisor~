@@ -1,0 +1,76 @@
+# Advisor email message
+#
+# {0}  Author(s)
+# {1}  Title
+# {2}  Course code
+# {3}  Submitter
+# {4}  Publishing (nor) 
+# {5}  Publishing (eng)
+#
+Subject: Munin: Innlevert oppgave / Submitted thesis
+
+Følgende oppgave er innlevert til bedømming: / The following thesis has been submitted:
+
+Tittel / Title:			{1}
+Emnekode  / Course code:	{2}
+Forfatter / Author:		{0}
+Innlevert av / Submitted by:	{3}
+
+Tilgjengeliggjøring i Munin:	{4}
+Availability in Munin:		{5}
+
+(English text below)
+
+Den som har levert inn oppgaven har oppgitt at du har vært veileder, og du informeres med dette om at oppgaven nå ble levert.
+
+Fra universitetets side er det ønskelig at masteroppgavene (og tilsvarende oppgaver) gjøres fritt tilgjengelig i vitenarkivet Munin. Kandidaten kan imidlertid selv velge å ikke gjøre oppgaven tilgjengelig i Munin. 
+
+Kandidaten har valgt følgende med hensyn til om, og når oppgaven skal gjøres tilgjengelig i Munin: 
+*** {4}
+
+Som et sikkerhetsnett mot publisering av oppgaver som ikke bør være åpent tilgjengelige, henvender vi oss med dette til deg som veileder. Vi ber deg derfor vurdere, ut fra den kunnskap du har om oppgaven og dens innhold,
+- om tilgjengeliggjøring kan være et brudd på taushetsplikt, 
+- om tilgjengeliggjøring kan være et brudd på personopplysningsloven eller 
+  personopplysningsforskriften, 
+- om tilgjengeliggjøring kan være et brudd på andres opphavsrett 
+- eller om det vil kunne vanskeliggjøre patentering eller kommersialisering 
+  av ideer eller produkter.
+
+Dersom du mener det er noe som tilsier at oppgaven ikke bør legges åpent ut i Munin, ta kontakt med studieadministrasjonen på ditt fakultet og send oss en e-post med din begrunnelse for å frarå dette.
+
+Vår e-postadresse: munin@ub.uit.no
+
+Mange takk!
+
+
+For Munin
+Leif Longva, UB
+Muninansvarlig
+Tlf 776 46255
+
+---------------------------------------------------------------------------------
+
+
+The submitting person has indicated you as (one of) the supervisor(s). This e-mail serves to inform you that the thesis now has been submitted. 
+
+The University prefers the master''s theses (and similar theses) to be made publicly available through the institutional repository Munin. The student may however choose not to.
+
+The student has chosen the following with respect to if and when the thesis should be made publicly available in Munin: 
+*** {5}
+
+As part of our effort to avoid making public theses that should not be publicly available, we turn to you as supervisor. We ask you to consider, to the best of your knowledge of the thesis and its content:
+-	if making the thesis available in Munin may violate duty of confidentiality
+-	if making the thesis available in Munin may violate the law with respect to personal information
+-	if making the thesis available in Munin may violate the copyrights of others
+-	or if patenting or commercializing ideas or products may be difficult following publishing the thesis in Munin
+
+If you know of any reason why this thesis should not be available in Munin, please contact the administration of the student''s faculty. Also, please send an e-mail to us at the address below, stating your reason for advising against this.
+
+Our e-mailaddress is: munin@ub.uit.no
+ 
+Thank you very much!
+
+
+For Munin
+Leif Longva, Munin administrator
+Tlf 776 46255

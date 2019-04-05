@@ -1,0 +1,23 @@
+# Item Archived email message
+#
+# {0}  Author
+# {1}  Collection/Faculty name
+# {2}  Title of submission
+# {3}  Date
+# {4}  Popular abstract 
+#
+Subject: Munin: Ny avhandling 
+
+Kandidatens navn: {0} 
+
+Fakultet: {1}
+
+Tittel: {2}
+
+Disputasdato: {3}
+
+Populærvitenskapelig sammendrag:
+{4}
+
+
+Munin

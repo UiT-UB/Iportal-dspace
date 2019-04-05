@@ -1,0 +1,1401 @@
+<?xml version="1.0"?>
+<!DOCTYPE input-forms >
+
+
+<input-forms>
+
+ <!-- The form-map maps collection handles to forms. DSpace does not       -->
+ <!-- require that a collection's name be unique, even within a community .-->
+ <!-- DSpace does however insure that each collection's handle is unique.  -->
+ <!-- Form-map provides the means to associate a unique collection name    -->
+ <!-- with a form. The form-map also provides the special handle "default" -->
+ <!-- (which is never a collection), here mapped to "traditional". Any     -->
+ <!-- collection which does not appear in this map will be associated with -->
+ <!-- the mapping for handle "default".                                    -->
+
+ <form-map>
+   <name-map collection-handle="default" form-name="traditional" />
+   <name-map collection-handle="123456789/8082" form-name="master-uten-trykking" />
+   <name-map collection-handle="123456789/8081" form-name="master-uten-trykking" />
+   <name-map collection-handle="123456789/1828" form-name="master-uten-trykking" />
+   <name-map collection-handle="123456789/7" form-name="master-uten-trykking" />
+   <name-map collection-handle="123456789/1118" form-name="doctor" />
+   <name-map collection-handle="123456789/1119" form-name="doctor" />
+   <name-map collection-handle="123456789/1590" form-name="doctor" />
+   <name-map collection-handle="123456789/1601" form-name="doctor" />
+   <name-map collection-handle="123456789/1602" form-name="doctor" />
+   <name-map collection-handle="123456789/8880" form-name="doctor" />
+   <name-map collection-handle="123456789/11808" form-name="doctor" />
+
+ </form-map>
+
+
+ <!-- The form-definitions map lays out the detailed definition of all the -->
+ <!-- submission forms.Each separate form set has a unique name as an      -->
+ <!-- attribute. This name matches one of the names in the form-map. One   -->
+ <!-- named form set has the name "traditional"; as this name suggests,    -->
+ <!-- it is the old style and is also the default, which gets used when    -->
+ <!-- the specified collection has no correspondingly named form set.      -->
+ <!--                                                                      -->
+ <!-- Each form set contains an ordered set of pages; each page defines    -->
+ <!-- one submission metadata entry screen. Each page has an ordered list  -->
+ <!-- of field definitions, Each field definition corresponds to one       -->
+ <!-- metatdata entry (a so-called row), which has a DC element name, a    -->
+ <!-- displayed label, a text string prompt which is called a hint , and   -->
+ <!-- an input-type. Each field also may hold optional elements: DC        -->
+ <!-- qualifier name, a repeatable flag, and a text string whose presence  -->
+ <!-- serves as a 'this field is required' flag.                           -->
+
+ <form-definitions>
+
+   <form name="traditional">
+
+     <page number="1">
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>argument</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Begrunnelse</label>
+         <input-type>textarea</input-type>
+         <hint>Gi her en kort begrunnelse for hvorfor du ikke ønsker å publisere dokumentet ditt</hint>
+         <required>Du må gi en begrunnelse for hvorfor du ikke ønsker publisering</required>
+       </field>
+
+
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>embargoyears</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Embargoperiode</label>
+         <input-type value-pairs-name="common_master_embargoyears">list</input-type>
+         <hint>Du har valgt å vente med å gjøre oppgaven din tilgjengelig i Munin. Vennligst presiser her hvor lenge vi skal vente før vi gjør oppgaven tilgjengelig. Husk at du når som helst kan endre varigheten av denne sperrefristen, den ene eller andre retningen, ved å kontakte ditt institutt eller fakultet. </hint>
+         <required></required>
+       </field>
+
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>explanation</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Nærmere forklaring</label>
+         <input-type>textarea</input-type>
+         <hint>Om du ønsker kan du forklare nærmere når oppgaven din kan gjøres tilgjengelig.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>author</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Forfatter</label>
+         <input-type>name</input-type>
+         <hint> </hint>
+         <required>Du må fylle ut navnet til forfatteren</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Tittel</label>
+         <!-- <input-type>onebox</input-type> -->
+         <input-type>textarea</input-type>
+         <hint>Tittel på oppgaven</hint>
+         <required>Du må fylle ut tittelen på oppgaven</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Sammendrag</label>
+         <input-type>textarea</input-type>
+         <hint>Cirka 200 ord</hint>
+         <required>Du må registrere et sammendrag</required>
+       </field>
+
+       <!--
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>issued</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Dato</label>
+         <input-type>date</input-type>
+         <hint>Oppgi eksamensdato eller innleveringsfrist. Dag er ikke obligatorisk.</hint>
+         <required>Må fylle ut minst måned og år</required>
+       </field>
+       -->
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>advisor</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Veileder</label>
+         <input-type>name</input-type>
+         <hint>Veileders navn</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>advisoremail</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Veileders epostadresse</label>
+         <input-type>onebox</input-type>
+         <hint>Brukes kun til å gi melding til veileder om registrert oppgave. Lagres ikke.</hint>
+         <required></required>
+       </field>
+       
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <!-- An input-type of twobox MUST be marked as repeatable -->
+         <repeatable>true</repeatable>
+         <label>Fagdisiplin/emneord</label>
+       
+        <input-type>twobox</input-type>
+         <hint>Velg først fagdisiplin fra emnelista. Flere fagdisipliner og/eller egne emneord kan legges inn ved å klikke 
+	   på knappen "Registrer flere". Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt.</hint>
+        <required>Du må velge et emneord eller flere</required>
+         <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
+	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
+	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
+	 <!-- in the file controlledvocabulary/controlledvocabulary.jsp.-->
+	 <!-- Update 031109: Since we now have one input-form per language, we can use separate vocabularies too -->
+         <vocabulary>nsi_no</vocabulary>
+         
+       </field>
+
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>language</dc-element>
+         <dc-qualifier>iso</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Språk</label>
+         <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
+         <hint>Velg det språket som dokumentets innhold er skrevet på. Hvis språket ikke er med
+         i lista nedenfor, velg "Other". Hvis innholdet ikke har noe språk (for eksempel hvis det er et bilde), velg "N/A".</hint>
+         <required>Du må velge et språk</required>
+       </field>
+
+     </page>
+
+ <!-- page2 -->
+
+<page number="2">
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>printnum</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Antall trykte eksemplarer</label>
+         <input-type>onebox</input-type>
+		 <hint>Trykking: Her kan du be om at instituttet eller fakultetet skal lage trykte versjoner av oppgaven til deg. Oppgi hvor mange eksemplarer du ønsker skal trykkes.
+		 </hint>
+         <required>Du må oppgi hvor mange trykte eksemplarer du ønsker. Sett 0 (null) dersom du ikke ønsker trykte eksemplarer.</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>colourprint</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Fargetrykk følgende sider</label>
+         <input-type>onebox</input-type>
+         <hint>Oppgi her hvilke sider som skal trykkes i farger. NB: Du må oppgi sidetall i pdf-filen, og ikke sidenummer i oppgavens paginering. Dersom du har mer enn en fil, må du presisere hvilken fil du henviser til. Klikk "Registrer flere" dersom flere filer har sider i farger. Hvis du ikke fyller ut noe her, blir alle sider trykt i svart-hvit.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>comments</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Beskjeder</label>
+         <input-type>textarea</input-type>
+         <hint>Andre beskjeder til studieadministrasjonen om oppgaven din.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>ephortereference</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>ePhorte saksnummer</label>
+         <input-type>onebox</input-type>
+         <hint>Administrator kan her legge inn henvisning til administrative saker som har relevans for oppgaven. </hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>clause</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Unntatt offentlighet etter formelt vedtak</label>
+         <input-type value-pairs-name="common_clause">dropdown</input-type>
+         <hint>Angi her om oppgaven er unntatt offentlighet, både i elektronisk format og papirformat, etter formelt vedtak. (Angi i så fall arkivreferanse.)</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>clause</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Unntatt offentlighet opphører</label>
+         <input-type>date</input-type>
+         <hint>Fyll ut dersom oppgaven er unntatt offentlighet, både i elektronisk format og papirformat, etter formelt vedtak</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>checked</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Innlevering OK</label>
+         <input-type value-pairs-name="common_checked">dropdown</input-type>
+         <hint>Er innleveringen OK? Sjekk at rett PDF er levert, at den kan åpnes og at oppgaven er levert med rett emnekode.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>print</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Trykking</label>
+         <input-type value-pairs-name="common_print">dropdown</input-type>
+         <hint>Trykkestatus</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>examinationresults</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Sendt til bedømmelse</label>
+         <input-type value-pairs-name="common_examinationresults">dropdown</input-type>
+         <hint>Status bedømmelsesprosess</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>approved</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Godkjent eller ikke godkjent</label>
+         <input-type value-pairs-name="common_approved_simple">dropdown</input-type>
+         <hint>Er oppgaven bestått eller ikke, eller er den av andre grunner ikke godkjent</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>publish</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Gjøres tilgjengelig i Munin</label>
+         <input-type value-pairs-name="common_publish">dropdown</input-type>
+         <hint>Fakultetets konklusjon med hensyn til om oppgaven skal gjøres tilgjengelig nå, senere eller aldri. Dette vurderes ut fra informasjon gitt av studenten, innspill fra veileder(e) og hvorvidt oppgaven har blitt vurdert til ståkarakter/bestått. Oppgaver hvor verdien er satt til "Nå" vil automatisk bli gjort tilgjengelig i Munin når de er ferdigbehandlet.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+<!--
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>publishdate</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Dato for tilgjengeliggjøring</label>
+         <input-type>date</input-type>
+         <hint>Brukes kun dersom oppgaven skal gjøres tilgjengelig i Munin på et senere tidspunkt. Angi tidspunkt minimum med måned og år.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+-->
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>publishcomments</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Administrasjonens kommentarer</label>
+         <input-type>textarea</input-type>
+         <hint>Annen informasjon om oppgaven, tilgjengeliggjøring m.v. - kan også brukes til notater under behandlingen av oppgaven.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+     </page>
+
+   </form>
+
+   <form name="master-uten-trykking">
+
+     <page number="1">
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>argument</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Begrunnelse</label>
+         <input-type>textarea</input-type>
+         <hint>Gi her en kort begrunnelse for hvorfor du ikke ønsker å publisere dokumentet ditt</hint>
+         <required>Du må gi en begrunnelse for hvorfor du ikke ønsker publisering</required>
+       </field>
+
+
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>embargoyears</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Embargoperiode</label>
+         <input-type value-pairs-name="common_master_embargoyears">list</input-type>
+         <hint>Du har valgt å vente med å gjøre oppgaven din tilgjengelig i Munin. Vennligst presiser her hvor lenge vi skal vente før vi gjør oppgaven tilgjengelig. Husk at du når som helst kan endre varigheten av denne sperrefristen, den ene eller andre retningen, ved å kontakte ditt institutt eller fakultet. </hint>
+         <required></required>
+       </field>
+
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>explanation</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Nærmere forklaring</label>
+         <input-type>textarea</input-type>
+         <hint>Om du ønsker kan du forklare nærmere når oppgaven din kan gjøres tilgjengelig.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>author</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Forfatter</label>
+         <input-type>name</input-type>
+         <hint> </hint>
+         <required>Du må fylle ut navnet til forfatteren</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Tittel</label>
+         <!-- <input-type>onebox</input-type> -->
+         <input-type>textarea</input-type>
+         <hint>Tittel på oppgaven</hint>
+         <required>Du må fylle ut tittelen på oppgaven</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Sammendrag</label>
+         <input-type>textarea</input-type>
+         <hint>Cirka 200 ord</hint>
+         <required>Du må registrere et sammendrag</required>
+       </field>
+
+       <!--
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>issued</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Dato</label>
+         <input-type>date</input-type>
+         <hint>Oppgi eksamensdato eller innleveringsfrist. Dag er ikke obligatorisk.</hint>
+         <required>Må fylle ut minst måned og år</required>
+       </field>
+       -->
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>advisor</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Veileder</label>
+         <input-type>name</input-type>
+         <hint>Veileders navn</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>advisoremail</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Veileders epostadresse</label>
+         <input-type>onebox</input-type>
+         <hint>Brukes kun til å gi melding til veileder om registrert oppgave. Lagres ikke.</hint>
+         <required></required>
+       </field>
+       
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <!-- An input-type of twobox MUST be marked as repeatable -->
+         <repeatable>true</repeatable>
+         <label>Fagdisiplin/emneord</label>
+       
+        <input-type>twobox</input-type>
+         <hint>Velg først fagdisiplin fra emnelista. Flere fagdisipliner og/eller egne emneord kan legges inn ved å klikke 
+	   på knappen "Registrer flere". Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt.</hint>
+        <required>Du må velge et emneord eller flere</required>
+         <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
+	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
+	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
+	 <!-- in the file controlledvocabulary/controlledvocabulary.jsp.-->
+	 <!-- Update 031109: Since we now have one input-form per language, we can use separate vocabularies too -->
+         <vocabulary>nsi_no</vocabulary>
+         
+       </field>
+
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>language</dc-element>
+         <dc-qualifier>iso</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Språk</label>
+         <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
+         <hint>Velg det språket som dokumentets innhold er skrevet på. Hvis språket ikke er med
+         i lista nedenfor, velg "Other". Hvis innholdet ikke har noe språk (for eksempel hvis det er et bilde), velg "N/A".</hint>
+         <required>Du må velge et språk</required>
+       </field>
+
+     </page>
+
+ <!-- page2 -->
+
+<page number="2">
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>colourprint</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Fargetrykk følgende sider</label>
+         <input-type>onebox</input-type>
+         <hint>Oppgi her hvilke sider som skal trykkes i farger. NB: Du må oppgi sidetall i pdf-filen, og ikke sidenummer i oppgavens paginering. Dersom du har mer enn en fil, må du presisere hvilken fil du henviser til. Klikk "Registrer flere" dersom flere filer har sider i farger. Hvis du ikke fyller ut noe her, blir alle sider trykt i svart-hvit.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>comments</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Beskjeder</label>
+         <input-type>textarea</input-type>
+         <hint>Andre beskjeder til studieadministrasjonen om oppgaven din.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>ephortereference</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>ePhorte saksnummer</label>
+         <input-type>onebox</input-type>
+         <hint>Administrator kan her legge inn henvisning til administrative saker som har relevans for oppgaven. </hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>clause</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Unntatt offentlighet etter formelt vedtak</label>
+         <input-type value-pairs-name="common_clause">dropdown</input-type>
+         <hint>Angi her om oppgaven er unntatt offentlighet, både i elektronisk format og papirformat, etter formelt vedtak. (Angi i så fall arkivreferanse.)</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>clause</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Unntatt offentlighet opphører</label>
+         <input-type>date</input-type>
+         <hint>Fyll ut dersom oppgaven er unntatt offentlighet, både i elektronisk format og papirformat, etter formelt vedtak</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>checked</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Innlevering OK</label>
+         <input-type value-pairs-name="common_checked">dropdown</input-type>
+         <hint>Er innleveringen OK? Sjekk at rett PDF er levert, at den kan åpnes og at oppgaven er levert med rett emnekode.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>print</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Trykking</label>
+         <input-type value-pairs-name="common_print">dropdown</input-type>
+         <hint>Trykkestatus</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>examinationresults</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Sendt til bedømmelse</label>
+         <input-type value-pairs-name="common_examinationresults">dropdown</input-type>
+         <hint>Status bedømmelsesprosess</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>approved</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Godkjent eller ikke godkjent</label>
+         <input-type value-pairs-name="common_approved_simple">dropdown</input-type>
+         <hint>Er oppgaven bestått eller ikke, eller er den av andre grunner ikke godkjent</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>publish</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Gjøres tilgjengelig i Munin</label>
+         <input-type value-pairs-name="common_publish">dropdown</input-type>
+         <hint>Fakultetets konklusjon med hensyn til om oppgaven skal gjøres tilgjengelig nå, senere eller aldri. Dette vurderes ut fra informasjon gitt av studenten, innspill fra veileder(e) og hvorvidt oppgaven har blitt vurdert til ståkarakter/bestått. Oppgaver hvor verdien er satt til "Nå" vil automatisk bli gjort tilgjengelig i Munin når de er ferdigbehandlet.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+<!--
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>publishdate</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Dato for tilgjengeliggjøring</label>
+         <input-type>date</input-type>
+         <hint>Brukes kun dersom oppgaven skal gjøres tilgjengelig i Munin på et senere tidspunkt. Angi tidspunkt minimum med måned og år.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+-->
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>publishcomments</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Administrasjonens kommentarer</label>
+         <input-type>textarea</input-type>
+         <hint>Annen informasjon om oppgaven, tilgjengeliggjøring m.v. - kan også brukes til notater under behandlingen av oppgaven.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+     </page>
+
+   </form>
+
+   <form name="doctor">
+
+     <page number="1">
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>condition</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Betingelser/spørsmål</label>
+         <input-type>textarea</input-type>
+         <hint>Bruk dette feltet til å beskrive eventuelle betingelser eller begrensninger for å gjøre avhandlingen din tilgjengelig i Munin, eksempelvis at enkelte artikler ikke skal legges ut, eller at du ønsker å vente (og i så fall hvor lenge) med å gjøre hele eller deler av avhandlingen åpent tilgjengelig. Her kan du også skrive inn spørsmål til Muninansvarlig omkring dette med rettigheter, tillatelse og annet.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>consent</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Samtykke fra medforfattere</label>
+         <input-type value-pairs-name="common_consent">list</input-type>
+         <hint>Dersom avhandlingen din inneholder artikler eller andre deler som du har skrevet sammen med andre, og disse delene skal gjøres tilgjengelige i Munin, må du bekrefte at medforfatterne samtykker.</hint>
+         <required>Du må velge en verdi</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>consentextended</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Mer om samtykke</label>
+         <input-type>textarea</input-type>
+         <hint>Hvis du ønsker, kan du gi noen utfyllende kommentarer om dette med medforfattersamtykke</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>argument</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Begrunnelse</label>
+         <input-type>textarea</input-type>
+         <hint>Gi her en kort begrunnelse for hvorfor du ikke ønsker å publisere dokumentet ditt</hint>
+         <required>Du må gi en begrunnelse for hvorfor du ikke ønsker publisering</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>author</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Kandidatens navn</label>
+         <input-type>name</input-type>
+         <hint> </hint>
+         <required>Du må fylle ut navnet til kandidaten</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>contact</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Kontaktinformasjon</label>
+         <input-type>textarea</input-type>
+         <hint>Oppgi kontaktinformasjon til deg (postadresse/telefonnr./e-post)</hint>
+         <required>Kontaktinformasjon må fylles ut</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>doctoraltype</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Type doktorgrad</label>
+         <input-type value-pairs-name="common_doctoraltype">list</input-type>
+         <hint></hint>
+         <required>Du må velge en av doktorgradstypene</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>title</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Tittel</label>
+         <!-- <input-type>onebox</input-type> -->
+         <input-type>textarea</input-type>
+         <hint></hint>
+         <required>Du må fylle ut tittelen på avhandlingen</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Sammendrag/abstract</label>
+         <input-type>textarea</input-type>
+         <hint>Legg inn et kort faglig sammendrag av avhandlingen, anslagsvis 200-300 ord. Språk er valgfritt, og du kan legge inn flere sammendrag på ulike språk.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>popularabstract</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Populærvitenskapelig sammendrag</label>
+         <input-type>textarea</input-type>
+         <hint>Legg inn et kort populærvitenskapelig sammendrag av avhandlingen fortrinnsvis på engelsk. Teksten vil bli brukt i doktorgradsheftet og i kunngjøring av disputasen og i pressemeldingen. Fortell hva avhandlingen handler om, hvilken metode du har brukt, hva du fant ut og hvilken betydning funnene kan få. Unngå faguttrykk, og forsøk å gjøre arbeidet ditt interessant og forståelig for allmennheten. (Inntil 1000 tegn inkludert mellomrom.)</hint>
+         <required>Populærvitenskapelig sammendrag må legges inn</required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>thesisformat</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Monografi eller artikkelbasert (eller annet)?</label>
+         <input-type>textarea</input-type>
+         <hint>Angi om avhandlingen er en samlet monografi, er artikkelbasert, eller består av andre deler.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>researchtrainingcomponent</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Godkjent opplæringsdel</label>
+         <input-type>onebox</input-type>
+         <hint>Legg inn arkivreferanse for godkjent opplæringsdel, eller alternativt brevdato eller dato for vedtaket om dette.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>advisor</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Hovedveileder</label>
+         <input-type>name</input-type>
+         <hint></hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>advisoremail</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Hovedveileders epostadresse</label>
+         <input-type>onebox</input-type>
+         <hint>Brukes kun til å gi melding til veileder om innlevert avhandling. Blir ikke lagret i Munin.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <!-- An input-type of twobox MUST be marked as repeatable -->
+         <repeatable>true</repeatable>
+         <label>Fagdisiplin/emneord</label>
+       
+        <input-type>twobox</input-type>
+         <hint>Velg først fagdisiplin fra emnelista. Flere fagdisipliner og/eller egne emneord kan legges inn ved å klikke 
+	   på knappen "Registrer flere". Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt.</hint>
+        <required>Du må velge et emneord eller flere</required>
+         <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
+	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
+	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
+	 <!-- in the file controlledvocabulary/controlledvocabulary.jsp.-->
+	 <!-- Update 031109: Since we now have one input-form per language, we can use separate vocabularies too -->
+         <vocabulary>nsi_no</vocabulary>
+       </field>
+
+       <!--
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>publisher</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Utgiver/forlag</label>
+         <input-type>onebox</input-type>
+         <hint></hint>
+         <required>Du må registrere utgiver</required>
+       </field>
+       -->
+         
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>language</dc-element>
+         <dc-qualifier>iso</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Språk</label>
+         <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
+         <hint>Velg det språket som dokumentets innhold er skrevet på. Hvis språket ikke er med
+         i lista nedenfor, velg "Other". Hvis innholdet ikke har noe språk (for eksempel hvis det er et bilde), velg "N/A".</hint>
+         <required>Du må velge et språk</required>
+       </field>
+
+     </page>
+
+ <!-- page2 -->
+
+<page number="2">
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>sponsorship</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Finansiering</label>
+         <input-type>textarea</input-type>
+         <hint>Oppgi eventuelle finansieringskilder som du ønsker å kreditere</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>comments</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Beskjeder</label>
+         <input-type>textarea</input-type>
+         <hint>Her kan du skrive beskjeder du måtte ønske å gi til administrasjonen på ditt fakultet.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>ephortereference</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>ePhorte saksnummer</label>
+         <input-type>onebox</input-type>
+         <hint>Administrator kan her legge inn henvisning til administrative saker som har relevans for avhandlingen.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>checked</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Innlevering OK</label>
+         <input-type value-pairs-name="common_checked">dropdown</input-type>
+         <hint>Er innleveringen OK? Sjekk at rette filer er levert, at de kan åpnes og at avhandlingen er levert til rett fakultet.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>issued</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Disputasdato</label>
+         <input-type>date</input-type>
+         <hint>Oppgi disputasdato, hvis den er kjent</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>issn</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>ISSN</label>
+         <input-type>onebox</input-type>
+         <hint></hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>isbn</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>ISBN</label>
+         <input-type>onebox</input-type>
+         <hint></hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>printexamination</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Trykking komité</label>
+         <input-type value-pairs-name="common_printexamination">dropdown</input-type>
+         <hint>Status for trykking av avhandling som skal til bedømmelseskomiteen</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>print</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Trykking disputas</label>
+         <input-type value-pairs-name="common_print">dropdown</input-type>
+         <hint>Status for trykking av avhandling til disputas</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>approved</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Godkjent av bedømmelseskomiteen</label>
+         <input-type value-pairs-name="common_approved_simple">dropdown</input-type>
+         <hint></hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>publishcomments</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Administrasjonens kommentarer</label>
+         <input-type>textarea</input-type>
+         <hint>Annen informasjon om oppgaven, tilgjengeliggjøring m.v. - kan også brukes til notater under behandlingen av oppgaven.</hint>
+         <required></required>
+	 <visibility>workflow</visibility>
+       </field>
+
+     </page>
+
+    </form>
+
+ </form-definitions>
+
+
+ <!-- form-value-pairs populate dropdown and qualdrop-value lists.          -->
+ <!-- The form-value-pairs element holds child elements named 'value-pairs' -->
+ <!-- A 'value-pairs' element has a value-pairs-name and a dc-term          -->
+ <!-- attribute. The dc-term attribute specifies which to which Dublin Core -->
+ <!-- Term this set of value-pairs applies.                                 -->
+ <!--     Current dc-terms are: identifier-pairs, type-pairs, and           -->
+ <!--     language_iso-pairs. The name attribute matches a name             -->
+ <!--     in the form-map, above.                                           -->
+ <!-- A value-pair contains one 'pair' for each value displayed in the list -->
+ <!-- Each pair contains a 'displayed-value' element and a 'stored-value'   -->
+ <!-- element. A UI list displays the displayed-values, but the program     -->
+ <!-- stores the associated stored-values in the database.                  -->
+
+ <form-value-pairs>
+   <value-pairs value-pairs-name="common_identifiers" dc-term="identifier">
+
+     <pair>
+       <displayed-value>URI</displayed-value>
+       <stored-value>uri</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>ISSN</displayed-value>
+       <stored-value>issn</stored-value>
+     </pair>
+
+     <pair>
+       <displayed-value>ISMN</displayed-value>
+       <stored-value>ismn</stored-value>
+     </pair>
+
+     <pair>
+       <displayed-value>ISBN</displayed-value>
+       <stored-value>isbn</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Other</displayed-value>
+       <stored-value>other</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_types" dc-term="type">
+     <pair>
+       <displayed-value>Master thesis</displayed-value>
+       <stored-value>Master thesis</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Mastergradsoppgave</displayed-value>
+       <stored-value>Mastergradsoppgave</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Journal article</displayed-value>
+       <stored-value>Journal article</stored-value>
+     </pair>
+    <pair>
+       <displayed-value>Tidsskriftartikkel</displayed-value>
+       <stored-value>Tidsskriftartikkel</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Doctoral thesis</displayed-value>
+       <stored-value>Doctoral thesis</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Doktorgradsavhandling</displayed-value>
+       <stored-value>Doktorgradsavhandling</stored-value>
+     </pair>
+    <pair>
+       <displayed-value>Student paper</displayed-value>
+       <stored-value>Student paper</stored-value>
+     </pair>
+    <pair>
+       <displayed-value>Studentoppgave</displayed-value>
+       <stored-value>Studentoppgave</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Report</displayed-value>
+       <stored-value>Report</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Rapport</displayed-value>
+       <stored-value>Rapport</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Working paper</displayed-value>
+       <stored-value>Working paper</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Arbeidsnotat</displayed-value>
+       <stored-value>Arbeidsnotat</stored-value>
+     </pair>
+    <pair>
+       <displayed-value>Conference paper</displayed-value>
+       <stored-value>Conference paper</stored-value>
+     </pair>
+    <pair>
+       <displayed-value>Konferanseartikkel</displayed-value>
+       <stored-value>Konferanseartikkel</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Other conference document (poster, presentation)</displayed-value>
+       <stored-value>Other conference document (poster, presentation)</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Annet konferansebidrag (poster, presentasjon)</displayed-value>
+       <stored-value>Annet konferansebidrag (poster, presentasjon)</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Book</displayed-value>
+       <stored-value>Book</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Bok</displayed-value>
+       <stored-value>Bok</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Book chapter</displayed-value>
+       <stored-value>Book chapter</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Bokkapittel</displayed-value>
+       <stored-value>Bokkapittel</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Newspaper article</displayed-value>
+       <stored-value>Newspaper article</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Avisartikkel</displayed-value>
+       <stored-value>Avisartikkel</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Map</displayed-value>
+       <stored-value>Map</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Kart</displayed-value>
+       <stored-value>Kart</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Artistic production</displayed-value>
+       <stored-value>Artistic production</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Kunstnerisk produksjon</displayed-value>
+       <stored-value>Kunstnerisk produksjon</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Others</displayed-value>
+       <stored-value>Others</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Andre</displayed-value>
+       <stored-value>Andre</stored-value>
+     </pair>
+   </value-pairs>
+
+   <!-- default language order: (from dspace 1.2.1)
+        "en_US", "en", "es", "de", "fr", "it", "ja", "zh", "other", ""
+     -->
+
+
+   <value-pairs value-pairs-name="common_iso_languages" dc-term="language_iso">
+      <pair>
+       <displayed-value>N/A</displayed-value>
+       <stored-value>N/A</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Norsk (Bokmål)</displayed-value>
+       <stored-value>nob</stored-value>
+      </pair>
+     <pair>
+       <displayed-value>Norsk (Nynorsk)</displayed-value>
+       <stored-value>nno</stored-value>
+      </pair>
+     <pair>
+       <displayed-value>English</displayed-value>
+       <stored-value>eng</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Español</displayed-value>
+       <stored-value>spa</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Deutsch</displayed-value>
+       <stored-value>ger</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Français</displayed-value>
+       <stored-value>fra</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Sámegiella</displayed-value>
+       <stored-value>smi</stored-value>
+     </pair>     
+     <pair>
+       <displayed-value>Russkij (jazyk)</displayed-value>
+       <stored-value>rus</stored-value>
+     </pair>     
+      <pair>
+       <displayed-value>Suomi</displayed-value>
+       <stored-value>fin</stored-value>
+     </pair>
+      <pair>
+       <displayed-value>Dansk</displayed-value>
+       <stored-value>dan</stored-value>
+     </pair>
+      <pair>
+       <displayed-value>Svenska</displayed-value>
+       <stored-value>swe</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>(Other)</displayed-value>
+       <stored-value>other</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_checked" dc-term="description_checked">
+     <pair>
+       <displayed-value>---</displayed-value>
+       <stored-value>---</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Ja</displayed-value>
+       <stored-value>Ja</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Nei</displayed-value>
+       <stored-value>Nei</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_print" dc-term="description_print">
+     <pair>
+       <displayed-value>---</displayed-value>
+       <stored-value>---</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Sendt til trykkeri</displayed-value>
+       <stored-value>Sendt til trykkeri</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>I produksjon</displayed-value>
+       <stored-value>I produksjon</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Mottatt fra trykkeri</displayed-value>
+       <stored-value>Mottatt fra trykkeri</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_printexamination" dc-term="description_printexamination">
+     <pair>
+       <displayed-value>---</displayed-value>
+       <stored-value>---</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Sendt til trykkeri</displayed-value>
+       <stored-value>Sendt til trykkeri</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>I produksjon</displayed-value>
+       <stored-value>I produksjon</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Mottatt fra trykkeri</displayed-value>
+       <stored-value>Mottatt fra trykkeri</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_examinationresults" dc-term="description_examiniationresults">
+     <pair>
+       <displayed-value>---</displayed-value>
+       <stored-value>---</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Sendt</displayed-value>
+       <stored-value>Sendt</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Mottatt</displayed-value>
+       <stored-value>Mottatt</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_publish" dc-term="description_publish">
+     <pair>
+       <displayed-value>---</displayed-value>
+       <stored-value>---</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Nå</displayed-value>
+       <stored-value>Nå</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Senere</displayed-value>
+       <stored-value>Senere</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Ikke</displayed-value>
+       <stored-value>Ikke</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_consent" dc-term="description_consent">
+     <pair>
+       <displayed-value>Jeg bekrefter at alle medforfattere samtykker i å gjøre artiklene tilgjengelige i Munin</displayed-value>
+       <stored-value>Har samtykke</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Jeg har (ennå) ikke samtykke fra alle medforfattere til å gjøre artiklene tilgjengelige i Munin. (Vennligst spesifiser i feltet nedenfor hva som gjenstår, og om du forventer å få innhentet samtykke fra de som gjenstår.)</displayed-value>
+       <stored-value>Har ikke samtykke</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Ikke aktuelt</displayed-value>
+       <stored-value>N/A</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_approved" dc-term="description_approved">
+     <pair>
+       <displayed-value>Avventer bedømming</displayed-value>
+       <stored-value>Avventer bedømming</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Godkjent</displayed-value>
+       <stored-value>Godkjent</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Ikke godkjent</displayed-value>
+       <stored-value>Ikke godkjent</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_approved_simple" dc-term="description_approved">
+     <pair>
+       <displayed-value>---</displayed-value>
+       <stored-value>---</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Godkjent</displayed-value>
+       <stored-value>Godkjent</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Ikke godkjent</displayed-value>
+       <stored-value>Ikke godkjent</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_doctoraltype" dc-term="description_doctoraltype">
+     <pair>
+       <displayed-value>Ph.d.</displayed-value>
+       <stored-value>ph.d.</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Dr.philos.</displayed-value>
+       <stored-value>dr.philos.</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Kunstnerisk utviklingsarbeid</displayed-value>
+       <stored-value>Kunstnerisk utviklingsarbeid</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_master_embargoyears" dc-term="description_embargoyears">
+     <pair>
+       <displayed-value>Vent 1 år etter innlevering før oppgaven gjøres tilgjengelig i Munin</displayed-value>
+       <stored-value>1</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Vent 2 år etter innlevering før oppgaven gjøres tilgjengelig i Munin</displayed-value>
+       <stored-value>2</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Vent 3 år etter innlevering før oppgaven gjøres tilgjengelig i Munin</displayed-value>
+       <stored-value>3</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Vent 4 år etter innlevering før oppgaven gjøres tilgjengelig i Munin</displayed-value>
+       <stored-value>4</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Vent 5 år etter innlevering før oppgaven gjøres tilgjengelig i Munin</displayed-value>
+       <stored-value>5</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_clause" dc-term="description_clause">
+     <pair>
+       <displayed-value>Nei</displayed-value>
+       <stored-value>Nei</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Ja</displayed-value>
+       <stored-value>Ja</stored-value>
+     </pair>
+   </value-pairs>
+
+    </form-value-pairs>
+
+
+
+</input-forms>

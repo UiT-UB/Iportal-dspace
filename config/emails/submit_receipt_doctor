@@ -1,0 +1,34 @@
+# Workflow task email message
+#
+# {0}  Time at which the item was submitted
+# {1}  Title of submission
+# {2}  Course code
+# {3}  Author's name
+# {4}  submitter's name
+# {5}  File info
+#
+Subject: Kvittering / Receipt
+
+Dette er en kvittering som bekrefter innlevering av følgende avhandling: / This is a receipt confirming your submission of the following thesis:
+
+Innlevert / Submitted:		{0}
+Tittel / Title:			{1}
+Fakultet / Faculty:		{2}
+Forfatter / Author:		{3}
+Lagt inn av / Submitted by:	{4}
+Filer / Files:			{5}
+				
+
+Dersom du ser en feil, ta kontakt med administrasjonen ved ditt fakultet. / If anything is incorrect, please contact the administration at your faculty.
+
+Avhandlingen blir nå behandlet av fakultetet, og sendt til din bedømmelseskomite. Straks komiteens bedømming er klar, vil du bli underrettet. / The submitted thesis will now be handled by the faculty, and forwarded to your committee.
+
+Avhandlingen vil bli gjort tilgjengelig i Munin etter at den er godkjent for disputas, dog med hensyn tatt til de betingelser eller begrensninger som du har oppgitt ved innleveringen. Straks avhandlingen er gjort tilgjengelig i Munin vil det bli sendt en melding til samme adresse som denne e-posten er sendt til. Hvis du har valgt at den ikke skal gjøres tilgjengelig i Munin, vil det selvsagt bli respektert.
+
+Your thesis will be made available in Munin after it is approved for defence, with consideration, however, to the conditions and limitations you have outlined in the submission. As soon as the thesis is made available in Munin, a message will be sent to the same address this e-mail is sent to. If you have chosen not to have your thesis available in Munin, this will of course be respected.
+
+
+Mange takk! / Thank you very much!
+
+
+Your faculty and Munin
