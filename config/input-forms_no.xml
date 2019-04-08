@@ -660,12 +660,13 @@
          <dc-element>description</dc-element>
          <dc-qualifier>condition</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Betingelser/spørsmål</label>
+         <label>Om tilgjengeliggjøring i Munin</label>
          <input-type>textarea</input-type>
-         <hint>Bruk dette feltet til å beskrive eventuelle betingelser eller begrensninger for å gjøre avhandlingen din tilgjengelig i Munin, eksempelvis at enkelte artikler ikke skal legges ut, eller at du ønsker å vente (og i så fall hvor lenge) med å gjøre hele eller deler av avhandlingen åpent tilgjengelig. Her kan du også skrive inn spørsmål til Muninansvarlig omkring dette med rettigheter, tillatelse og annet.</hint>
+		 <hint>Du har adgang til å utsette tilgjengeliggjøringen i Munin. Forklar her dersom du ønsker at hele eller deler av avhandlingen skal holdes unna åpen tilgang i Munin i en periode.</hint>
          <required></required>
        </field>
 
+	   <!--
        <field>
 		 <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
@@ -698,6 +699,7 @@
          <hint>Gi her en kort begrunnelse for hvorfor du ikke ønsker å publisere dokumentet ditt</hint>
          <required>Du må gi en begrunnelse for hvorfor du ikke ønsker publisering</required>
        </field>
+-->
 
        <field>
 		 <dc-schema>dc</dc-schema>

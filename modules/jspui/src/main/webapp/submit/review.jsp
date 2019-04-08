@@ -97,6 +97,10 @@
 
 			//finally get the path to the review JSP (the value)
 			String reviewJSP = (String) reviewJSPs.get(stepAndPage);
+
+			// Do not show initial-questions box for dr
+			if(!(Util.isDr(subInfo.getSubmissionItem().getItem()) && stepAndPage.equals("1.1")))
+			{
 	%>
 		    <div class="well row">
 				<%--Load the review JSP and pass it step & page info--%>
@@ -105,6 +109,7 @@
 				</jsp:include>
 			</div>	
 <%
+			}
     }
 
 %>

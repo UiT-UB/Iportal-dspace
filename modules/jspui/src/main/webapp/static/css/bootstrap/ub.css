@@ -229,3 +229,9 @@ body.undernavigation {
 	display: none;
     }
 }
+
+/* Generic hide style */
+.hide {
+	display: none;
+}
+

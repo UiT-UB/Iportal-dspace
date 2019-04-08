@@ -653,12 +653,13 @@
          <dc-element>description</dc-element>
          <dc-qualifier>condition</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Conditions and limitations</label>
+         <label>On availability in Munin </label>
          <input-type>textarea</input-type>
-         <hint>Please explain here any conditions or limitations applying to making your thesis publicly available in Munin. Examples of this may be articles that should not be included in Munin, or should not be made publicly available until some future date. You may also pose questions regarding this, and Munin staff will respond to you shortly.</hint>
+		 <hint>You may choose to postpone for a period making your thesis openly available in Munin. Please describe here if you want your thesis temporarily not to be available in Munin.</hint>
          <required></required>
        </field>
 
+	   <!--
        <field>
 		 <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
@@ -690,7 +691,8 @@
          <input-type>textarea</input-type>
          <hint>Please write a few notes describing why you do not want to publish your item</hint>
          <required>You must enter an argument for not publishing your document</required>
-       </field>
+	   </field>
+		-->
 
        <field>
 		 <dc-schema>dc</dc-schema>

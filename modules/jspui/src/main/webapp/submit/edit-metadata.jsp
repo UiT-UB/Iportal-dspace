@@ -1282,7 +1282,7 @@
 	if(Util.isDr(si.getSubmissionItem().getItem()))
 	{
 %>
-	    <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"ub.help.doctor-path\") + \"#describe3\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
+	    <dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"ub.help.doctor-path\") + \"#describe2\"%>"><fmt:message key="jsp.morehelp"/></dspace:popup>
 <%
 	}
 	else

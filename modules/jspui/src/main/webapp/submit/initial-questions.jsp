@@ -186,7 +186,7 @@ function enableDisableNext(stepReached){
 	Since we are not using these fields, and that we don´t want to alter the database, this is probably the best solution. 
 --%> 
 
-<% 
+<%-- 
 	if(Util.isDr(subInfo.getSubmissionItem().getItem()))
 	{
 %>
@@ -195,7 +195,7 @@ function enableDisableNext(stepReached){
 
 <%
 	}
-%>
+--%>
 
 <% 
 	if(!Util.isDr(subInfo.getSubmissionItem().getItem()))
@@ -217,16 +217,20 @@ function enableDisableNext(stepReached){
 	{
 %>
 
-	<p><fmt:message key="jsp.submit.initial-questions.info"><fmt:param><%= drOrMaster %></fmt:param></fmt:message></p>
+<%--	<p><fmt:message key="jsp.submit.initial-questions.info"><fmt:param><%= drOrMaster %></fmt:param></fmt:message></p> --%>
 
-	<div class="input-group">
+	<%-- Hide radio buttons from view since there no longer is a choice of publishing or not. 
+		 Keep the code here with default choice "publish now" since this value is used later in the submission process and for export/import.
+	--%>
+
+	<div class="input-group hide">
 		<span class="input-group-addon">
 			<input type="radio" name="publish" value="publish_now" <%= now %> <%= onClick2 %> />
 		</span>
 		<label class="form-control" for="multiple_titles"><fmt:message key="ub.jsp.submit.initial-questions.publish-now-dr"/></label>
 	</div>
 
-	<div class="input-group">
+	<div class="input-group hide">
 		<span class="input-group-addon">
 			<input type="radio" name="publish" value="publish_never" <%= never %> <%= onClick2 %> />
 		</span>
@@ -243,6 +247,8 @@ function enableDisableNext(stepReached){
 		<!-- TODO: Fiks style alt etter valg -->
 		<label id="checklistLabel" class="form-control" for="multiple_titles"><fmt:message key="ub.jsp.submit.initial-questions.agreement-doctor"/></label>
 	</div>
+
+	<p style="margin-top: 10px;"><fmt:message key="ub.jsp.submit.initial-questions.agreement-info2-doctor" /></p>
 
 <%
 	}
