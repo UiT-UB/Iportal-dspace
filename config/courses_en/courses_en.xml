@@ -38,6 +38,7 @@ label       - the course name
 <course id="LIN-3990" department="3311" collection="2" label="Master's Thesis in linguistics (60 credits)" departmentname="Institutt for språkvitenskap" />
 <course id="LOG-3900" department="3317" collection="28" label="Master's Thesis in Speech Therapy (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3901" department="3317" collection="28" label="Master's thesis in the profession subject 1.-7. year (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
+<course id="LRU-3901F" department="3317" collection="28" label="Master's thesis in the profession subject year 1-7 (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3902" department="3317" collection="28" label="Master's Thesis in Didactics - English (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3903" department="3317" collection="28" label="Master's Thesis in Didactics  - Mathematics (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3904" department="3317" collection="28" label="Master's Thesis in Didactics - Norwegian (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />

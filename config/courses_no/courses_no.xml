@@ -37,6 +37,7 @@ label       - the course name
 <course id="LIN-3990" department="3311" collection="2" label="Mastergradsoppgave i lingvistikk (60 sp)" departmentname="Institutt for språkvitenskap" />
 <course id="LOG-3900" department="3317" collection="28" label="Masteroppgave i logopedi (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3901" department="3317" collection="28" label="Mastergradsoppgave i profesjonsfag 1.-7. trinn (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
+<course id="LRU-3901F" department="3317" collection="28" label="Mastergradsoppgave i profesjonsfag 1.-7. trinn (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3902" department="3317" collection="28" label="Mastergradsoppgave i engelskdidaktikk (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3903" department="3317" collection="28" label="Mastergradsoppgave i matematikkdidaktikk (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3904" department="3317" collection="28" label="Mastergradsoppgave i norskdidaktikk (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
