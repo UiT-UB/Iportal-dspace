@@ -781,6 +781,17 @@
 
        <field>
 		 <dc-schema>dc</dc-schema>
+         <dc-element>relation</dc-element>
+         <dc-qualifier>isbasedon</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Forskningsdatasett brukt i avhandlingen</label>
+         <input-type>textarea</input-type>
+         <hint>Oppgi referanse til forskningsdatasett som du har gjort bruk av i avhandlingen. Dersom du har brukt flere datasett, vennligst klikk på knappen ‘Registrer flere’.</hint>
+         <required></required>
+       </field>
+
+       <field>
+		 <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>researchtrainingcomponent</dc-qualifier>
          <repeatable>false</repeatable>

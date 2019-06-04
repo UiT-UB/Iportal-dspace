@@ -772,6 +772,17 @@
        </field>
 
        <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>relation</dc-element>
+         <dc-qualifier>isbasedon</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Research data set(s) used in your thesis</label>
+         <input-type>textarea</input-type>
+         <hint>Enter reference to research data set(s) used in your thesis. If you have used more than one data set, please click the ‘Add More’-button.</hint>
+         <required></required>
+       </field>
+
+       <field>
 		 <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>researchtrainingcomponent</dc-qualifier>
