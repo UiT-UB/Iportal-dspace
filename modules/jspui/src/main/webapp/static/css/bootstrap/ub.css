@@ -172,9 +172,14 @@ body.undernavigation {
 }
 
 .logo-bottom {
-    width: 80px; 
+    width: 100%; 
     padding-top: 12px; 
     padding-bottom: 12px;
+	max-width: 460px;
+}
+
+#footer_feedback .pull-right {
+	text-align: right;
 }
 
 /* Checklist styles */

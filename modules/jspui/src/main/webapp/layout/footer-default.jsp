@@ -42,16 +42,18 @@
 	      <div class="footer-wrap">
 	      <div id="designedby" class="container text-muted">
 		
-		<div id="footer_feedback" class="col-md-6"> 
-		  <p><fmt:message key="ub.jsp.layout.footer-default.about"/></p>
-		  <p><fmt:message key="ub.jsp.layout.footer-default.contact"/></p>
-		  <a href="<%= request.getContextPath() %>/htmlmap"></a>
+		<div class="col col-sm-8">
+			<a href="https://uit.no" target="_blank" title="UiT">
+			    <img class="logo-bottom" src="<%= request.getContextPath() %>/image/<fmt:message key="ub.jsp.logo-file"/>" alt="UiT logo" title="UiT logo" />
+			</a>
 		</div>
 		
-		<div class="col-md-6 pull-right">
-		  <div class="pull-right">
-		    <img class="logo-bottom" src="<%= request.getContextPath() %>/image/<fmt:message key="ub.jsp.logo-file"/>" alt="UiT logo" title="UiT logo" />
-		  </div>
+		<div id="footer_feedback" class="col col-sm-4"> 
+			<div class="pull-right">
+				<p><fmt:message key="ub.jsp.layout.footer-default.about"/></p>
+				<p><fmt:message key="ub.jsp.layout.footer-default.contact"/></p>
+				<a href="<%= request.getContextPath() %>/htmlmap"></a>
+			</div>
 		</div>
 		
 	      </div>
