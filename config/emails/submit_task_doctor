@@ -25,8 +25,9 @@ Innlevert:       {7}
 Type grad:       {8}
 Monografi/art:   {9}
 
-Kontaktinformasjon:
-{10}
+# Temporarily hide contact information
+#Kontaktinformasjon:
+#{10}
 
 Populærvitenskapelig sammendrag:
 {11}
