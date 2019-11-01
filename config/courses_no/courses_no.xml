@@ -11,10 +11,7 @@ label       - the course name
 
 <all label="Emner">
 		<unit label="Fakultet for humaniora, samfunnsvitenskap og lærerutdanning">
-<course id="ALI-3910" department="3312" collection="2" label="Mastergradsoppgave i allmenn litteraturvitenskap (60 sp)" departmentname="Institutt for kultur og litteratur" />
 <course id="ARK-3900" department="3316" collection="20" label="Masteroppgave i arkeologi (60 sp)" departmentname="Institutt for arkeologi og sosialantropologi" />
-<course id="DOK-3951" department="3312" collection="2" label="Mastergradsoppgave i dokumentforvaltning (60 sp)" departmentname="Institutt for kultur og litteratur" />
-<course id="DOK-3951" department="3312" collection="2" label="Mastergradsoppgave i dokumentforvaltning (45 sp)" departmentname="Institutt for kultur og litteratur" />
 <course id="ENG-3980" department="3311" collection="2" label="Mastergradsoppgave i engelsk språk ved lektorutdanningen (40 sp)" departmentname="Institutt for språkvitenskap" />
 <course id="ENG-3981" department="3312" collection="2" label="Mastergradsoppgave i engelsk litteratur ved lektorutdanningen (40 sp)" departmentname="Institutt for kultur og litteratur" />
 <course id="ENG-3982" department="3318" collection="2" label="Mastergradsoppgave i engelsk språk ved lektorutdanningen trinn 8-13, 40 studiepoeng (40 sp)" departmentname="Institutt for språk og kultur" />
@@ -25,10 +22,7 @@ label       - the course name
 <course id="FIL-3900" department="3313" collection="22" label="Masteroppgave i filosofi (60 sp)" departmentname="Institutt for filosofi og førstesemesterstudier" />
 <course id="FIN-3901" department="3311" collection="2" label="Mastergradsoppgave i finsk språk (60 sp)" departmentname="Institutt for språkvitenskap" />
 <course id="FIN-3910" department="3312" collection="2" label="Mastergradsoppgave i finsk litteratur (60 sp)" departmentname="Institutt for kultur og litteratur" />
-<course id="FIN-3940" department="3300" collection="2" label="Mastergradsoppgave i finsk - integrert 10 sp PPU (40 sp)" departmentname="Fakultet for humaniora, samfunnsvitenskap og lærer" />
-<course id="FRA-3901" department="3311" collection="2" label="Mastergradsoppgave i fransk språk (60 sp)" departmentname="Institutt for språkvitenskap" />
-<course id="FRA-3903" department="3300" collection="2" label="Mastergradsoppgave i fransk - integrert 10 sp PPU (40 sp)" departmentname="Fakultet for humaniora, samfunnsvitenskap og lærer" />
-<course id="FRA-3910" department="3312" collection="2" label="Mastergradsoppgave i fransk litteratur (60 sp)" departmentname="Institutt for kultur og litteratur" />
+<course id="HEL-3980" department="3319" collection="78" label="Masteroppgave  (50 sp)" departmentname="Institutt for barnevern og sosialt arbeid" />
 <course id="HIS-3900" department="3314" collection="23" label="Mastergradsoppgave i historie (60 sp)" departmentname="Institutt for historie og religionsvitenskap" />
 <course id="HIS-3980" department="3314" collection="23" label="Masteroppgave i historie ved lektorutdanninga (40 sp)" departmentname="Institutt for historie og religionsvitenskap" />
 <course id="IND-3901" department="3385" collection="91" label="GENI - Project Thesis (30 sp)" departmentname="Senter for Samiske Studier" />
@@ -36,6 +30,7 @@ label       - the course name
 <course id="KVI-3900" department="3312" collection="2" label="Mastergradsoppgave i kunstvitenskap (60 sp)" departmentname="Institutt for kultur og litteratur" />
 <course id="LIN-3990" department="3311" collection="2" label="Mastergradsoppgave i lingvistikk (60 sp)" departmentname="Institutt for språkvitenskap" />
 <course id="LOG-3900" department="3317" collection="28" label="Masteroppgave i logopedi (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
+<course id="LPU-3900" department="3317" collection="28" label="Mastergradsoppgave i ledelse og profesjonell utvikling i utdanningssektoren  (40 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3901" department="3317" collection="28" label="Mastergradsoppgave i profesjonsfag 1.-7. trinn (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3901F" department="3317" collection="28" label="Mastergradsoppgave i profesjonsfag 1.-7. trinn (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3902" department="3317" collection="28" label="Mastergradsoppgave i engelskdidaktikk (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
@@ -75,37 +70,32 @@ label       - the course name
 <course id="RUS-3981" department="3312" collection="2" label="Mastergradsoppgave i russisk litteratur ved lektorutdanningen (30 sp)" departmentname="Institutt for kultur og litteratur" />
 <course id="SAM-3900" department="3311" collection="2" label="Mastergradsoppgave i samisk språk (60 sp)" departmentname="Institutt for språkvitenskap" />
 <course id="SAM-3910" department="3312" collection="2" label="Mastergradsoppgave i samisk litteratur (60 sp)" departmentname="Institutt for kultur og litteratur" />
-<course id="SAM-3950" department="3311" collection="2" label="Mastergradsoppgave i samiskdidaktikk  (30 sp)" departmentname="Institutt for språkvitenskap" />
-<course id="SAM-3980" department="3311" collection="2" label="Mastergradsoppgave i samisk (morsmål) ved lektorutdanningen (40 sp)" departmentname="Institutt for språkvitenskap" />
 <course id="SAM-3981" department="3312" collection="2" label="Mastergradsoppgave i samisk litteratur ved lektorutdanningen (40 sp)" departmentname="Institutt for kultur og litteratur" />
 <course id="SAM-3982" department="3318" collection="2" label="Mastergradsoppgave i samisk språk ved lektorutdanningen trinn 8-13, 40 studiepoeng (40 sp)" departmentname="Institutt for språk og kultur" />
 <course id="SAM-3983" department="3318" collection="2" label="Mastergradsoppgave i samisk litteratur ved lektorutdanningen trinn 8-13, 40 studiepoeng (40 sp)" departmentname="Institutt for språk og kultur" />
-<course id="SOA-3900" department="3316" collection="33" label="Masteroppgave (60 sp)" departmentname="Institutt for arkeologi og sosialantropologi" />
-<course id="SOS-3900" department="3315" collection="34" label="Masteroppgave i sosiologi (60 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
-<course id="SOS-3980" department="3315" collection="34" label="Mastergradsoppgave i sosiologi ved lektorutdanningen (50 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
-<course id="SOS-3981" department="3315" collection="34" label="Mastergradsoppgave i sosiologi ved lektorutdanningen trinn 8-13, 40 studiepoeng (40 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
+<course id="SOA-3900" department="3316" collection="26" label="Masteroppgave (60 sp)" departmentname="Institutt for arkeologi og sosialantropologi" />
+<course id="SOS-3900" department="3315" collection="26" label="Masteroppgave i sosiologi (60 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
+<course id="SOS-3980" department="3315" collection="26" label="Mastergradsoppgave i sosiologi ved lektorutdanningen (50 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
+<course id="SOS-3981" department="3315" collection="26" label="Mastergradsoppgave i sosiologi ved lektorutdanningen trinn 8-13, 40 studiepoeng (40 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
 <course id="SPA-3980" department="3311" collection="2" label="Mastergradsoppgave i spansk språk ved lektorutdanningen (50 sp)" departmentname="Institutt for språkvitenskap" />
-<course id="SPA-3981" department="3312" collection="2" label="Mastergradsoppgave i spansk litteratur ved lektorutdanningen (50 sp)" departmentname="Institutt for kultur og litteratur" />
 <course id="SPA-3982" department="3318" collection="2" label="Mastergradsoppgave i spansk språk ved lektorutdanningen trinn 8-13, 40 studiepoeng (40 sp)" departmentname="Institutt for språk og kultur" />
 <course id="SPA-3983" department="3318" collection="2" label="Mastergradsoppgave i spansk litteratur ved lektorutdanningen trinn 8-13, 40 studiepoeng (40 sp)" departmentname="Institutt for språk og kultur" />
 <course id="SPA-3991" department="3311" collection="2" label="Mastergradsoppgave i spansk språk (60 sp)" departmentname="Institutt for språkvitenskap" />
 <course id="SPA-3992" department="3312" collection="2" label="Mastergradsoppgave i spansk litteratur (60 sp)" departmentname="Institutt for kultur og litteratur" />
-<course id="SPA-3993" department="3311" collection="2" label="Mastergradsoppgave i spansk - integrert PPU (40 sp)" departmentname="Institutt for språkvitenskap" />
 <course id="SPEMG_06-7-FM" department="3317" collection="28" label="Master i spesialpedagogikk og tilpasset opplæring (uten muntlig høring) (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
-<course id="SPL-3900" department="3315" collection="29" label="Masteroppgave (60 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
-<course id="SPL-6900" department="3315" collection="29" label="Masteroppgave Stedsutvikling (40 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
+<course id="SPL-3900" department="3315" collection="26" label="Masteroppgave (60 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
+<course id="SPL-6900" department="3315" collection="26" label="Masteroppgave Stedsutvikling (40 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
 <course id="SSO-3900" department="3319" collection="78" label="Masteroppgave sosialt arbeid (45 sp)" departmentname="Institutt for barnevern og sosialt arbeid" />
 <course id="SSO-3901" department="3319" collection="78" label="Masteroppgave sosialt arbeid (45 sp)" departmentname="Institutt for barnevern og sosialt arbeid" />
-<course id="STV-3900" department="3315" collection="36" label="Masteroppgave i statsvitenskap (50 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
+<course id="STV-3900" department="3315" collection="26" label="Masteroppgave i statsvitenskap (50 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
 <course id="STV-3901" department="3315" collection="26" label="Masteroppgave i organisasjon og ledelse (50 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
-<course id="STV-3906" department="3315" collection="36" label="Masteroppgave i strategisk ledelse og økonomi (MBA) (30 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
-<course id="STV-3908" department="3315" collection="36" label="Mastergradsoppgave i statsvitenskap ved lektorutdanningen, trinn 8-13 (50 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
+<course id="STV-3906" department="3315" collection="26" label="Masteroppgave i strategisk ledelse og økonomi (MBA) (30 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
+<course id="STV-3908" department="3315" collection="26" label="Mastergradsoppgave i statsvitenskap ved lektorutdanningen, trinn 8-13 (50 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
 <course id="STV-3909" department="3315" collection="26" label="Mastergradsoppgave i Master of public administration - MPA (30 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
+<course id="STV-3910" department="3315" collection="26" label="Masteroppgave i strategisk ledelse og økonomi (MBA) (30 sp)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
 <course id="SVF-3901" department="3300" collection="27" label="Master's Thesis in Peace and Conflict Transformation (40 sp)" departmentname="Fakultet for humaniora, samfunnsvitenskap og lærer" />
-<course id="SVF-3903" department="3316" collection="38" label="Fra feltarbeid til etnografisk film og tekst (60 sp)" departmentname="Institutt for arkeologi og sosialantropologi" />
-<course id="SVF-3904" department="3300" collection="25" label="Masteroppgave i urfolksstudier (60 sp)" departmentname="Fakultet for humaniora, samfunnsvitenskap og lærer" />
+<course id="SVF-3903" department="3316" collection="26" label="Fra feltarbeid til etnografisk film og tekst (60 sp)" departmentname="Institutt for arkeologi og sosialantropologi" />
 <course id="SVF-3906" department="3314" collection="23" label="Mastergradsoppgave i Russlandsstudier, studieretning kultur, samfunn og historie - 45 stp (45 sp)" departmentname="Institutt for historie og religionsvitenskap" />
-<course id="TYS-3910" department="3312" collection="2" label="Mastergradsoppgave i tysk litteratur (60 sp)" departmentname="Institutt for kultur og litteratur" />
 <course id="TYS-3930" department="3300" collection="2" label="Mastergradsoppgave i tysk - integrert 10 sp PPU (40 sp)" departmentname="Fakultet for humaniora, samfunnsvitenskap og lærer" />
 		</unit>
 		<unit label="Fakultet for biovitenskap, fiskeri og økonomi">
@@ -138,7 +128,6 @@ label       - the course name
 <course id="HEL-3904" department="3117" collection="44" label="Mastergradsoppgave i helsefag, studieretning aldring og eldreomsorg (40 sp)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="HEL-3950" department="3112" collection="44" label="Masteroppgave i folkehelsevitenskap (30 sp)" departmentname="Institutt for samfunnsmedisin" />
 <course id="HEL-3960" department="3117" collection="44" label="Masteroppgave i helsefag (60 sp)" departmentname="Institutt for helse- og omsorgsfag" />
-<course id="HEL-3980" department="3191" collection="44" label="Masteroppgave  (50 sp)" departmentname="Kunnskapssenter for barn og unges utvikling i Nord" />
 <course id="HEL-3990" department="3117" collection="44" label="Mastergradsoppgave i helsefag, studieretning klinisk nevrologisk fysioterapi (40 sp)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="IDR-3901" department="3118" collection="73" label="Masteroppgave idrett (60 sp)" departmentname="Idrettshøgskolen" />
 <course id="MBI-3911" department="3111" collection="45" label="Master's Thesis in Biomedicine (60 sp)" departmentname="Institutt for medisinsk biologi" />
@@ -165,8 +154,7 @@ label       - the course name
 <course id="INF-3981" department="3214" collection="7" label="Mastergradsoppgave i Informatikk (30 sp)" departmentname="Institutt for informatikk" />
 <course id="INF-3990" department="3214" collection="7" label="Mastergradsoppgave i informatikk (60 sp)" departmentname="Institutt for informatikk" />
 <course id="INF-3997" department="3214" collection="7" label="Mastergradsoppgave i telemedisin og e-helse (60 sp)" departmentname="Institutt for informatikk" />
-<course id="KJE-3900" department="3215" collection="75" label="Mastergradsoppgave i kjemi (60 sp)" departmentname="Institutt for kjemi" />
-<course id="KJE-3906" department="3215" collection="75" label="Masteroppgave i kjemi - lærerutdanning (30 sp)" departmentname="Institutt for kjemi" />
+<course id="KJE-3900" department="3215" collection="75" label="Master's Thesis in Molecular Science (60 sp)" departmentname="Institutt for kjemi" />
 <course id="KJE-3907" department="3215" collection="75" label="Mastergradsoppgave i kjemi ved lektorutdanningen trinn 8 - 13, 40 studiepoeng (40 sp)" departmentname="Institutt for kjemi" />
 <course id="MAT-3900" department="3216" collection="8" label="Mastergradsoppgave i matematikk (60 sp)" departmentname="Institutt for matematikk og statistikk" />
 <course id="MAT-3901" department="3216" collection="8" label="Mastergradsoppgave i matematikk (30 sp)" departmentname="Institutt for matematikk og statistikk" />
@@ -192,7 +180,6 @@ label       - the course name
 		<unit label="Fakultet for ingeniørvitenskap og teknologi">
 <course id="ELE-3900" department="3813" collection="86" label="Hovedoppgave - M-EL (30 sp)" departmentname="Institutt for elektroteknologi" />
 <course id="SHO6261" department="3812" collection="85" label="Hovedoppgave - M-IB (30 sp)" departmentname="Institutt for bygg, energi og materialteknologi" />
-<course id="SHO6262" department="3813" collection="86" label="Hovedoppgave - M-EL (35 sp)" departmentname="Institutt for elektroteknologi" />
 <course id="SHO6263" department="3814" collection="87" label="Hovedoppgave - M-ID (30 sp)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag " />
 <course id="SHO6264" department="3814" collection="87" label="Hovedoppgave - M-IT (30 sp)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag " />
 <course id="SHO6266" department="3811" collection="88" label="Hovedoppgave - M-IN (45 sp)" departmentname="Institutt for industriell teknologi" />
