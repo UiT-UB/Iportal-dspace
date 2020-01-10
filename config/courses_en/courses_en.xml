@@ -137,6 +137,7 @@ label       - the course name
 <course id="MFMO30" department="3119" collection="81" label="Master's Degree Thesis 30 ECTS (30 credits)" departmentname="Insitutt for barnevern og sosialt arbeid" />
 <course id="MFMO60" department="3119" collection="81" label="Master's Degree Thesis 60 ECTS (60 credits)" departmentname="Insitutt for barnevern og sosialt arbeid" />
 <course id="ODO-3901" department="3115" collection="42" label="Master's Thesis in Dentistry (20 credits)" departmentname="Institutt for klinisk odontologi" />
+<course id="ODO-3920" department="3115" collection="42" label="FL-Project Assignment (90 credits)" departmentname="Institutt for klinisk odontologi" />
 <course id="PSY-2901" department="3116" collection="30" label="Master Thesis (30 credits)" departmentname="Institutt for psykologi" />
 <course id="PSY-3900" department="3116" collection="31" label="Master's Thesis in Psychology (60 credits)" departmentname="Institutt for psykologi" />
 <course id="SYP-3901" department="3117" collection="44" label="Master thesis in Nursing (40 credits)" departmentname="Institutt for helse- og omsorgsfag" />
