@@ -51,16 +51,21 @@
 
 %>
 
-       <div class="navbar-header navbar-background">
+       <div class="navbar-header">
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
          </button>
          <%--<a class="navbar-brand" href="<%= request.getContextPath() %>/"><img height="25px" src="<%= request.getContextPath() %>/image/dspace-logo-only.png" /></a>--%>
-         <a class="navbar-brand" href="<%= request.getContextPath() %>/"><img height="100px" src="<%= request.getContextPath() %>/image/<fmt:message key="ub.jsp.navnetrekk-file"/>" /></a>
+         <a class="navbar-brand" href="<%= request.getContextPath() %>/">
+			 <img class="img-responsive" src="<%= request.getContextPath() %>/image/<fmt:message key="ub.jsp.navnetrekk-file"/>" />
+		 </a>
+	     <a class="navbar-brand-bottom" href="<%= request.getContextPath() %>/">
+		     <img class="img-responsive banner-bottom" src="<%= request.getContextPath() %>/image/banner-bottom.png"/>
+		 </a>
        </div>
-	   <nav class="collapse navbar-collapse bs-navbar-collapse navbar-background" role="navigation">
+	   <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
          <ul class="nav navbar-nav">
            <li><a href="<%= request.getContextPath() %>/"><span class="glyphicon glyphicon-home"></span> <fmt:message key="jsp.layout.navbar-default.home"/></a></li>
            

@@ -57,10 +57,15 @@
 %>
 
 
-       <div class="navbar-header navbar-background">
-	 <a class="navbar-brand" href="<%= request.getContextPath() %>/"><img height="100px" src="<%= request.getContextPath() %>/image/<fmt:message key="ub.jsp.navnetrekk-file"/>" /></a>
+       <div class="navbar-header">
+	 <a class="navbar-brand" href="<%= request.getContextPath() %>/">
+		<img class="img-responsive" src="<%= request.getContextPath() %>/image/<fmt:message key="ub.jsp.navnetrekk-file"/>" />
+	 </a>
+     <a class="navbar-brand-bottom" href="<%= request.getContextPath() %>/">
+        <img class="img-responsive banner-bottom" src="<%= request.getContextPath() %>/image/banner-bottom.png"/>
+     </a>
        </div>
-       <nav class="collapse navbar-collapse bs-navbar-collapse navbar-background" role="navigation">
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
        <div class="nav navbar-nav navbar-right">
 	 <ul class="nav navbar-nav navbar-right">
  

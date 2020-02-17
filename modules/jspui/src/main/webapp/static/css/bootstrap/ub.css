@@ -142,24 +142,6 @@ body.undernavigation {
     clear: both;
 }
 
-/* Navbar background */
-@media (max-width: 767px) {
-    .navbar-background {
-	background: url('../../../image/munin-banner-background_300.png') no-repeat;
-    }
-}
-
-@media (min-width: 768px) {
-    nav.navbar-background{
-	background: url('../../../image/munin-banner-background_400.png') no-repeat;
-    }
-}
-@media (max-width: 767px) {
-    nav.navbar-background{
-	background: none;
-    }
-}
-
 /* Horizontal line below banner  */
 .header-line {
     border-top:1px solid #00617f; 
@@ -240,3 +222,28 @@ body.undernavigation {
 	display: none;
 }
 
+/* Image under banner */
+
+.navbar-brand {
+    height: 100px;
+    padding: 10px 0px;
+}
+
+.banner-bottom {
+    max-height: 15px;
+    float: right;
+}
+
+.navbar-brand-bottom{
+    float: left;
+    clear: left;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    width: 100%;
+}
+
+header .navbar-brand img {
+  height: auto;
+  max-height: 80px;
+}
