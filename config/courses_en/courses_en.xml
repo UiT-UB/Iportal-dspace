@@ -131,6 +131,7 @@ label       - the course name
 <course id="ODO-3920" department="3115" collection="42" label="FL-Project Assignment (90 credits)" departmentname="Institutt for klinisk odontologi" />
 <course id="PSY-2901" department="3116" collection="30" label="Master Thesis (30 credits)" departmentname="Institutt for psykologi" />
 <course id="PSY-3900" department="3116" collection="31" label="Master's Thesis in Psychology (60 credits)" departmentname="Institutt for psykologi" />
+<course id="PSY-8015" department="3116" collection="42" label="Research article (90 credits)" departmentname="Institutt for psykologi" />
 <course id="SYP-3901" department="3117" collection="44" label="Master thesis in Nursing (40 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="SYP-3902 " department="3117" collection="44" label="Master thesis in nursing (30 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="TLM-3902" department="3113" collection="45" label="Master's Thesis in Telemedicine and E-health (60 credits)" departmentname="Institutt for klinisk medisin" />

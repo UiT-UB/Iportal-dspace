@@ -130,6 +130,7 @@ label       - the course name
 <course id="ODO-3920" department="3115" collection="42" label="FL-Prosjektoppgave (90 sp)" departmentname="Institutt for klinisk odontologi" />
 <course id="PSY-2901" department="3116" collection="30" label="Hovedoppgave (30 sp)" departmentname="Institutt for psykologi" />
 <course id="PSY-3900" department="3116" collection="31" label="Masteroppgave i psykologi (60 sp)" departmentname="Institutt for psykologi" />
+<course id="PSY-8015" department="3116" collection="42" label="Research article (90 sp)" departmentname="Institutt for psykologi" />
 <course id="SYP-3901" department="3117" collection="44" label="Masteroppgave i sykepleie (40 sp)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="SYP-3902 " department="3117" collection="44" label="Masteroppgave i sykepleie (30 sp)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="TLM-3902" department="3113" collection="45" label="Masteroppgave i telemedisin og e-helse (60 sp)" departmentname="Institutt for klinisk medisin" />
