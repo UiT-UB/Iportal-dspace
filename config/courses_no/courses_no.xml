@@ -157,7 +157,7 @@ label       - the course name
 <course id="STA-3900" department="3216" collection="8" label="Mastergradsoppgave i statistikk (60 sp)" departmentname="Institutt for matematikk og statistikk" />
 <course id="STA-3901" department="3216" collection="8" label="Mastergradsoppgave i statistikk (30 sp)" departmentname="Institutt for matematikk og statistikk" />
 <course id="STA-3941" department="3216" collection="8" label="Master's thesis in applied physics and mathematics (30 sp)" departmentname="Institutt for matematikk og statistikk" />
-<course id="SVF-3920" department="3217" collection="74" label="Masteroppgave i samfunnssikkerhet fordypning Sikkerhet og beredskap i nordområdene (30 sp)" departmentname="Institutt for ingeniørvitenskap og sikkerhet" />
+<course id="SVF-3920" department="3217" collection="74" label="Masteroppgave i samfunnssikkerhet (30 sp)" departmentname="Institutt for teknologi og sikkerhet" />
 <course id="TEK-3901" department="3217" collection="67" label="Masteroppgave i teknologi og sikkerhet (30 sp)" departmentname="Institutt for ingeniørvitenskap og sikkerhet" />
 		</unit>
 		<unit label="Det juridiske fakultet">
