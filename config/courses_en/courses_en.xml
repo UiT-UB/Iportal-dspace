@@ -31,6 +31,7 @@ label       - the course name
 <course id="KVI-3900" department="3312" collection="2" label="Master's Thesis in Art History (60 credits)" departmentname="Institutt for kultur og litteratur" />
 <course id="LIN-3990" department="3311" collection="2" label="Master's Thesis in linguistics (60 credits)" departmentname="Institutt for språkvitenskap" />
 <course id="LOG-3900" department="3317" collection="28" label="Master's Thesis in Speech Therapy (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
+<course id="LOG-3901" department="3317" collection="28" label="Master's Thesis in logopaedics/speech and language therapy (40 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LPU-3900" department="3317" collection="28" label="Master Thesis of management and professional development in education (40 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3901" department="3317" collection="28" label="Master's thesis in the profession subject 1.-7. year (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3901F" department="3317" collection="28" label="Master's thesis in the profession subject year 1-7 (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
