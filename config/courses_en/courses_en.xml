@@ -30,7 +30,6 @@ label       - the course name
 <course id="IND-3904" department="3385" collection="25" label="Master's Thesis in Indigenous Studies (60 credits)" departmentname="Senter for Samiske Studier" />
 <course id="KVI-3900" department="3312" collection="2" label="Master's Thesis in Art History (60 credits)" departmentname="Institutt for kultur og litteratur" />
 <course id="LIN-3990" department="3311" collection="2" label="Master's Thesis in linguistics (60 credits)" departmentname="Institutt for språkvitenskap" />
-<course id="LOG-3900" department="3317" collection="28" label="Master's Thesis in Speech Therapy (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LOG-3901" department="3317" collection="28" label="Master's Thesis in logopaedics/speech and language therapy (40 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LPU-3900" department="3317" collection="28" label="Master Thesis of management and professional development in education (40 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3901" department="3317" collection="28" label="Master's thesis in the profession subject 1.-7. year (30 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
@@ -169,8 +168,9 @@ label       - the course name
 		<unit label="The Arctic University Museum of Norway and Academy of Fine Arts">
 <course id="MUS-3901" department="4114" collection="70" label="Master in Music Performance (30 credits)" departmentname="Musikkonservatoriet" />
 <course id="MUS-3902" department="4114" collection="63" label="The master's thesis in ear training with didactic and practice (30 credits)" departmentname="Musikkonservatoriet" />
-<course id="SAK-3900" department="4113" collection="90" label="Master Project (60 credits)" departmentname="Kunstakademiet" />
 <course id="LRU-3906" department="4114" collection="28" label="Master's Thesis in Art and Design Education (30 credits)" departmentname="Musikkonservatoriet" />
+<course id="SAK-3009" department="4113" collection="90" label="Advanced artistic work (30 credits)" departmentname="Kunstakademiet" />
+<course id="SAK-3905" department="4113" collection="90" label="Master's thesis - degree exhibition (30 credits)" departmentname="Kunstakademiet" />
 		</unit>
 		<unit label="Faculty of Engineering Science and Technology">
 <course id="ELE-3900" department="3813" collection="86" label="Diploma Thesis - M-EL (30 credits)" departmentname="Institutt for elektroteknologi" />

@@ -29,7 +29,6 @@ label       - the course name
 <course id="IND-3904" department="3385" collection="25" label="Master's Thesis in Indigenous Studies (60 sp)" departmentname="Senter for Samiske Studier" />
 <course id="KVI-3900" department="3312" collection="2" label="Mastergradsoppgave i kunstvitenskap (60 sp)" departmentname="Institutt for kultur og litteratur" />
 <course id="LIN-3990" department="3311" collection="2" label="Mastergradsoppgave i lingvistikk (60 sp)" departmentname="Institutt for språkvitenskap" />
-<course id="LOG-3900" department="3317" collection="28" label="Masteroppgave i logopedi (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LOG-3901" department="3317" collection="28" label="Masteroppgave i logopedi (40 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LPU-3900" department="3317" collection="28" label="Mastergradsoppgave i ledelse og profesjonell utvikling i utdanningssektoren  (40 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="LRU-3901" department="3317" collection="28" label="Mastergradsoppgave i profesjonsfag 1.-7. trinn (30 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
@@ -168,8 +167,9 @@ label       - the course name
 		<unit label="Norges arktiske universitetsmuseum og akademi for kunstfag">
 <course id="MUS-3901" department="4114" collection="70" label="Masterkonsert - hovedinstrument (30 sp)" departmentname="Musikkonservatoriet" />
 <course id="MUS-3902" department="4114" collection="63" label="Masteroppgave i hørelære med didaktikk og praksis (30 sp)" departmentname="Musikkonservatoriet" />
-<course id="SAK-3900" department="4113" collection="90" label="Master Project (60 sp)" departmentname="Kunstakademiet" />
 <course id="LRU-3906" department="4114" collection="28" label="Mastergradsoppgave i musikkdidaktikk (30 sp)" departmentname="Musikkonservatoriet" />
+<course id="SAK-3009" department="4113" collection="90" label="Advanced artistic work (30 sp)" departmentname="Kunstakademiet" />
+<course id="SAK-3905" department="4113" collection="90" label="Master's thesis - degree exhibition (30 sp)" departmentname="Kunstakademiet" />
 		</unit>
 		<unit label="Fakultet for ingeniørvitenskap og teknologi">
 <course id="ELE-3900" department="3813" collection="86" label="Hovedoppgave - M-EL (30 sp)" departmentname="Institutt for elektroteknologi" />
