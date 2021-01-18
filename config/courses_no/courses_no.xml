@@ -120,6 +120,7 @@ label       - the course name
 <course id="HEL-3960" department="3117" collection="44" label="Masteroppgave i helsefag (60 sp)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="HEL-3990" department="3117" collection="44" label="Mastergradsoppgave i helsefag, studieretning klinisk nevrologisk fysioterapi (40 sp)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="IDR-3901" department="3118" collection="73" label="Masteroppgave idrett (60 sp)" departmentname="Idrettshøgskolen" />
+<course id="JMO-3008" department="3117" collection="44" label="Masteroppgave i jordmorfag (30 sp)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="MBI-3911" department="3111" collection="45" label="Master's Thesis in Biomedicine (60 sp)" departmentname="Institutt for medisinsk biologi" />
 <course id="MED-3910" department="3100" collection="42" label="Prosjektoppgave forskerlinja (90 sp)" departmentname="Det helsevitenskapelige fakultet" />
 <course id="MED-3950" department="3100" collection="9" label="Masteroppgave medisin (20 sp)" departmentname="Det helsevitenskapelige fakultet" />
@@ -132,7 +133,6 @@ label       - the course name
 <course id="PSY-8015" department="3116" collection="42" label="Research article (90 sp)" departmentname="Institutt for psykologi" />
 <course id="SYP-3901" department="3117" collection="44" label="Masteroppgave i sykepleie (40 sp)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="SYP-3902 " department="3117" collection="44" label="Masteroppgave i sykepleie (30 sp)" departmentname="Institutt for helse- og omsorgsfag" />
-<course id="TLM-3902" department="3113" collection="45" label="Masteroppgave i telemedisin og e-helse (60 sp)" departmentname="Institutt for klinisk medisin" />
 		</unit>
 		<unit label="Fakultet for naturvitenskap og teknologi">
 <course id="EOM-3901" department="3200" collection="69" label="Master's Thesis in Energy, Climate and Environment (30 sp)" departmentname="Fakultet for naturvitenskap og teknologi" />

@@ -121,6 +121,7 @@ label       - the course name
 <course id="HEL-3960" department="3117" collection="44" label="Master thesis in health science (60 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="HEL-3990" department="3117" collection="44" label="Master's Thesis in Health Science, clinical neurological physiotherapy (40 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="IDR-3901" department="3118" collection="73" label="Master thesis sport (60 credits)" departmentname="Idrettshøgskolen" />
+<course id="JMO-3008" department="3117" collection="44" label="Master's thesis in midwifery (30 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="MBI-3911" department="3111" collection="45" label="Master's Thesis in Biomedicine (60 credits)" departmentname="Institutt for medisinsk biologi" />
 <course id="MED-3910" department="3100" collection="42" label="Research project (90 credits)" departmentname="Det helsevitenskapelige fakultet" />
 <course id="MED-3950" department="3100" collection="9" label="Master thesis in medicine (20 credits)" departmentname="Det helsevitenskapelige fakultet" />
@@ -133,7 +134,6 @@ label       - the course name
 <course id="PSY-8015" department="3116" collection="42" label="Research article (90 credits)" departmentname="Institutt for psykologi" />
 <course id="SYP-3901" department="3117" collection="44" label="Master thesis in Nursing (40 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="SYP-3902 " department="3117" collection="44" label="Master thesis in nursing (30 credits)" departmentname="Institutt for helse- og omsorgsfag" />
-<course id="TLM-3902" department="3113" collection="45" label="Master's Thesis in Telemedicine and E-health (60 credits)" departmentname="Institutt for klinisk medisin" />
 		</unit>
 		<unit label="Faculty of  Science and Technology">
 <course id="EOM-3901" department="3200" collection="69" label="Master's Thesis in Energy, Climate and Environment (30 credits)" departmentname="Fakultet for naturvitenskap og teknologi" />
