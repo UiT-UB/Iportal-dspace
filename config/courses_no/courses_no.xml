@@ -53,9 +53,9 @@ label       - the course name
 <course id="PED-6900" department="3317" collection="28" label="Mastergradsoppgave i kultur og profesjon (60 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="PFF-3602" department="3317" collection="19" label="Masterprogram i aksjonslæring - mastergradsoppgave (35 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="PFF-6900" department="3317" collection="19" label="Masteroppgaven i aksjonslæring for ledere  (35 sp)" departmentname="Institutt for lærerutdanning og pedagogikk" />
-<course id="REI-3020" department="3320" collection="71" label="Master Thesis in Tourism (50 sp)" departmentname="Insitutt for reiseliv og nordlige studier" />
-<course id="REI-3020" department="3320" collection="71" label="Master Thesis in Tourism (50 sp)" departmentname="Insitutt for reiseliv og nordlige studier" />
-<course id="REI-3020" department="3320" collection="71" label="Master Thesis in Tourism (50 sp)" departmentname="Insitutt for reiseliv og nordlige studier" />
+<course id="REI-3020" department="3320" collection="71" label="Master Thesis in Tourism (50 sp)" departmentname="Institutt for reiseliv og nordlige studier" />
+<course id="REI-3901" department="3320" collection="71" label="Masteroppgave i reiselivsledelse (30 sp)" departmentname="Institutt for reiseliv og nordlige studier" />
+<course id="REI-3910" department="3320" collection="71" label="Master's thesis (45 sp)" departmentname="Institutt for reiseliv og nordlige studier" />
 <course id="REL-3900" department="3314" collection="32" label="Mastergradsoppgave i religionsvitenskap (60 sp)" departmentname="Institutt for arkeologi, historie, religionsvitenskap og teologi" />
 <course id="REL-3901" department="3314" collection="32" label="Mastergradsoppgave i teologi (30 sp)" departmentname="Institutt for arkeologi, historie, religionsvitenskap og teologi" />
 <course id="REL-3980" department="3314" collection="32" label="Mastergradsoppgave i religionsvitenskap ved lektorutdanninga (40 sp)" departmentname="Institutt for arkeologi, historie, religionsvitenskap og teologi" />
@@ -170,10 +170,13 @@ label       - the course name
 		<unit label="Fakultet for ingeniørvitenskap og teknologi">
 <course id="ELE-3900" department="3813" collection="86" label="Hovedoppgave - M-EL (30 sp)" departmentname="Institutt for elektroteknologi" />
 <course id="SHO6261" department="3812" collection="85" label="Hovedoppgave - M-IB (30 sp)" departmentname="Institutt for bygg, energi og materialteknologi" />
-<course id="SHO6263" department="3814" collection="87" label="Hovedoppgave - M-ID (30 sp)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
-<course id="SHO6264" department="3814" collection="87" label="Hovedoppgave - M-IT (30 sp)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
-<course id="SHO6266" department="3811" collection="88" label="Hovedoppgave - M-IN (45 sp)" departmentname="Institutt for industriell teknologi" />
-<course id="SHO6300" department="3813" collection="86" label="Masteroppgave - M-ST (40 sp)" departmentname="Institutt for elektroteknologi" />
+<course id="BYG-3900" department="3812" collection="85" label="Masteroppgave - M-IB (30 sp)" departmentname="Institutt for bygg, energi og materialteknologi" />
+<course id="END-3900" department="3814" collection="87" label="Master Thesis - M-ID (30 sp)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
+<course id="END-3970" department="3814" collection="87" label="Master Thesis for Exchange Students (20 sp)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
+<course id="DTE-3900" department="3814" collection="87" label="Master Thesis – M-IT (30 sp)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
+<course id="INE-3900" department="3811" collection="88" label="Thesis - M-IN (45 sp)" departmentname="Institutt for industriell teknologi" />
+<course id="STE-3900" department="3813" collection="86" label="Masteroppgave  (40 sp)" departmentname="Institutt for elektroteknologi" />
+course id="SHO6300" department="3813" collection="86" label="Masteroppgave - M-ST (40 sp)" departmentname="Institutt for elektroteknologi" />
 		</unit>
 </all>
 

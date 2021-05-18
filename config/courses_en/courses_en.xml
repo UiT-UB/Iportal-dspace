@@ -54,9 +54,9 @@ label       - the course name
 <course id="PED-6900" department="3317" collection="28" label="Master's Thesis in Culture and Profession Studies  (60 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="PFF-3602" department="3317" collection="19" label="Master Program in Action Learning- masterpaper (35 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
 <course id="PFF-6900" department="3317" collection="19" label="Master thesis in action learning for school leaders (35 credits)" departmentname="Institutt for lærerutdanning og pedagogikk" />
-<course id="REI-3020" department="3320" collection="71" label="Master Thesis in Tourism (50 credits)" departmentname="Insitutt for reiseliv og nordlige studier" />
-<course id="REI-3020" department="3320" collection="71" label="Master Thesis in Tourism (50 credits)" departmentname="Insitutt for reiseliv og nordlige studier" />
-<course id="REI-3020" department="3320" collection="71" label="Master Thesis in Tourism (50 credits)" departmentname="Insitutt for reiseliv og nordlige studier" />
+<course id="REI-3901" department="3320" collection="71" label="Master Thesis Tourism Management (30 credits)" departmentname="Institutt for reiseliv og nordlige studier" />
+<course id="REI-3910" department="3320" collection="71" label="Master's thesis (45 credits)" departmentname="Institutt for reiseliv og nordlige studier" />
+<course id="REI-3020" department="3320" collection="71" label="Master Thesis in Tourism (50 credits)" departmentname="Institutt for reiseliv og nordlige studier" />
 <course id="REL-3900" department="3314" collection="32" label="Master's Thesis in History of Religions (60 credits)" departmentname="Institutt for arkeologi, historie, religionsvitenskap og teologi" />
 <course id="REL-3901" department="3314" collection="32" label="Master's Thesis, Studies in Theology (30 credits)" departmentname="Institutt for arkeologi, historie, religionsvitenskap og teologi" />
 <course id="REL-3980" department="3314" collection="32" label="Master's Thesis in Religious Studies and Education (40 credits)" departmentname="Institutt for arkeologi, historie, religionsvitenskap og teologi" />
@@ -170,9 +170,14 @@ label       - the course name
 <course id="SAK-3905" department="4113" collection="90" label="Master's thesis - degree exhibition (30 credits)" departmentname="Kunstakademiet" />
 		</unit>
 		<unit label="Faculty of Engineering Science and Technology">
-<course id="MUS-3901" department="4114" collection="70" label="Master in Music Performance (30 credits)" departmentname="Musikkonservatoriet" />
-<course id="MUS-3902" department="4114" collection="63" label="The master's thesis in ear training with didactic and practice (30 credits)" departmentname="Musikkonservatoriet" />
-<course id="LRU-3906" department="4114" collection="28" label="Master's Thesis in Art and Design Education (30 credits)" departmentname="Musikkonservatoriet" />
+<course id="ELE-3900" department="3813" collection="86" label="Diploma Thesis - M-EL (30 credits)" departmentname="Institutt for elektroteknologi" />
+<course id="SHO6261" department="3812" collection="85" label="Diploma Thesis - M-IB (30 credits)" departmentname="Institutt for bygg, energi og materialteknologi" />
+<course id="BYG-3900" department="3812" collection="85" label="Master Thesis - M-IB (30 credits)" departmentname="Institutt for bygg, energi og materialteknologi" />
+<course id="END-3900" department="3814" collection="87" label="Master Thesis - M-ID (30 credits)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
+<course id="END-3970" department="3814" collection="87" label="Master Thesis for Exchange Students (20 credits)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
+<course id="DTE-3900" department="3814" collection="87" label="Master Thesis – M-IT (30 credits)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
+<course id="INE-3900" department="3811" collection="88" label="Thesis - M-IN (45 credits)" departmentname="Institutt for industriell teknologi" />
+<course id="STE-3900" department="3813" collection="86" label="Master thesis  (40 credits)" departmentname="Institutt for elektroteknologi" />
 <course id="SAK-3905" department="4113" collection="90" label="Master's thesis - degree exhibition (30 credits)" departmentname="Kunstakademiet" />
 		</unit>
 </all>
