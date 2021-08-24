@@ -94,7 +94,7 @@
          <repeatable>true</repeatable>
          <label>Forfatter</label>
          <input-type>name</input-type>
-         <hint> </hint>
+         <hint>Forfatternavnet som fremkommer i dette feltet må av tekniske grunner være identisk med navnet slik det står skrevet på forsiden av oppgaven. Hvis dette ikke er tilfelle, må du endre navnet ditt her.</hint>
          <required>Du må fylle ut navnet til forfatteren</required>
        </field>
 
@@ -203,9 +203,9 @@
          <repeatable>false</repeatable>
          <label>Antall trykte eksemplarer</label>
          <input-type>onebox</input-type>
-		 <hint>Trykking: Her kan du be om at instituttet eller fakultetet skal lage trykte versjoner av oppgaven til deg. Oppgi hvor mange eksemplarer du ønsker skal trykkes.
-		 </hint>
-         <required>Du må oppgi hvor mange trykte eksemplarer du ønsker. Sett 0 (null) dersom du ikke ønsker trykte eksemplarer.</required>
+		 <hint>Trykking: Noen fakultet eller institutt tilbyr å lage trykte versjoner til deg. Sjekk med din enhet om trykking tilbys, og angi antall eksemplarer du ønsker. Dersom trykking ikke tilbys er feltet ikke aktuelt for deg.</hint>
+			 <!--<required>Du må oppgi hvor mange trykte eksemplarer du ønsker. Sett 0 (null) dersom du ikke ønsker trykte eksemplarer.</required>-->
+         <required></required>
        </field>
 
        <field>
@@ -402,7 +402,7 @@
          <repeatable>true</repeatable>
          <label>Forfatter</label>
          <input-type>name</input-type>
-         <hint> </hint>
+         <hint>Forfatternavnet som fremkommer i dette feltet må av tekniske grunner være identisk med navnet slik det står skrevet på forsiden av oppgaven. Hvis dette ikke er tilfelle, må du endre navnet ditt her.</hint>
          <required>Du må fylle ut navnet til forfatteren</required>
        </field>
 
@@ -708,7 +708,7 @@
          <repeatable>true</repeatable>
          <label>Kandidatens navn</label>
          <input-type>name</input-type>
-         <hint> </hint>
+         <hint>Navnet som fremkommer i dette feltet må av tekniske grunner være identisk med navnet slik det står skrevet på forsiden av avhandlingen. Hvis dette ikke er tilfelle, må du endre navnet ditt her.</hint>
          <required>Du må fylle ut navnet til kandidaten</required>
        </field>
 

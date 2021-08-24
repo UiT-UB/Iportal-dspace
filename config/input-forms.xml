@@ -91,7 +91,7 @@
          <repeatable>true</repeatable>
          <label>Author</label>
          <input-type>name</input-type>
-         <hint> </hint>
+         <hint>For technical reasons the author name in this field must be identical to the author name as written on the front page of the thesis. If this is not the case, you should edit the name here.</hint>
          <required>You must enter the name of the author</required>
        </field>
 
@@ -200,8 +200,9 @@
          <repeatable>false</repeatable>
          <label>Number of print copies</label>
          <input-type>onebox</input-type>
-         <hint>Printing: In this field you can ask the Institute or Faculty to make print copies of your thesis for you. Please indicate the number of print copies you want.</hint>
-         <required>You have to indicate how many print copies you want. Put 0 (zero) if you don’t want any print copies.</required>
+         <hint>Printing: Some faculties/departments offer to make print copies of your thesis for you. Check with your faculty/department whether they offer a print service and indicate the number of print copies you want. If printing is not offered this field is not applicable to you.</hint>
+			 <!--<required>You have to indicate how many print copies you want. Put 0 (zero) if you don’t want any print copies.</required>-->
+         <required></required>
        </field>
 
        <field>
@@ -395,7 +396,7 @@
          <repeatable>true</repeatable>
          <label>Author</label>
          <input-type>name</input-type>
-         <hint> </hint>
+         <hint>For technical reasons the author name in this field must be identical to the author name as written on the front page of the thesis. If this is not the case, you should edit the name here.</hint>
          <required>You must enter the name of the author</required>
        </field>
 
@@ -701,7 +702,7 @@
          <repeatable>true</repeatable>
          <label>Name of candidate</label>
          <input-type>name</input-type>
-         <hint> </hint>
+         <hint>For technical reasons the name in this field must be identical to the name as written on the front page of the thesis. If this is not the case, you should edit the name here.</hint>
          <required>You must enter the name of the author</required>
        </field>
 
