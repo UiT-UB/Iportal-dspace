@@ -19,8 +19,6 @@ label       - the course name
 <course id="ENG-3992" department="3318" collection="2" label="Master's Thesis in English Literature (60 credits)" departmentname="Institutt for språk og kultur" />
 <course id="ENG-3993" department="3300" collection="2" label="Master's Thesis in English and Education (40 credits)" departmentname="Fakultet for humaniora, samfunnsvitenskap og lærer" />
 <course id="FIL-3900" department="3313" collection="22" label="Master's Thesis in Philosophy (60 credits)" departmentname="Institutt for filosofi og førstesemesterstudier" />
-<course id="FIN-3901" department="3318" collection="2" label="Master's Thesis in Finnish Linguistics (60 credits)" departmentname="Institutt for språk og kultur" />
-<course id="FIN-3910" department="3318" collection="2" label="Master's Thesis in Finnish Literature (60 credits)" departmentname="Institutt for språk og kultur" />
 <course id="HIS-3900" department="3314" collection="23" label="Masters thesis in history (60 credits)" departmentname="Institutt for arkeologi, historie, religionsvitenskap og teologi" />
 <course id="HIS-3980" department="3314" collection="23" label="Masters Thesis in History and Education (40 credits)" departmentname="Institutt for arkeologi, historie, religionsvitenskap og teologi" />
 <course id="IND-3901" department="3385" collection="91" label="GENI - Project Thesis (30 credits)" departmentname="Senter for Samiske Studier" />
@@ -85,12 +83,14 @@ label       - the course name
 <course id="SVF-3901" department="3382" collection="27" label="Master's Thesis in Peace and Conflict Transformation (40 credits)" departmentname="Senter for fredsstudier (CPS)" />
 <course id="SVF-3903" department="3315" collection="26" label="From fieldwork experience to ethnographic film and text (60 credits)" departmentname="Institutt for sosiologi, statsvitenskap og samfunn" />
 <course id="SVF-3906" department="3300" collection="23" label="Master`s dissertation in Russian Studies, social sciences (45 credits)" departmentname="Fakultet for humaniora, samfunnsvitenskap og lærer" />
+<course id="SVF-3906" department="3300" collection="23" label="Master`s dissertation in Russian Studies, social sciences (45 credits)" departmentname="Fakultet for humaniora, samfunnsvitenskap og lærer" />
 		</unit>
 		<unit label="Faculty of Biosciences, Fisheries and Economics ">
 <course id="BED-3901" department="3413" collection="59" label="Master Thesis, Business Administration  (30 credits)" departmentname="Handelshøgskolen ved UiT" />
 <course id="BED-3901H" department="3413" collection="82" label="Master's Thesis, Business Administration  (30 credits)" departmentname="Handelshøgskolen ved UiT" />
 <course id="BED-3902" department="3413" collection="59" label="Master's Thesis in management, innovation and marked (30 credits)" departmentname="Handelshøgskolen ved UiT" />
 <course id="BED-3904" department="3413" collection="59" label="Master's thesis in Business and Administration (MBA) (30 credits)" departmentname="Handelshøgskolen ved UiT" />
+<course id="BED-3906" department="3413" collection="82" label="Master's Degree Thesis (30 credits)" departmentname="Handelshøgskolen ved UiT" />
 <course id="BED-3906" department="3413" collection="82" label="Master's Degree Thesis (30 credits)" departmentname="Handelshøgskolen ved UiT" />
 <course id="BED-3910" department="3413" collection="59" label="Master's thesis in Business and Administration (MBA) (30 credits)" departmentname="Handelshøgskolen ved UiT" />
 <course id="BIO-3901" department="3412" collection="68" label="Master's Thesis in Marine Biotechnology (60 credits)" departmentname="Norges fiskerihøgskole" />
@@ -116,6 +116,12 @@ label       - the course name
 <course id="HEL-3903" department="3117" collection="44" label="Master's Thesis in Health Science, Public Health Nurse  (40 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="HEL-3904" department="3117" collection="44" label="Master's Thesis in Health Science, Health care for the elderly (40 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="HEL-3950" department="3112" collection="44" label="Master's thesis in Public Health (30 credits)" departmentname="Institutt for samfunnsmedisin" />
+<course id="HEL-3960" department="3117" collection="44" label="Master thesis in health science (60 credits)" departmentname="Institutt for helse- og omsorgsfag" />
+<course id="HEL-3960" department="3117" collection="44" label="Master thesis in health science (60 credits)" departmentname="Institutt for helse- og omsorgsfag" />
+<course id="HEL-3960" department="3117" collection="44" label="Master thesis in health science (60 credits)" departmentname="Institutt for helse- og omsorgsfag" />
+<course id="HEL-3960" department="3117" collection="44" label="Master thesis in health science (60 credits)" departmentname="Institutt for helse- og omsorgsfag" />
+<course id="HEL-3960" department="3117" collection="44" label="Master thesis in health science (60 credits)" departmentname="Institutt for helse- og omsorgsfag" />
+<course id="HEL-3960" department="3117" collection="44" label="Master thesis in health science (60 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="HEL-3960" department="3117" collection="44" label="Master thesis in health science (60 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="HEL-3990" department="3117" collection="44" label="Master's Thesis in Health Science, clinical neurological physiotherapy (40 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="IDR-3901" department="3118" collection="73" label="Master thesis sport (60 credits)" departmentname="Idrettshøgskolen" />
@@ -154,10 +160,11 @@ label       - the course name
 <course id="STA-3941" department="3216" collection="8" label="Master's thesis in applied physics and mathematics (30 credits)" departmentname="Institutt for matematikk og statistikk" />
 <course id="SVF-3920" department="3217" collection="74" label="Master's degree Thesis in Societal Safety (30 credits)" departmentname="Institutt for teknologi og sikkerhet" />
 <course id="TEK-3901" department="3217" collection="67" label="Master's thesis in Technology and Safety (30 credits)" departmentname="Institutt for teknologi og sikkerhet" />
-<course id="TEK-3901" department="3217" collection="67" label="Master's thesis in Technology and Safety (30 credits)" departmentname="Institutt for teknologi og sikkerhet" />
+course id="TEK-3901" department="3217" collection="67" label="Master's thesis in Technology and Safety (30 credits)" departmentname="Institutt for teknologi og sikkerhet" />
 		</unit>
 		<unit label="Faculty of Law">
 <course id="JUR-3901" department="3600" collection="4" label="Fifth Unit Master in Law, master thesis 60 sp (60 credits)" departmentname="Det juridiske fakultet" />
+<course id="JUR-3902" department="3600" collection="4" label="Fifth Unit Master in Law, master thesis 30 sp (30 credits)" departmentname="Det juridiske fakultet" />
 <course id="JUR-3902" department="3600" collection="4" label="Fifth Unit Master in Law, master thesis 30 sp (30 credits)" departmentname="Det juridiske fakultet" />
 <course id="JUR-3910" department="3600" collection="4" label="Master's thesis in Law of the Sea (30 credits)" departmentname="Det juridiske fakultet" />
 <course id="JUR-3920" department="3600" collection="4" label="Master´s thesis in Joint Nordic Master Programme in Environmental Law (NOMPEL) (30 credits)" departmentname="Det juridiske fakultet" />
@@ -165,19 +172,18 @@ label       - the course name
 		<unit label="The Arctic University Museum of Norway and Academy of Fine Arts">
 <course id="MUS-3901" department="4114" collection="70" label="Master in Music Performance (30 credits)" departmentname="Musikkonservatoriet" />
 <course id="MUS-3902" department="4114" collection="63" label="The master's thesis in ear training with didactic and practice (30 credits)" departmentname="Musikkonservatoriet" />
+<course id="MUS-3902" department="4114" collection="63" label="The master's thesis in ear training with didactic and practice (30 credits)" departmentname="Musikkonservatoriet" />
 <course id="LRU-3906" department="4114" collection="28" label="Master's Thesis in Art and Design Education (30 credits)" departmentname="Musikkonservatoriet" />
 <course id="SAK-3905" department="4113" collection="90" label="Master's thesis - degree exhibition (30 credits)" departmentname="Kunstakademiet" />
 		</unit>
 		<unit label="Faculty of Engineering Science and Technology">
 <course id="ELE-3900" department="3813" collection="86" label="Diploma Thesis - M-EL (30 credits)" departmentname="Institutt for elektroteknologi" />
-<course id="SHO6261" department="3812" collection="85" label="Diploma Thesis - M-IB (30 credits)" departmentname="Institutt for bygg, energi og materialteknologi" />
 <course id="BYG-3900" department="3812" collection="85" label="Master Thesis - M-IB (30 credits)" departmentname="Institutt for bygg, energi og materialteknologi" />
 <course id="END-3900" department="3814" collection="87" label="Master Thesis - M-ID (30 credits)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
 <course id="END-3970" department="3814" collection="87" label="Master Thesis for Exchange Students (20 credits)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
 <course id="DTE-3900" department="3814" collection="87" label="Master Thesis – M-IT (30 credits)" departmentname="Institutt for datateknologi og beregningsorienterte ingeniørfag" />
 <course id="INE-3900" department="3811" collection="88" label="Thesis - M-IN (45 credits)" departmentname="Institutt for industriell teknologi" />
 <course id="STE-3900" department="3813" collection="86" label="Master thesis  (40 credits)" departmentname="Institutt for elektroteknologi" />
-<course id="SAK-3905" department="4113" collection="90" label="Master's thesis - degree exhibition (30 credits)" departmentname="Kunstakademiet" />
 		</unit>
 </all>
 
