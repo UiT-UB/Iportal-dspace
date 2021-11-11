@@ -163,14 +163,14 @@ label       - the course name
 		<unit label="Det juridiske fakultet">
 <course id="JUR-3901" department="3600" collection="4" label="5. avdeling master i rettsvitenskap - Masteroppgave (60 sp)" departmentname="Det juridiske fakultet" />
 <course id="JUR-3902" department="3600" collection="4" label="5. avdeling master i rettsvitenskap - Liten masteroppgave (30 sp)" departmentname="Det juridiske fakultet" />
-<course id="JUR-3903" department="3600" collection="4" label="Research Programme including Master's Thesis (68 credits)" departmentname="Det juridiske fakultet" />
+<course id="JUR-3903" department="3600" collection="4" label="Forskerlinje med masteroppgave (68 sp)" departmentname="Det juridiske fakultet" />
 <course id="JUR-3910" department="3600" collection="4" label="Master's thesis in Law of the Sea (30 sp)" departmentname="Det juridiske fakultet" />
 <course id="JUR-3920" department="3600" collection="4" label="Master´s thesis in Joint Nordic Master Programme in Environmental Law (NOMPEL) (30 sp)" departmentname="Det juridiske fakultet" />
 		</unit>
 		<unit label="Norges arktiske universitetsmuseum og akademi for kunstfag">
 <course id="MUS-3901" department="4114" collection="70" label="Masterkonsert - hovedinstrument (30 sp)" departmentname="Musikkonservatoriet" />
 <course id="MUS-3902" department="4114" collection="63" label="Masteroppgave i hørelære med didaktikk og praksis (30 sp)" departmentname="Musikkonservatoriet" />
-<course id="MUS-3903" department="4114" collection="63" label="The master’s thesis in instrumental teaching (45 credits)" departmentname="Musikkonservatoriet" />
+<course id="MUS-3903" department="4114" collection="63" label="Masteroppgave i instrumentaldidaktikk  (45 sp)" departmentname="Musikkonservatoriet" />
 <course id="LRU-3906" department="4114" collection="28" label="Mastergradsoppgave i musikkdidaktikk (30 sp)" departmentname="Musikkonservatoriet" />
 <course id="SAK-3009" department="4113" collection="90" label="Advanced artistic work (30 sp)" departmentname="Kunstakademiet" />
 <course id="SAK-3905" department="4113" collection="90" label="Master's thesis - degree exhibition (30 sp)" departmentname="Kunstakademiet" />

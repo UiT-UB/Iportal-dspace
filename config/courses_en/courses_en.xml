@@ -139,7 +139,7 @@ label       - the course name
 <course id="SYP-3901" department="3117" collection="44" label="Master thesis in Nursing (40 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 <course id="SYP-3902 " department="3117" collection="44" label="Master thesis in nursing (30 credits)" departmentname="Institutt for helse- og omsorgsfag" />
 		</unit>
-		<unit label="Faculty of  Science and Technology">
+		<unit label="Faculty of Science and Technology">
 <course id="EOM-3901" department="3200" collection="69" label="Master's Thesis in Energy, Climate and Environment (30 credits)" departmentname="Fakultet for naturvitenskap og teknologi" />
 <course id="FYS-3900" department="3212" collection="7" label="Master's Thesis in Physics (60 credits)" departmentname="Institutt for fysikk og teknologi" />
 <course id="FYS-3901" department="3212" collection="7" label="Master's Thesis in Physics (30 credits)" departmentname="Institutt for fysikk og teknologi" />
@@ -160,7 +160,7 @@ label       - the course name
 <course id="STA-3941" department="3216" collection="8" label="Master's thesis in applied physics and mathematics (30 credits)" departmentname="Institutt for matematikk og statistikk" />
 <course id="SVF-3920" department="3217" collection="74" label="Master's degree Thesis in Societal Safety (30 credits)" departmentname="Institutt for teknologi og sikkerhet" />
 <course id="TEK-3901" department="3217" collection="67" label="Master's thesis in Technology and Safety (30 credits)" departmentname="Institutt for teknologi og sikkerhet" />
-course id="TEK-3901" department="3217" collection="67" label="Master's thesis in Technology and Safety (30 credits)" departmentname="Institutt for teknologi og sikkerhet" />
+ourse id="TEK-3901" department="3217" collection="67" label="Master's thesis in Technology and Safety (30 credits)" departmentname="Institutt for teknologi og sikkerhet" />
 		</unit>
 		<unit label="Faculty of Law">
 <course id="JUR-3901" department="3600" collection="4" label="Fifth Unit Master in Law, master thesis 60 sp (60 credits)" departmentname="Det juridiske fakultet" />
@@ -174,7 +174,7 @@ course id="TEK-3901" department="3217" collection="67" label="Master's thesis in
 <course id="MUS-3902" department="4114" collection="63" label="The master's thesis in ear training with didactic and practice (30 credits)" departmentname="Musikkonservatoriet" />
 <course id="MUS-3903" department="4114" collection="63" label="The master’s thesis in instrumental teaching (45 credits)" departmentname="Musikkonservatoriet" />
 <course id="LRU-3906" department="4114" collection="28" label="Master's Thesis in Art and Design Education (30 credits)" departmentname="Musikkonservatoriet" />
-<course id="SAK-3009" department="4113" collection="90" label="Advanced artistic work (30 sp)" departmentname="Kunstakademiet" />
+<course id="SAK-3009" department="4113" collection="90" label="Advanced artistic work (30 credits)" departmentname="Kunstakademiet" />
 <course id="SAK-3905" department="4113" collection="90" label="Master's thesis - degree exhibition (30 credits)" departmentname="Kunstakademiet" />
 		</unit>
 		<unit label="Faculty of Engineering Science and Technology">
