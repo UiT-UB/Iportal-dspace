@@ -140,15 +140,15 @@ label       - the course name
 		</unit>
 		<unit label="Fakultet for naturvitenskap og teknologi">
 <course id="EOM-3901" department="3200" collection="69" label="Master's Thesis in Energy, Climate and Environment (30 sp)" departmentname="Fakultet for naturvitenskap og teknologi" />
-<course id="FYS-3900" department="3212" collection="7" label="Master's Thesis in Physics (60 sp)" departmentname="Institutt for fysikk og teknologi" />
-<course id="FYS-3901" department="3212" collection="7" label="Master's Thesis in Physics (30 sp)" departmentname="Institutt for fysikk og teknologi" />
-<course id="FYS-3907" department="3212" collection="7" label="Mastergradsoppgave i fysikk ved lektorutdanningen, trinn 8-13 (40 sp)" departmentname="Institutt for fysikk og teknologi" />
-<course id="FYS-3921" department="3212" collection="7" label="Master's Thesis in Electrical Engineering (30 sp)" departmentname="Institutt for fysikk og teknologi" />
-<course id="FYS-3931" department="3212" collection="7" label="Master's Thesis in Space Physics (30 sp)" departmentname="Institutt for fysikk og teknologi" />
-<course id="FYS-3941" department="3212" collection="7" label="Master's thesis in applied physics and mathematics (30 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3900" department="3212" collection="94" label="Master's Thesis in Physics (60 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3901" department="3212" collection="94" label="Master's Thesis in Physics (30 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3907" department="3212" collection="94" label="Mastergradsoppgave i fysikk ved lektorutdanningen, trinn 8-13 (40 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3921" department="3212" collection="94" label="Master's Thesis in Electrical Engineering (30 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3931" department="3212" collection="94" label="Master's Thesis in Space Physics (30 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3941" department="3212" collection="94" label="Master's thesis in applied physics and mathematics (30 sp)" departmentname="Institutt for fysikk og teknologi" />
 <course id="GEO-3900" department="3213" collection="6" label="Mastergradsoppgave i geologi (60 sp)" departmentname="Institutt for geovitenskap" />
-<course id="INF-3981" department="3214" collection="7" label="Mastergradsoppgave i Informatikk (30 sp)" departmentname="Institutt for informatikk" />
-<course id="INF-3990" department="3214" collection="7" label="Mastergradsoppgave i informatikk (60 sp)" departmentname="Institutt for informatikk" />
+<course id="INF-3981" department="3214" collection="93" label="Mastergradsoppgave i Informatikk (30 sp)" departmentname="Institutt for informatikk" />
+<course id="INF-3990" department="3214" collection="93" label="Mastergradsoppgave i informatikk (60 sp)" departmentname="Institutt for informatikk" />
 <course id="KJE-3900" department="3215" collection="75" label="Master's Thesis in Molecular Science (60 sp)" departmentname="Institutt for kjemi" />
 <course id="KJE-3907" department="3215" collection="75" label="Mastergradsoppgave i kjemi ved lektorutdanningen trinn 8 - 13, 40 studiepoeng (40 sp)" departmentname="Institutt for kjemi" />
 <course id="MAT-3900" department="3216" collection="8" label="Mastergradsoppgave i matematikk (60 sp)" departmentname="Institutt for matematikk og statistikk" />
