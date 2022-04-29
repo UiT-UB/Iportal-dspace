@@ -144,26 +144,26 @@ label       - the course name
 <course id="SYP-3902 " department="3117" collection="44" label="Masteroppgave i sykepleie (30 sp)" departmentname="Institutt for helse- og omsorgsfag" />
 		</unit>
 		<unit label="Fakultet for naturvitenskap og teknologi">
-<course id="EOM-3901" department="3200" collection="69" label="Master's Thesis in Energy, Climate and Environment (30 credits)" departmentname="Fakultet for naturvitenskap og teknologi" />
-<course id="FYS-3900" department="3212" collection="94" label="Master's Thesis in Physics (60 credits)" departmentname="Institutt for fysikk og teknologi" />
-<course id="FYS-3901" department="3212" collection="94" label="Master's Thesis in Physics (30 credits)" departmentname="Institutt for fysikk og teknologi" />
-<course id="FYS-3907" department="3212" collection="94" label="Master's thesis in physics and Education, 8-13 (40 credits)" departmentname="Institutt for fysikk og teknologi" />
-<course id="FYS-3921" department="3212" collection="94" label="Master's Thesis in Electrical Engineering (30 credits)" departmentname="Institutt for fysikk og teknologi" />
-<course id="FYS-3931" department="3212" collection="94" label="Master's Thesis in Space Physics (30 credits)" departmentname="Institutt for fysikk og teknologi" />
-<course id="FYS-3941" department="3212" collection="94" label="Master's thesis in applied physics and mathematics (30 credits)" departmentname="Institutt for fysikk og teknologi" />
-<course id="GEO-3900" department="3213" collection="6" label="Master's thesis in Geology (60 credits)" departmentname="Institutt for geovitenskap" />
-<course id="INF-3981" department="3214" collection="93" label="Master's Thesis in Computer Science (30 credits)" departmentname="Institutt for informatikk" />
-<course id="INF-3990" department="3214" collection="93	" label="Master's Thesis in Computer Science (60 credits)" departmentname="Institutt for informatikk" />
-<course id="KJE-3900" department="3215" collection="75" label="Master's Thesis in Molecular Science (60 credits)" departmentname="Institutt for kjemi" />
-<course id="KJE-3907" department="3215" collection="75" label="Master's Thesis in Chemistry and Education (40 credits)" departmentname="Institutt for kjemi" />
-<course id="MAT-3900" department="3216" collection="8" label="Master's Thesis in Mathematics (60 credits)" departmentname="Institutt for matematikk og statistikk" />
-<course id="MAT-3907" department="3216" collection="8" label="Master's Thesis in Mathematics and Education, 8 - 13 (40 credits)" departmentname="Institutt for matematikk og statistikk" />
-<course id="MAT-3941" department="3216" collection="8" label="Master's thesis in applied physics and mathematics (30 credits)" departmentname="Institutt for matematikk og statistikk" />
-<course id="STA-3900" department="3216" collection="8" label="Master's Thesis in Statistics (60 credits)" departmentname="Institutt for matematikk og statistikk" />
-<course id="STA-3901" department="3216" collection="8" label="Master's Thesis in Statistics (30 credits)" departmentname="Institutt for matematikk og statistikk" />
-<course id="STA-3941" department="3216" collection="8" label="Master's thesis in applied physics and mathematics (30 credits)" departmentname="Institutt for matematikk og statistikk" />
-<course id="SVF-3920" department="3217" collection="74" label="Master's degree Thesis in Societal Safety (30 credits)" departmentname="Institutt for teknologi og sikkerhet" />
-<course id="TEK-3901" department="3217" collection="67" label="Master's thesis in Technology and Safety (30 credits)" departmentname="Institutt for teknologi og sikkerhet" />
+<course id="EOM-3901" department="3200" collection="69" label="Master's Thesis in Energy, Climate and Environment (30 sp)" departmentname="Fakultet for naturvitenskap og teknologi" />
+<course id="FYS-3900" department="3212" collection="94" label="Master's Thesis in Physics (60 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3901" department="3212" collection="94" label="Master's Thesis in Physics (30 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3907" department="3212" collection="94" label="Mastergradsoppgave i fysikk ved lektorutdanningen, trinn 8-13 (40 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3921" department="3212" collection="94" label="Master's Thesis in Electrical Engineering (30 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3931" department="3212" collection="94" label="Master's Thesis in Space Physics (30 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FYS-3941" department="3212" collection="94" label="Master's thesis in applied physics and mathematics (30 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="GEO-3900" department="3213" collection="6" label="Mastergradsoppgave i geologi (60 sp)" departmentname="Institutt for geovitenskap" />
+<course id="INF-3981" department="3214" collection="93" label="Mastergradsoppgave i Informatikk (30 sp)" departmentname="Institutt for informatikk" />
+<course id="INF-3990" department="3214" collection="93" label="Mastergradsoppgave i informatikk (60 sp)" departmentname="Institutt for informatikk" />
+<course id="KJE-3900" department="3215" collection="75" label="Master's Thesis in Molecular Science (60 sp)" departmentname="Institutt for kjemi" />
+<course id="KJE-3907" department="3215" collection="75" label="Mastergradsoppgave i kjemi ved lektorutdanningen trinn 8 - 13, 40 studiepoeng (40 sp)" departmentname="Institutt for kjemi" />
+<course id="MAT-3900" department="3216" collection="8" label="Mastergradsoppgave i matematikk (60 sp)" departmentname="Institutt for matematikk og statistikk" />
+<course id="MAT-3907" department="3216" collection="8" label="Mastergradsoppgave i matematikk ved lektorutdanningen trinn 8 -13 (40 sp)" departmentname="Institutt for matematikk og statistikk" />
+<course id="MAT-3941" department="3216" collection="8" label="Master’s thesis in applied physics and mathematics (30 sp)" departmentname="Institutt for matematikk og statistikk" />
+<course id="STA-3900" department="3216" collection="8" label="Mastergradsoppgave i statistikk (60 sp)" departmentname="Institutt for matematikk og statistikk" />
+<course id="STA-3901" department="3216" collection="8" label="Mastergradsoppgave i statistikk (30 sp)" departmentname="Institutt for matematikk og statistikk" />
+<course id="STA-3941" department="3216" collection="8" label="Master's thesis in applied physics and mathematics (30 sp)" departmentname="Institutt for matematikk og statistikk" />
+<course id="SVF-3920" department="3217" collection="74" label="Masteroppgave i samfunnssikkerhet (30 sp)" departmentname="Institutt for teknologi og sikkerhet" />
+<course id="TEK-3901" department="3217" collection="67" label="Masteroppgave i teknologi og sikkerhet (30 sp)" departmentname="Institutt for teknologi og sikkerhet" />
 		</unit>
 		<unit label="Det juridiske fakultet">
 <course id="JUR-3901" department="3600" collection="4" label="5. avdeling master i rettsvitenskap - Masteroppgave (60 sp)" departmentname="Det juridiske fakultet" />
