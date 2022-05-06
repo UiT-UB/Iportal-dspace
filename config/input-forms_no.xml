@@ -167,7 +167,8 @@
         <input-type>twobox</input-type>
          <hint>Velg først fagdisiplin fra emnelista. Flere fagdisipliner og/eller egne emneord kan legges inn ved å klikke 
 	   på knappen "Registrer flere". Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt.</hint>
-        <required>Du må velge et emneord eller flere</required>
+	   <!--<required>Du må velge et emneord eller flere</required>-->
+        <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
 	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
@@ -475,7 +476,7 @@
         <input-type>twobox</input-type>
          <hint>Velg først fagdisiplin fra emnelista. Flere fagdisipliner og/eller egne emneord kan legges inn ved å klikke 
 	   på knappen "Registrer flere". Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt.</hint>
-        <required>Du må velge et emneord eller flere</required>
+        <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
 	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
@@ -834,7 +835,7 @@
         <input-type>twobox</input-type>
          <hint>Velg først fagdisiplin fra emnelista. Flere fagdisipliner og/eller egne emneord kan legges inn ved å klikke 
 	   på knappen "Registrer flere". Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt.</hint>
-        <required>Du må velge et emneord eller flere</required>
+        <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
 	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->

@@ -163,7 +163,8 @@
         <input-type>twobox</input-type>
          <hint>First, choose an appropriate subject from the list of "Subject Categories".  More than one subject and/or relevant subject keywords 
 	   of your own choice, may be added by choosing the button "Add more". Enter one keyword (single word or expression) per field. </hint>
-        <required>You must choose appropriate subject(s)</required>
+	   <!--<required>You must choose appropriate subject(s)</required>-->
+        <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
 	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
@@ -468,7 +469,7 @@
         <input-type>twobox</input-type>
          <hint>First, choose an appropriate subject from the list of "Subject Categories".  More than one subject and/or relevant subject keywords 
 	   of your own choice, may be added by choosing the button "Add more". Enter one keyword (single word or expression) per field. </hint>
-        <required>You must choose appropriate subject(s)</required>
+        <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
 	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
@@ -827,7 +828,7 @@
         <input-type>twobox</input-type>
          <hint>First, choose an appropriate subject from the list of "Subject Categories".  More than one subject and/or relevant subject keywords 
 	   of your own choice, may be added by choosing the button "Add more". Enter one keyword (single word or expression) per field.</hint>
-        <required>You must choose appropriate subject(s)</required>
+        <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
 	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
