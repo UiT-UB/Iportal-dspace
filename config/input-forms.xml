@@ -113,7 +113,7 @@
          <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
-         <hint>Approximately 200 words</hint>
+         <hint></hint>
          <required>You must enter an abstract</required>
        </field>
 
@@ -419,7 +419,7 @@
          <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
-         <hint>Approximately 200 words</hint>
+         <hint></hint>
          <required>You must enter an abstract</required>
        </field>
 

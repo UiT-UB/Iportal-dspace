@@ -117,7 +117,7 @@
          <repeatable>true</repeatable>
          <label>Sammendrag</label>
          <input-type>textarea</input-type>
-         <hint>Cirka 200 ord</hint>
+         <hint></hint>
          <required>Du må registrere et sammendrag</required>
        </field>
 
@@ -426,7 +426,7 @@
          <repeatable>true</repeatable>
          <label>Sammendrag</label>
          <input-type>textarea</input-type>
-         <hint>Cirka 200 ord</hint>
+         <hint></hint>
          <required>Du må registrere et sammendrag</required>
        </field>
 
