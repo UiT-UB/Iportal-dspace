@@ -19,6 +19,7 @@
    <name-map collection-handle="123456789/8081" form-name="master-uten-trykking" />
    <name-map collection-handle="123456789/1828" form-name="master-uten-trykking" />
    <name-map collection-handle="123456789/7" form-name="master-uten-trykking" />
+   <name-map collection-handle="123456789/1829" form-name="master-uten-trykking" />
    <name-map collection-handle="123456789/1118" form-name="doctor" />
    <name-map collection-handle="123456789/1119" form-name="doctor" />
    <name-map collection-handle="123456789/1590" form-name="doctor" />
@@ -504,17 +505,6 @@
  <!-- page2 -->
 
 <page number="2">
-
-       <field>
-		 <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>colourprint</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Fargetrykk følgende sider</label>
-         <input-type>onebox</input-type>
-         <hint>Oppgi her hvilke sider som skal trykkes i farger. NB: Du må oppgi sidetall i pdf-filen, og ikke sidenummer i oppgavens paginering. Dersom du har mer enn en fil, må du presisere hvilken fil du henviser til. Klikk "Registrer flere" dersom flere filer har sider i farger. Hvis du ikke fyller ut noe her, blir alle sider trykt i svart-hvit.</hint>
-         <required></required>
-       </field>
 
        <field>
 		 <dc-schema>dc</dc-schema>

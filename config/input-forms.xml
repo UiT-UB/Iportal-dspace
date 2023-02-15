@@ -19,6 +19,7 @@
    <name-map collection-handle="123456789/8081" form-name="master-uten-trykking" />
    <name-map collection-handle="123456789/1828" form-name="master-uten-trykking" />
    <name-map collection-handle="123456789/7" form-name="master-uten-trykking" />
+   <name-map collection-handle="123456789/1829" form-name="master-uten-trykking" />
    <name-map collection-handle="123456789/1118" form-name="doctor" />
    <name-map collection-handle="123456789/1119" form-name="doctor" />
    <name-map collection-handle="123456789/1590" form-name="doctor" />
@@ -498,17 +499,6 @@
  <!-- page2 -->
 
 <page number="2">
-
-       <field>
-		 <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>colourprint</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Colour print these pages</label>
-         <input-type>onebox</input-type>
-         <hint>Please indicate here which pages should be colour printed. Note: Please refer to the page count of the pdf-file – not the page numbering used in your thesis. If you have more than one file, please specify which file you refer to. Click "Add more" if more than one file contains coloured pages. If you leave this field blank, all pages will be printed in black and white.</hint>
-         <required></required>
-       </field>
 
        <field>
 		 <dc-schema>dc</dc-schema>
