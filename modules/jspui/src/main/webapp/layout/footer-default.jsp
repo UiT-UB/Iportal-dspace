@@ -52,7 +52,7 @@
 			<div class="pull-right">
 				<p><fmt:message key="ub.jsp.layout.footer-default.about"/></p>
 				<p><fmt:message key="ub.jsp.layout.footer-default.contact"/></p>
-				<a href="<%= request.getContextPath() %>/htmlmap"></a>
+				<a href="<%= request.getContextPath() %>/htmlmap" aria-label="htmlmap"></a>
 			</div>
 		</div>
 		
