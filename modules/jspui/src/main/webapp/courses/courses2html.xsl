@@ -21,6 +21,7 @@ an HTML tree. Its basically a preety-printer.
 		<img class="controlledvocabulary">
 			<xsl:attribute name="src"><xsl:value-of select="$contextPath"/>/image/controlledvocabulary/p.gif</xsl:attribute>
 			<xsl:attribute name="onClick">ec(this, '<xsl:value-of select="$contextPath"/>');</xsl:attribute>
+			<xsl:attribute name="alt"><xsl:text>Expand list</xsl:text></xsl:attribute>
 		</img>
 		<xsl:value-of select="@label"/>
 
@@ -35,6 +36,7 @@ an HTML tree. Its basically a preety-printer.
 		<img class="controlledvocabulary">
 			<xsl:attribute name="src"><xsl:value-of select="$contextPath"/>/image/controlledvocabulary/p.gif</xsl:attribute>
 			<xsl:attribute name="onClick">ec(this, '<xsl:value-of select="$contextPath"/>');</xsl:attribute>
+			<xsl:attribute name="alt"><xsl:text>Expand list</xsl:text></xsl:attribute>
 		</img>
 		<xsl:value-of select="@label"/>
 
