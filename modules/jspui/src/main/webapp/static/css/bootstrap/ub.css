@@ -45,6 +45,10 @@ body.undernavigation {
 }
 
 /* KM: From bootstrap.css */
+body {
+	line-height: 1.5;
+}
+
 .navbar-fixed-top, .navbar-fixed-bottom {
     position: static;
 }
