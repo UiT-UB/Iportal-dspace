@@ -24,6 +24,8 @@
 <%@ page import="javax.servlet.jsp.jstl.core.*" %>
 <%@ page import="javax.servlet.jsp.jstl.fmt.*" %>
 
+<%@ page import="org.dspace.app.webui.util.UIUtil" %>
+
 <%
     String title = (String) request.getAttribute("dspace.layout.title");
     String navbar = (String) request.getAttribute("dspace.layout.navbar");
@@ -40,10 +42,12 @@
     String dsVersion = Util.getSourceVersion();
     String generator = dsVersion == null ? "DSpace" : "DSpace "+dsVersion;
     String analyticsKey = ConfigurationManager.getProperty("jspui.google.analytics.key");
+
+	String currentLocale = UIUtil.getSessionLocale(request).toString();
 %>
 
 <!DOCTYPE html>
-<html>
+<html lang="<%= currentLocale %>">
     <head>
         <title><%= siteName %>: <%= title %></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
