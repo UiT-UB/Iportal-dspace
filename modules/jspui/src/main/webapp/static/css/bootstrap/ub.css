@@ -252,7 +252,13 @@ header .navbar-brand img {
   max-height: 80px;
 }
 
+table {
+	font-size: 14px;
+}
+
 /* Accesibility */
 .text-muted {
 	color: #000;
 }
+
+
