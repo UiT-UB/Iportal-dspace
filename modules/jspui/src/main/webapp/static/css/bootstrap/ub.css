@@ -247,3 +247,8 @@ header .navbar-brand img {
   height: auto;
   max-height: 80px;
 }
+
+/* Accesibility */
+.text-muted {
+	color: #000;
+}
