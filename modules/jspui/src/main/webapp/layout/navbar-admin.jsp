@@ -59,10 +59,10 @@
          </button>
          <%--<a class="navbar-brand" href="<%= request.getContextPath() %>/"><img height="25px" src="<%= request.getContextPath() %>/image/dspace-logo-only.png" /></a>--%>
          <a class="navbar-brand" href="<%= request.getContextPath() %>/">
-			 <img class="img-responsive" src="<%= request.getContextPath() %>/image/<fmt:message key="ub.jsp.navnetrekk-file"/>" />
+			 <img class="img-responsive" src="<%= request.getContextPath() %>/image/<fmt:message key="ub.jsp.navnetrekk-file"/>" alt="<fmt:message key="ub.jsp.logo"/>" />
 		 </a>
 	     <a class="navbar-brand-bottom" href="<%= request.getContextPath() %>/">
-		     <img class="img-responsive banner-bottom" src="<%= request.getContextPath() %>/image/banner-bottom.png"/>
+		     <img class="img-responsive banner-bottom" src="<%= request.getContextPath() %>/image/banner-bottom.png"  alt="<fmt:message key="ub.jsp.logo-bottom"/>" />
 		 </a>
        </div>
 	   <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
