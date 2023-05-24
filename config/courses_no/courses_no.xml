@@ -141,6 +141,7 @@ label       - the course name
 		</unit>
 		<unit label="Fakultet for naturvitenskap og teknologi">
 <course id="EOM-3901" department="3212" collection="69" label="Master's Thesis in Energy, Climate and Environment (30 sp)" departmentname="Institutt for fysikk og teknologi" />
+<course id="FLY-3930 " department="3217" collection="67" label="Masteroppgave i luftfartsvitenskap (30 sp)" departmentname="Institutt for teknologi og sikkerhet" />
 <course id="FYS-3900" department="3212" collection="94" label="Master's Thesis in Physics (60 sp)" departmentname="Institutt for fysikk og teknologi" />
 <course id="FYS-3901" department="3212" collection="94" label="Master's Thesis in Physics (30 sp)" departmentname="Institutt for fysikk og teknologi" />
 <course id="FYS-3907" department="3212" collection="94" label="Mastergradsoppgave i fysikk ved lektorutdanningen, trinn 8-13 (40 sp)" departmentname="Institutt for fysikk og teknologi" />
