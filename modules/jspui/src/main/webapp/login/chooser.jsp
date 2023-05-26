@@ -36,11 +36,11 @@
 
 <dspace:layout navbar="off" locbar="off" titlekey="jsp.login.chooser.title" nocache="true">
 
-<%-- Bypass the chooser page. Go straight to LDAP-login --%>
+<%-- Bypass the chooser page. Go straight to Shibboleth-login --%>
 
 <script type="text/javascript">
 <!--
-window.location = "<%= request.getContextPath() %>/ldap-login"
+window.location = "<%= request.getContextPath() %>/shibboleth-login"
 //-->
 </script>
 

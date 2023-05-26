@@ -15,12 +15,13 @@
     prefix="fmt" %>
 
 <div class="panel-body">
-  <form name="loginform" class="form-horizontal" id="loginform" method="post" action="<%= request.getContextPath() %>/ldap-login">  
-     
     <p>
 	<%--<fmt:message key="jsp.components.ldap-form.downtime"/>--%>
       <fmt:message key="jsp.components.ldap-form.enter"/>
     </p>
+	<%--
+  <form name="loginform" class="form-horizontal" id="loginform" method="post" action="<%= request.getContextPath() %>/ldap-login">  
+     
     <div class="form-group">
       <label class="col-md-offset-3 col-md-2 control-label" for="tlogin_email"><fmt:message key="jsp.components.ldap-form.username-or-email"/></label>
       <div class="col-md-3">
@@ -43,4 +44,5 @@
   <script type="text/javascript">
     document.loginform.login_netid.focus();
   </script>
+  --%>
 </div>
