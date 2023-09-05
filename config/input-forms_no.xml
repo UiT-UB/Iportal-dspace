@@ -164,11 +164,10 @@
          <dc-qualifier></dc-qualifier>
          <!-- An input-type of twobox MUST be marked as repeatable -->
          <repeatable>true</repeatable>
-         <label>Fagdisiplin/emneord</label>
+         <label>Emneord</label>
        
-        <input-type>twobox</input-type>
-         <hint>Velg først fagdisiplin fra emnelista. Flere fagdisipliner og/eller egne emneord kan legges inn ved å klikke 
-	   på knappen "Registrer flere". Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt.</hint>
+        <input-type>onebox</input-type>
+         <hint>Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt. Flere emneord kan legges inn ved å klikke på knappen "Registrer flere".</hint>
 	   <!--<required>Du må velge et emneord eller flere</required>-->
         <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
@@ -176,7 +175,7 @@
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
 	 <!-- in the file controlledvocabulary/controlledvocabulary.jsp.-->
 	 <!-- Update 031109: Since we now have one input-form per language, we can use separate vocabularies too -->
-         <vocabulary>nsi_no</vocabulary>
+			<!--<vocabulary>nsi_no</vocabulary>-->
          
        </field>
 
@@ -473,18 +472,17 @@
          <dc-qualifier></dc-qualifier>
          <!-- An input-type of twobox MUST be marked as repeatable -->
          <repeatable>true</repeatable>
-         <label>Fagdisiplin/emneord</label>
+         <label>Emneord</label>
        
-        <input-type>twobox</input-type>
-         <hint>Velg først fagdisiplin fra emnelista. Flere fagdisipliner og/eller egne emneord kan legges inn ved å klikke 
-	   på knappen "Registrer flere". Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt.</hint>
+        <input-type>onebox</input-type>
+         <hint>Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt. Flere emneord kan legges inn ved å klikke på knappen "Registrer flere".</hint>
         <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
 	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
 	 <!-- in the file controlledvocabulary/controlledvocabulary.jsp.-->
 	 <!-- Update 031109: Since we now have one input-form per language, we can use separate vocabularies too -->
-         <vocabulary>nsi_no</vocabulary>
+			<!--<vocabulary>nsi_no</vocabulary>-->
          
        </field>
 
@@ -745,7 +743,7 @@
          <repeatable>true</repeatable>
          <label>Sammendrag/abstract</label>
          <input-type>textarea</input-type>
-         <hint>Legg inn et kort faglig sammendrag av avhandlingen, anslagsvis 200-300 ord. Språk er valgfritt, og du kan legge inn flere sammendrag på ulike språk.</hint>
+         <hint>Legg inn et kort faglig sammendrag av avhandlingen, anslagsvis 200-300 ord. Sammendraget skal skrives både på norsk og engelsk. Man kan legge til sammendrag på andre språk i tillegg.</hint>
          <required></required>
        </field>
 
@@ -778,7 +776,7 @@
          <repeatable>true</repeatable>
          <label>Forskningsdatasett brukt i avhandlingen</label>
          <input-type>textarea</input-type>
-         <hint>Oppgi referanse til forskningsdatasett som du har gjort bruk av i avhandlingen. Dersom du har brukt flere datasett, vennligst klikk på knappen ‘Registrer flere’.</hint>
+         <hint>Har du brukt forskningsdatasett som er åpent tilgjengelig? Oppgi gjerne referanse og lenke her. Hvis du ikke har brukt åpne datasett, kan du la feltet stå tomt. Dersom du har brukt flere datasett, vennligst klikk på knappen 'Registrer flere'.</hint>
          <required></required>
        </field>
 
@@ -788,8 +786,8 @@
          <dc-qualifier>researchtrainingcomponent</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Godkjent opplæringsdel</label>
-         <input-type>onebox</input-type>
-         <hint>Legg inn arkivreferanse for godkjent opplæringsdel, eller alternativt brevdato eller dato for vedtaket om dette.</hint>
+         <input-type value-pairs-name="common_researchtrainingcomponent">list</input-type>
+         <hint>Oppgi om opplæringsdelen er godkjent eller ikke.</hint>
          <required></required>
        </field>
 
@@ -821,18 +819,17 @@
          <dc-qualifier></dc-qualifier>
          <!-- An input-type of twobox MUST be marked as repeatable -->
          <repeatable>true</repeatable>
-         <label>Fagdisiplin/emneord</label>
+         <label>Emneord</label>
        
-        <input-type>twobox</input-type>
-         <hint>Velg først fagdisiplin fra emnelista. Flere fagdisipliner og/eller egne emneord kan legges inn ved å klikke 
-	   på knappen "Registrer flere". Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt.</hint>
+        <input-type>onebox</input-type>
+         <hint>Skriv inn bare ett emneord (enkeltord eller uttrykk) per felt. Flere emneord kan legges inn ved å klikke på knappen "Registrer flere".</hint>
         <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
 	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
 	 <!-- in the file controlledvocabulary/controlledvocabulary.jsp.-->
 	 <!-- Update 031109: Since we now have one input-form per language, we can use separate vocabularies too -->
-         <vocabulary>nsi_no</vocabulary>
+			<!--<vocabulary>nsi_no</vocabulary>-->
        </field>
 
        <!--
@@ -1362,6 +1359,17 @@
      <pair>
        <displayed-value>Kunstnerisk utviklingsarbeid</displayed-value>
        <stored-value>Kunstnerisk utviklingsarbeid</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_researchtrainingcomponent" dc-term="description_researchtrainingcomponent">
+     <pair>
+       <displayed-value>Ja</displayed-value>
+       <stored-value>Ja</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Nei</displayed-value>
+	   <stored-value>Nei</stored-value>
      </pair>
    </value-pairs>
 

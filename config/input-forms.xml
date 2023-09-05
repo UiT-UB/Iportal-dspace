@@ -160,11 +160,10 @@
          <dc-qualifier></dc-qualifier>
          <!-- An input-type of twobox MUST be marked as repeatable -->
          <repeatable>true</repeatable>
-         <label>Subject categories/- keywords</label>
+         <label>Subject keywords</label>
        
-        <input-type>twobox</input-type>
-         <hint>First, choose an appropriate subject from the list of "Subject Categories".  More than one subject and/or relevant subject keywords 
-	   of your own choice, may be added by choosing the button "Add more". Enter one keyword (single word or expression) per field. </hint>
+        <input-type>onebox</input-type>
+         <hint>Enter one keyword (single word or expression) per field. More than one subject and/or relevant subject keywords may be added by choosing the button "Add more".</hint>
 	   <!--<required>You must choose appropriate subject(s)</required>-->
         <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
@@ -172,7 +171,7 @@
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
 	 <!-- in the file controlledvocabulary/controlledvocabulary.jsp.-->
 	 <!-- Update 031109: Since we now have one input-form per language, we can use separate vocabularies too -->
-         <vocabulary>nsi</vocabulary>
+			<!--<vocabulary>nsi</vocabulary>-->
          
        </field>
 
@@ -466,18 +465,17 @@
          <dc-qualifier></dc-qualifier>
          <!-- An input-type of twobox MUST be marked as repeatable -->
          <repeatable>true</repeatable>
-         <label>Subject categories/- keywords</label>
+         <label>Subject keywords</label>
        
-        <input-type>twobox</input-type>
-         <hint>First, choose an appropriate subject from the list of "Subject Categories".  More than one subject and/or relevant subject keywords 
-	   of your own choice, may be added by choosing the button "Add more". Enter one keyword (single word or expression) per field. </hint>
+        <input-type>onebox</input-type>
+         <hint>Enter one keyword (single word or expression) per field. More than one subject and/or relevant subject keywords may be added by choosing the button "Add more".</hint>
         <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
 	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
 	 <!-- in the file controlledvocabulary/controlledvocabulary.jsp.-->
 	 <!-- Update 031109: Since we now have one input-form per language, we can use separate vocabularies too -->
-         <vocabulary>nsi</vocabulary>
+			<!--<vocabulary>nsi</vocabulary>-->
          
        </field>
 
@@ -738,7 +736,7 @@
          <repeatable>true</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
-         <hint>Please enter a short abstract of your thesis, with a length of approx. 200-300 words, in the language of your choice. You may enter abstracts in two or more languages, by clicking "Add More".</hint>
+         <hint>Please enter a short abstract of your thesis, with a length of approx. 200-300 words. The abstract must be written in both English and Norwegian. You may also enter abstracts in other languages.</hint>
          <required></required>
        </field>
 
@@ -771,7 +769,7 @@
          <repeatable>true</repeatable>
          <label>Research data set(s) used in your thesis</label>
          <input-type>textarea</input-type>
-         <hint>Enter reference to research data set(s) used in your thesis. If you have used more than one data set, please click the ‘Add More’-button.</hint>
+         <hint>Did you use research datasets that are openly available? Please give the reference and link here. If you did not use openly available datasets, you can leave this field empty. If you have used more than one data set, please click the 'Add More' button.</hint>
          <required></required>
        </field>
 
@@ -781,8 +779,8 @@
          <dc-qualifier>researchtrainingcomponent</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Approved instruction component</label>
-         <input-type>onebox</input-type>
-         <hint>Please enter the archive reference number for the approval of your instruction component, or alternatively the date of the approval or the date of the letter you received.</hint>
+		 <input-type value-pairs-name="common_researchtrainingcomponent">list</input-type>
+         <hint>Is the instruction component approved?</hint>
          <required></required>
        </field>
 
@@ -814,18 +812,17 @@
          <dc-qualifier></dc-qualifier>
          <!-- An input-type of twobox MUST be marked as repeatable -->
          <repeatable>true</repeatable>
-         <label>Subject categories/- keywords</label>
+         <label>Subject keywords</label>
        
-        <input-type>twobox</input-type>
-         <hint>First, choose an appropriate subject from the list of "Subject Categories".  More than one subject and/or relevant subject keywords 
-	   of your own choice, may be added by choosing the button "Add more". Enter one keyword (single word or expression) per field.</hint>
+        <input-type>onebox</input-type>
+         <hint>Enter one keyword (single word or expression) per field. More than one subject and/or relevant subject keywords may be added by choosing the button "Add more".</hint>
         <required></required>
          <!-- Since we have defined and use two vocabularies (norwegian and english) we don't need to define a certain vocabulary here.-->
 	 <!-- However, we must include the tag with some content, otherwise the subject list link (in the submission form) will be disabled. -->
 	 <!-- To use only one vocabulary, we need to define it here, and include a vocabulary parameter in the dspace:controlledvocabulary tag -->
 	 <!-- in the file controlledvocabulary/controlledvocabulary.jsp.-->
 	 <!-- Update 031109: Since we now have one input-form per language, we can use separate vocabularies too -->
-         <vocabulary>nsi</vocabulary>
+			<!--<vocabulary>nsi</vocabulary>-->
        </field>
 
        <!--
@@ -1356,6 +1353,17 @@
      <pair>
        <displayed-value>Artistic research</displayed-value>
        <stored-value>Artistic research</stored-value>
+     </pair>
+   </value-pairs>
+
+   <value-pairs value-pairs-name="common_researchtrainingcomponent" dc-term="description_researchtrainingcomponent">
+     <pair>
+       <displayed-value>Yes</displayed-value>
+       <stored-value>Ja</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>No</displayed-value>
+       <stored-value>Nei</stored-value>
      </pair>
    </value-pairs>
 
