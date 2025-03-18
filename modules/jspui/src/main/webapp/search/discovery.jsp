@@ -115,7 +115,7 @@
 <script type="text/javascript">
 	var jQ = jQuery.noConflict();
 	jQ(document).ready(function() {
-		jQ( "#spellCheckQuery").click(function(){
+		jQ( "#spellCheckQuery").on("click", function(){
 			jQ("#query").val(jQ(this).attr('data-spell'));
 			jQ("#main-query-submit").click();
 		});

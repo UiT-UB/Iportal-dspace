@@ -128,7 +128,7 @@ public class SelectGroupTag extends TagSupport
 			out.print("</select>");
 			//KMS: Remove container style and add custom style(padding)
 			//out.print("<br/><div class=\"row container\">");
-			out.print("<br/><div class=\"row\" style=\"padding-left: 15px; padding-right: 15px;\">");
+			out.print("<br/><div class=\"col-md-12\" style=\"padding-left: 15px; padding-right: 15px;\">");
 			//KME
             String p = (multiple ? 
                     LocaleSupport.getLocalizedMessage(pageContext,
