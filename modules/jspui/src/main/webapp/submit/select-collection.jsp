@@ -97,7 +97,7 @@
 %>            
 
 <%-- Fjerne mastergrader --%>
-
+<%--
 	<div class="row padding-topbtm-15px">
 	<input type="button" class="btn btn-success col-md-4" name="deposit_master" value="<fmt:message key="ub.jsp.submit.select-collection.deposit-master"/>" onclick="javascript:showHide('master-list');" />
 	</div>
@@ -107,17 +107,14 @@
         <b><fmt:message key="ub.jsp.submit.select-collection.choice-master"/></b>
         <br /><br />
         <fmt:message key="jsp.submit.select-collection.info1"/>
-
+		--%>
 		<%-- Course list --%>
-
+<%--
         <dspace:courses />
 
-        <input type="hidden" name="courseID" />
-        <input type="hidden" name="departmentID" />
-        <input type="hidden" name="departmentName" />
 
     </div>
-
+	--%>
 
 	<div class="row padding-topbtm-15px">
 	<input type="button" class="btn btn-success col-md-4" name="deposit_doctor" value="<fmt:message key="ub.jsp.submit.select-collection.deposit-doctor"/>" onclick="showHide('doktor-list');" />
@@ -127,6 +124,10 @@
 		<b><fmt:message key="ub.jsp.submit.select-collection.choice-doctor"/></b>
 		<br /><br />
 		<fmt:message key="ub.jsp.submit.select-collection.choose-faculty"/>
+
+        <input type="hidden" name="courseID" />
+        <input type="hidden" name="departmentID" />
+        <input type="hidden" name="departmentName" />
 
         <ul class="controlledvocabulary">
           <li>
