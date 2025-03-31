@@ -79,6 +79,9 @@
     <%--<dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") + \"#choosecollection\"%>"><fmt:message key="jsp.morehelp"/> </dspace:popup>--%>
       </h1>
 
+	  <p>
+		<fmt:message key="ub.jsp.submit.master-wiseflow"/>
+	  </p>
 	
 <%  if (collections.length > 0)
     {
